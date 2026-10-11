@@ -1,0 +1,85 @@
+[
+  {
+    "name": "scope-before",
+    "argv": [
+      "/usr/bin/sandbox-exec",
+      "-f",
+      "sandbox.sb",
+      "python3",
+      "verify_scope.py"
+    ],
+    "cwd": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/sdk-soul-reprice-candidate-v2",
+    "exit_code": 0,
+    "elapsed_seconds": 0.19307684898376465,
+    "started_utc": "2026-10-11T06:29:11.593444+00:00",
+    "finished_utc": "2026-10-11T06:29:11.786516+00:00",
+    "stdout": "evidence/round02-scope-before.stdout.log",
+    "stdout_sha256": "9ff8be824653c0808a18261f36c072f0a17c40679e6529631b945384c889fa9b",
+    "stderr": "evidence/round02-scope-before.stderr.log",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "all-sdk-tests",
+    "argv": [
+      "/usr/bin/sandbox-exec",
+      "-f",
+      "sandbox.sb",
+      "/opt/homebrew/bin/node",
+      "--import",
+      "tsx",
+      "--test",
+      "tests/market.test.ts",
+      "tests/collection-composition.test.ts",
+      "tests/soul-reprice.test.ts"
+    ],
+    "cwd": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/sdk-soul-reprice-candidate-v2",
+    "exit_code": 1,
+    "elapsed_seconds": 0.1765589714050293,
+    "started_utc": "2026-10-11T06:29:11.786550+00:00",
+    "finished_utc": "2026-10-11T06:29:11.963110+00:00",
+    "stdout": "evidence/round02-all-sdk-tests.stdout.log",
+    "stdout_sha256": "ea9059f66569e84d79440c7caa1969f39f8ce0c1c245c30dd3f408a603fe8fa4",
+    "stderr": "evidence/round02-all-sdk-tests.stderr.log",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "full-original-config-tsc",
+    "argv": [
+      "/usr/bin/sandbox-exec",
+      "-f",
+      "sandbox.sb",
+      "/opt/homebrew/bin/node",
+      "node_modules/typescript/bin/tsc",
+      "-p",
+      "tsconfig.json"
+    ],
+    "cwd": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/sdk-soul-reprice-candidate-v2",
+    "exit_code": 0,
+    "elapsed_seconds": 0.9058566093444824,
+    "started_utc": "2026-10-11T06:29:11.963162+00:00",
+    "finished_utc": "2026-10-11T06:29:12.869022+00:00",
+    "stdout": "evidence/round02-full-original-config-tsc.stdout.log",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr": "evidence/round02-full-original-config-tsc.stderr.log",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "scope-after",
+    "argv": [
+      "/usr/bin/sandbox-exec",
+      "-f",
+      "sandbox.sb",
+      "python3",
+      "verify_scope.py"
+    ],
+    "cwd": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/sdk-soul-reprice-candidate-v2",
+    "exit_code": 0,
+    "elapsed_seconds": 0.1968991756439209,
+    "started_utc": "2026-10-11T06:29:12.869064+00:00",
+    "finished_utc": "2026-10-11T06:29:13.065966+00:00",
+    "stdout": "evidence/round02-scope-after.stdout.log",
+    "stdout_sha256": "9ff8be824653c0808a18261f36c072f0a17c40679e6529631b945384c889fa9b",
+    "stderr": "evidence/round02-scope-after.stderr.log",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

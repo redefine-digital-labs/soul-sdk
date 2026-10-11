@@ -1,0 +1,233 @@
+✔ exact Core/leaf ABI pins prove sealed linear pair creation and by-value finalization (0.802959ms)
+✔ existing buyer pair preserves exact typed payment and adds no new/finalize; offset0 (3.912041ms)
+✔ new pair uses exact result pair for borrow and consuming finalize after buy; offset0 (1.86425ms)
+✔ existing buyer pair preserves exact typed payment and adds no new/finalize; offset2 (1.604333ms)
+✔ new pair uses exact result pair for borrow and consuming finalize after buy; offset2 (1.198625ms)
+✔ exact full typed Coin branch with new pair consumes object payment and no split (1.210417ms)
+✔ buyer pair rejects Kiosk only before appending (0.283125ms)
+✔ buyer pair rejects Account only before appending (0.072167ms)
+✔ buyer pair rejects null pair before appending (0.082916ms)
+✔ buyer pair rejects empty pair before appending (0.087625ms)
+✔ buyer pair rejects invalid Kiosk before appending (0.07275ms)
+✔ buyer pair rejects invalid Account before appending (0.050834ms)
+✔ buyer pair rejects zero Account before appending (0.092166ms)
+✔ buyer pair rejects aliased pair before appending (0.045375ms)
+✔ new-pair buy rejects quote length before appending (0.065459ms)
+✔ new-pair buy rejects attempt length before appending (0.054375ms)
+✔ new-pair buy rejects CAS overflow before appending (0.053875ms)
+✔ new-pair buy rejects negative holder epoch before appending (0.042208ms)
+✔ new-pair buy rejects wrong typed payment before appending (0.061708ms)
+✔ new-pair buy rejects insufficient payment before appending (0.051083ms)
+✔ new-pair buy rejects missing target before appending (0.034792ms)
+✔ new-pair buy rejects wrong Factory before appending (0.036167ms)
+✔ reprice emits exact cancel then list with reused Kiosk/Account and full BCS; offset0 (0.488166ms)
+✔ reprice emits exact cancel then list with reused Kiosk/Account and full BCS; offset2 (0.358458ms)
+✔ reprice rejects zero ask before commands or inputs (0.059375ms)
+✔ reprice rejects ask overflow before commands or inputs (0.040041ms)
+✔ reprice rejects numeric ask before commands or inputs (0.039042ms)
+✔ reprice rejects expiry overflow before commands or inputs (0.036792ms)
+✔ reprice rejects holder epoch negative before commands or inputs (0.039958ms)
+✔ reprice rejects fee revision negative before commands or inputs (0.035625ms)
+✔ reprice rejects CAS overflow before commands or inputs (0.036ms)
+✔ reprice rejects Account missing before commands or inputs (0.039208ms)
+✔ reprice rejects Account aliased before commands or inputs (0.040666ms)
+✔ reprice rejects Collection malformed before commands or inputs (0.042167ms)
+✔ reprice rejects Listing malformed before commands or inputs (0.042125ms)
+✔ reprice rejects target missing before commands or inputs (0.039167ms)
+✔ reprice rejects Clock malformed before commands or inputs (0.033833ms)
+✔ reprice rejects Config malformed before commands or inputs (0.044833ms)
+✔ maximum u64 CAS/epoch/expiry/fees retain bytes while Move determines live policy (0.203833ms)
+✔ frozen Collection relist preserves Right custody; Soul void cancel cannot compose with old escrow ID (0.0975ms)
+✖ new composition files do not use old env/register/cap/finalize-listing routes; Native shared stays exact (0.241625ms)
+✔ frozen source ABI uses owned Soul and directly shares; exit preserves terminal/paused semantics (0.853417ms)
+✔ Soul list ABI plain (1.984792ms)
+✔ Soul buy ABI plain quote (2.321083ms)
+✔ Soul list ABI with actual Collection (0.441583ms)
+✔ Soul buy ABI Collection snapshot and quote (0.743375ms)
+✔ seller Soul cancel exact T,C with CAS and no Config (0.128333ms)
+✔ permissionless Soul terminal cleanup has T,C and listing only (0.108792ms)
+✔ Collection Right list original Core ABI (0.385792ms)
+✔ Collection Right buy original Core ABI with Factory policy and existing Kiosk/Account (2.131625ms)
+✔ Collection Right cancel keeps Kiosk/Account and CAS without Config (0.615208ms)
+✔ Collection Right permissionless terminal cleanup listing only (0.154041ms)
+✔ exact full typed Coin consumed without splitting and no change (0.169042ms)
+✔ merged exact Coin consumed in full; remainder from split remains primary owned Coin (0.115708ms)
+✔ reject missing target (0.153917ms)
+✔ reject malformed owned ID (0.04125ms)
+✔ reject zero package ID (0.044959ms)
+✔ reject wrong Soul type (0.031584ms)
+✔ reject wrong C metadata (0.07525ms)
+✔ reject duplicate normalized IDs (0.067792ms)
+✔ reject insufficient coins (0.061083ms)
+✔ reject empty coins (0.050375ms)
+✔ reject u64 overflow (0.037583ms)
+✔ reject negative revision (0.037416ms)
+✔ reject number revision (0.033666ms)
+✔ reject zero price (0.030167ms)
+✔ reject zero payment (0.044875ms)
+✔ reject merged overflow (0.06075ms)
+✔ reject manifest hash length (0.035792ms)
+✔ reject quote hash length (0.033792ms)
+✔ reject attempt hash length (0.039458ms)
+✔ reject Collection hash length (0.037792ms)
+✔ reject missing buyer Account (0.026792ms)
+✔ reject missing Factory (0.029083ms)
+✔ reject Core holder epoch overflow (0.041125ms)
+✔ u64 maximum CAS and 32-byte zero hash retain exact bytes without unsafe numeric conversion (0.117791ms)
+✖ exact frozen standalone relist ABI and BCS arguments (3.363958ms)
+✔ unsigned standalone TransactionKind BCS builds offline (1.400958ms)
+✖ exact frozen Collection relist ABI and BCS arguments (0.352084ms)
+✔ unsigned Collection TransactionKind BCS builds offline (0.513875ms)
+✔ valid append preserves existing PTB commands and returns supplied instance (0.36ms)
+✖ u64 boundary values are encoded exactly and zero revisions/expiry are permitted (0.271334ms)
+✔ manifest input is copied; later caller mutation does not alter PTB intent (0.353375ms)
+✔ reject missing target before supplied PTB mutation (0.233917ms)
+✔ reject zero package before supplied PTB mutation (0.114875ms)
+✔ reject bad package before supplied PTB mutation (0.111333ms)
+✔ reject bad Soul type before supplied PTB mutation (0.083ms)
+✔ reject bad coin primitive before supplied PTB mutation (0.059292ms)
+✔ reject bad coin generic before supplied PTB mutation (0.114ms)
+✔ reject missing Config before supplied PTB mutation (0.066875ms)
+✔ reject zero Clock before supplied PTB mutation (0.383916ms)
+✔ reject bad listing before supplied PTB mutation (0.109083ms)
+✔ reject zero listing before supplied PTB mutation (0.077375ms)
+✔ reject missing listing CAS before supplied PTB mutation (0.065375ms)
+✔ reject negative listing CAS before supplied PTB mutation (0.062667ms)
+✔ reject overflow listing CAS before supplied PTB mutation (0.051958ms)
+✔ reject zero price before supplied PTB mutation (0.055208ms)
+✔ reject negative price before supplied PTB mutation (0.913291ms)
+✔ reject number price before supplied PTB mutation (0.091792ms)
+✔ reject overflow price before supplied PTB mutation (0.059958ms)
+✔ reject missing expiry before supplied PTB mutation (0.051125ms)
+✔ reject negative expiry before supplied PTB mutation (0.053709ms)
+✔ reject overflow expiry before supplied PTB mutation (0.048875ms)
+✔ reject missing Application revision before supplied PTB mutation (0.052166ms)
+✔ reject negative Application revision before supplied PTB mutation (0.0535ms)
+✔ reject overflow Application revision before supplied PTB mutation (0.046083ms)
+✔ reject missing manifest before supplied PTB mutation (0.052583ms)
+✔ reject 31 byte manifest before supplied PTB mutation (0.051917ms)
+✔ reject 33 byte manifest before supplied PTB mutation (0.052625ms)
+✔ reject array manifest before supplied PTB mutation (0.052417ms)
+✔ reject missing fee revision before supplied PTB mutation (0.050333ms)
+✔ reject negative fee revision before supplied PTB mutation (0.050875ms)
+✔ reject overflow fee revision before supplied PTB mutation (0.048875ms)
+✔ reject invalid actual Collection before supplied PTB mutation (0.052167ms)
+✔ reject empty actual Collection before supplied PTB mutation (0.052958ms)
+✔ reject zero actual Collection before supplied PTB mutation (0.04875ms)
+✔ reject null actual Collection before supplied PTB mutation (0.045625ms)
+✔ candidate removes legacy env/kiosk/registry/finalize calls (0.306625ms)
+ℹ tests 118
+ℹ suites 0
+ℹ pass 114
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 198.142667
+
+✖ failing tests:
+
+test at tests/collection-composition.test.ts:1:12193
+✖ new composition files do not use old env/register/cap/finalize-listing routes; Native shared stays exact (0.241625ms)
+  Error: ENOENT: no such file or directory, open 'baseline/upstream-src/tx/shared.ts'
+      at readFileSync (node:fs:621:20)
+      at TestContext.<anonymous> (/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/sdk-soul-reprice-candidate-v2/tests/collection-composition.test.ts:146:55)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: 'baseline/upstream-src/tx/shared.ts'
+  }
+
+test at tests/soul-reprice.test.ts:1:2990
+✖ exact frozen standalone relist ABI and BCS arguments (3.363958ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    [
+      'l',
+  +   'C',
+      'cfg',
+      'expected_listing',
+      'price',
+      'expiry',
+      'expected_soul',
+  
+      at verify (/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/sdk-soul-reprice-candidate-v2/tests/soul-reprice.test.ts:29:10)
+      at TestContext.<anonymous> (/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/sdk-soul-reprice-candidate-v2/tests/soul-reprice.test.ts:40:96)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ 'l', 'C', 'cfg', 'expected_listing', 'price', 'expiry', 'expected_soul', 'manifest_hash', 'fee_revision', 'clock' ],
+    expected: [ 'l', 'cfg', 'expected_listing', 'price', 'expiry', 'expected_soul', 'manifest_hash', 'fee_revision', 'clock' ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/soul-reprice.test.ts:1:2990
+✖ exact frozen Collection relist ABI and BCS arguments (0.352084ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    [
+      'l',
+  +   'C',
+      'c',
+      'cfg',
+      'expected_listing',
+      'price',
+      'expiry',
+  
+      at verify (/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/sdk-soul-reprice-candidate-v2/tests/soul-reprice.test.ts:29:10)
+      at TestContext.<anonymous> (/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/sdk-soul-reprice-candidate-v2/tests/soul-reprice.test.ts:40:96)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ 'l', 'C', 'c', 'cfg', 'expected_listing', 'price', 'expiry', 'expected_soul', 'manifest_hash', 'fee_revision', 'clock' ],
+    expected: [ 'l', 'c', 'cfg', 'expected_listing', 'price', 'expiry', 'expected_soul', 'manifest_hash', 'fee_revision', 'clock' ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests/soul-reprice.test.ts:1:4856
+✖ u64 boundary values are encoded exactly and zero revisions/expiry are permitted (0.271334ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    [
+      'l',
+  +   'C',
+      'cfg',
+      'expected_listing',
+      'price',
+      'expiry',
+      'expected_soul',
+  
+      at verify (/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/sdk-soul-reprice-candidate-v2/tests/soul-reprice.test.ts:29:10)
+      at TestContext.<anonymous> (/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/sdk-soul-reprice-candidate-v2/tests/soul-reprice.test.ts:65:3)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ 'l', 'C', 'cfg', 'expected_listing', 'price', 'expiry', 'expected_soul', 'manifest_hash', 'fee_revision', 'clock' ],
+    expected: [ 'l', 'cfg', 'expected_listing', 'price', 'expiry', 'expected_soul', 'manifest_hash', 'fee_revision', 'clock' ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

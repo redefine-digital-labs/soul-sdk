@@ -1,0 +1,1648 @@
+{
+  "market": {
+    "list_soul": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "s",
+          "type": "Soul"
+        },
+        {
+          "name": "cfg",
+          "type": "&Config<C>"
+        },
+        {
+          "name": "price",
+          "type": "u64"
+        },
+        {
+          "name": "expiry",
+          "type": "u64"
+        },
+        {
+          "name": "expected",
+          "type": "u64"
+        },
+        {
+          "name": "manifest_hash",
+          "type": "vector<u8>"
+        },
+        {
+          "name": "fee_revision",
+          "type": "u64"
+        },
+        {
+          "name": "clock",
+          "type": "&Clock"
+        },
+        {
+          "name": "ctx",
+          "type": "&mut TxContext"
+        }
+      ],
+      "declaration": "public fun list_soul<C>(s:Soul,cfg:&Config<C>,price:u64,expiry:u64,expected:u64,manifest_hash:vector<u8>,fee_revision:u64,clock:&Clock,ctx:&mut TxContext)"
+    },
+    "list_soul_with_collection": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "s",
+          "type": "Soul"
+        },
+        {
+          "name": "c",
+          "type": "&Collection"
+        },
+        {
+          "name": "cfg",
+          "type": "&Config<C>"
+        },
+        {
+          "name": "price",
+          "type": "u64"
+        },
+        {
+          "name": "expiry",
+          "type": "u64"
+        },
+        {
+          "name": "expected",
+          "type": "u64"
+        },
+        {
+          "name": "manifest_hash",
+          "type": "vector<u8>"
+        },
+        {
+          "name": "fee_revision",
+          "type": "u64"
+        },
+        {
+          "name": "clock",
+          "type": "&Clock"
+        },
+        {
+          "name": "ctx",
+          "type": "&mut TxContext"
+        }
+      ],
+      "declaration": "public fun list_soul_with_collection<C>(s:Soul,c:&Collection,cfg:&Config<C>,price:u64,expiry:u64,expected:u64,manifest_hash:vector<u8>,fee_revision:u64,clock:&Clock,ctx:&mut TxContext)"
+    },
+    "list_item": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "it",
+          "type": "Item"
+        },
+        {
+          "name": "cfg",
+          "type": "&Config<C>"
+        },
+        {
+          "name": "price",
+          "type": "u64"
+        },
+        {
+          "name": "expiry",
+          "type": "u64"
+        },
+        {
+          "name": "fee_revision",
+          "type": "u64"
+        },
+        {
+          "name": "clock",
+          "type": "&Clock"
+        },
+        {
+          "name": "ctx",
+          "type": "&mut TxContext"
+        }
+      ],
+      "declaration": "public fun list_item<C>(it:Item,cfg:&Config<C>,price:u64,expiry:u64,fee_revision:u64,clock:&Clock,ctx:&mut TxContext)"
+    },
+    "list_control": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "c",
+          "type": "Control"
+        },
+        {
+          "name": "p",
+          "type": "&Product<C>"
+        },
+        {
+          "name": "cfg",
+          "type": "&Config<C>"
+        },
+        {
+          "name": "price",
+          "type": "u64"
+        },
+        {
+          "name": "expiry",
+          "type": "u64"
+        },
+        {
+          "name": "expected_version",
+          "type": "u64"
+        },
+        {
+          "name": "fee_revision",
+          "type": "u64"
+        },
+        {
+          "name": "clock",
+          "type": "&Clock"
+        },
+        {
+          "name": "ctx",
+          "type": "&mut TxContext"
+        }
+      ],
+      "declaration": "public fun list_control<C>(c:Control,p:&Product<C>,cfg:&Config<C>,price:u64,expiry:u64,expected_version:u64,fee_revision:u64,clock:&Clock,ctx:&mut TxContext)"
+    },
+    "bundle": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&Listing<Soul,C>"
+        }
+      ],
+      "declaration": "public fun bundle<C>(l:&Listing<Soul,C>)"
+    },
+    "bundle_vault": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&Listing<Soul,C>"
+        }
+      ],
+      "declaration": "public fun bundle_vault<C>(l:&Listing<Soul,C>)"
+    },
+    "bundle_standard": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&Listing<Soul,C>"
+        }
+      ],
+      "declaration": "public fun bundle_standard<C>(l:&Listing<Soul,C>)"
+    },
+    "bundle_bound_source": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&Listing<Soul,C>"
+        },
+        {
+          "name": "index",
+          "type": "u64"
+        }
+      ],
+      "declaration": "public fun bundle_bound_source<C>(l:&Listing<Soul,C>,index:u64)"
+    },
+    "bundle_reference_source": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&Listing<Soul,C>"
+        },
+        {
+          "name": "index",
+          "type": "u64"
+        }
+      ],
+      "declaration": "public fun bundle_reference_source<C>(l:&Listing<Soul,C>,index:u64)"
+    },
+    "price": {
+      "generics": [
+        "T:key+store",
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&Listing<T,C>"
+        }
+      ],
+      "declaration": "public fun price<T:key+store,C>(l:&Listing<T,C>)"
+    },
+    "status": {
+      "generics": [
+        "T:key+store",
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&Listing<T,C>"
+        }
+      ],
+      "declaration": "public fun status<T:key+store,C>(l:&Listing<T,C>)"
+    },
+    "revision": {
+      "generics": [
+        "T:key+store",
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&Listing<T,C>"
+        }
+      ],
+      "declaration": "public fun revision<T:key+store,C>(l:&Listing<T,C>)"
+    },
+    "manifest_hash": {
+      "generics": [
+        "T:key+store",
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&Listing<T,C>"
+        }
+      ],
+      "declaration": "public fun manifest_hash<T:key+store,C>(l:&Listing<T,C>)"
+    },
+    "buyer": {
+      "generics": [
+        "T:key+store",
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&Listing<T,C>"
+        }
+      ],
+      "declaration": "public fun buyer<T:key+store,C>(l:&Listing<T,C>)"
+    },
+    "receipt": {
+      "generics": [
+        "T:key+store",
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&Listing<T,C>"
+        }
+      ],
+      "declaration": "public fun receipt<T:key+store,C>(l:&Listing<T,C>)"
+    },
+    "rights": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&Listing<Soul,C>"
+        }
+      ],
+      "declaration": "public fun rights<C>(l:&Listing<Soul,C>)"
+    },
+    "settlement": {
+      "generics": [
+        "T:key+store",
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&Listing<T,C>"
+        }
+      ],
+      "declaration": "public fun settlement<T:key+store,C>(l:&Listing<T,C>)"
+    },
+    "asset_settlement": {
+      "generics": [
+        "T:key+store",
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&Listing<T,C>"
+        }
+      ],
+      "declaration": "public fun asset_settlement<T:key+store,C>(l:&Listing<T,C>)"
+    },
+    "item_quote": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&Listing<Item,C>"
+        },
+        {
+          "name": "cfg",
+          "type": "&Config<C>"
+        }
+      ],
+      "declaration": "public fun item_quote<C>(l:&Listing<Item,C>,cfg:&Config<C>)"
+    },
+    "control_quote": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&Listing<Control,C>"
+        },
+        {
+          "name": "cfg",
+          "type": "&Config<C>"
+        }
+      ],
+      "declaration": "public fun control_quote<C>(l:&Listing<Control,C>,cfg:&Config<C>)"
+    },
+    "item_quote_hash": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&Listing<Item,C>"
+        },
+        {
+          "name": "cfg",
+          "type": "&Config<C>"
+        },
+        {
+          "name": "buyer",
+          "type": "address"
+        }
+      ],
+      "declaration": "public fun item_quote_hash<C>(l:&Listing<Item,C>,cfg:&Config<C>,buyer:address)"
+    },
+    "control_quote_hash": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&Listing<Control,C>"
+        },
+        {
+          "name": "cfg",
+          "type": "&Config<C>"
+        },
+        {
+          "name": "buyer",
+          "type": "address"
+        }
+      ],
+      "declaration": "public fun control_quote_hash<C>(l:&Listing<Control,C>,cfg:&Config<C>,buyer:address)"
+    },
+    "reprice_item": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&mut Listing<Item,C>"
+        },
+        {
+          "name": "cfg",
+          "type": "&Config<C>"
+        },
+        {
+          "name": "expected",
+          "type": "u64"
+        },
+        {
+          "name": "manifest_hash",
+          "type": "vector<u8>"
+        },
+        {
+          "name": "price",
+          "type": "u64"
+        },
+        {
+          "name": "expiry",
+          "type": "u64"
+        },
+        {
+          "name": "fee_revision",
+          "type": "u64"
+        },
+        {
+          "name": "clock",
+          "type": "&Clock"
+        },
+        {
+          "name": "ctx",
+          "type": "&TxContext"
+        }
+      ],
+      "declaration": "public fun reprice_item<C>(l:&mut Listing<Item,C>,cfg:&Config<C>,expected:u64,manifest_hash:vector<u8>,price:u64,expiry:u64,fee_revision:u64,clock:&Clock,ctx:&TxContext)"
+    },
+    "soul_quote": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&Listing<Soul,C>"
+        },
+        {
+          "name": "cfg",
+          "type": "&Config<C>"
+        }
+      ],
+      "declaration": "public fun soul_quote<C>(l:&Listing<Soul,C>,cfg:&Config<C>)"
+    },
+    "collection_quote": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&Listing<Soul,C>"
+        },
+        {
+          "name": "c",
+          "type": "&Collection"
+        },
+        {
+          "name": "cfg",
+          "type": "&Config<C>"
+        }
+      ],
+      "declaration": "public fun collection_quote<C>(l:&Listing<Soul,C>,c:&Collection,cfg:&Config<C>)"
+    },
+    "collection_total": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&Listing<Soul,C>"
+        },
+        {
+          "name": "c",
+          "type": "&Collection"
+        },
+        {
+          "name": "cfg",
+          "type": "&Config<C>"
+        }
+      ],
+      "declaration": "public fun collection_total<C>(l:&Listing<Soul,C>,c:&Collection,cfg:&Config<C>)"
+    },
+    "soul_quote_hash": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&Listing<Soul,C>"
+        },
+        {
+          "name": "cfg",
+          "type": "&Config<C>"
+        },
+        {
+          "name": "buyer",
+          "type": "address"
+        }
+      ],
+      "declaration": "public fun soul_quote_hash<C>(l:&Listing<Soul,C>,cfg:&Config<C>,buyer:address)"
+    },
+    "collection_quote_hash": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&Listing<Soul,C>"
+        },
+        {
+          "name": "c",
+          "type": "&Collection"
+        },
+        {
+          "name": "cfg",
+          "type": "&Config<C>"
+        },
+        {
+          "name": "buyer",
+          "type": "address"
+        }
+      ],
+      "declaration": "public fun collection_quote_hash<C>(l:&Listing<Soul,C>,c:&Collection,cfg:&Config<C>,buyer:address)"
+    },
+    "cancel": {
+      "generics": [
+        "T:key+store",
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&mut Listing<T,C>"
+        },
+        {
+          "name": "expected",
+          "type": "u64"
+        },
+        {
+          "name": "ctx",
+          "type": "&TxContext"
+        }
+      ],
+      "declaration": "public fun cancel<T:key+store,C>(l:&mut Listing<T,C>,expected:u64,ctx:&TxContext)"
+    },
+    "delete_listing": {
+      "generics": [
+        "T:key+store",
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "Listing<T,C>"
+        },
+        {
+          "name": "ctx",
+          "type": "&TxContext"
+        }
+      ],
+      "declaration": "public fun delete_listing<T:key+store,C>(l:Listing<T,C>,ctx:&TxContext)"
+    },
+    "buy_soul": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&mut Listing<Soul,C>"
+        },
+        {
+          "name": "cfg",
+          "type": "&mut Config<C>"
+        },
+        {
+          "name": "expected",
+          "type": "u64"
+        },
+        {
+          "name": "manifest_hash",
+          "type": "vector<u8>"
+        },
+        {
+          "name": "expected_quote",
+          "type": "vector<u8>"
+        },
+        {
+          "name": "fee_revision",
+          "type": "u64"
+        },
+        {
+          "name": "attempt",
+          "type": "vector<u8>"
+        },
+        {
+          "name": "payment",
+          "type": "Coin<C>"
+        },
+        {
+          "name": "clock",
+          "type": "&Clock"
+        },
+        {
+          "name": "ctx",
+          "type": "&mut TxContext"
+        }
+      ],
+      "declaration": "public fun buy_soul<C>(l:&mut Listing<Soul,C>,cfg:&mut Config<C>,expected:u64,manifest_hash:vector<u8>,expected_quote:vector<u8>,fee_revision:u64,attempt:vector<u8>,payment:Coin<C>,clock:&Clock,ctx:&mut TxContext)"
+    },
+    "buy_soul_with_collection": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&mut Listing<Soul,C>"
+        },
+        {
+          "name": "c",
+          "type": "&Collection"
+        },
+        {
+          "name": "cfg",
+          "type": "&mut Config<C>"
+        },
+        {
+          "name": "expected",
+          "type": "u64"
+        },
+        {
+          "name": "manifest_hash",
+          "type": "vector<u8>"
+        },
+        {
+          "name": "expected_collection",
+          "type": "vector<u8>"
+        },
+        {
+          "name": "expected_quote",
+          "type": "vector<u8>"
+        },
+        {
+          "name": "fee_revision",
+          "type": "u64"
+        },
+        {
+          "name": "attempt",
+          "type": "vector<u8>"
+        },
+        {
+          "name": "payment",
+          "type": "Coin<C>"
+        },
+        {
+          "name": "clock",
+          "type": "&Clock"
+        },
+        {
+          "name": "ctx",
+          "type": "&mut TxContext"
+        }
+      ],
+      "declaration": "public fun buy_soul_with_collection<C>(l:&mut Listing<Soul,C>,c:&Collection,cfg:&mut Config<C>,expected:u64,manifest_hash:vector<u8>,expected_collection:vector<u8>,expected_quote:vector<u8>,fee_revision:u64,attempt:vector<u8>,payment:Coin<C>,clock:&Clock,ctx:&mut TxContext)"
+    },
+    "buy_item": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&mut Listing<Item,C>"
+        },
+        {
+          "name": "cfg",
+          "type": "&mut Config<C>"
+        },
+        {
+          "name": "expected",
+          "type": "u64"
+        },
+        {
+          "name": "manifest_hash",
+          "type": "vector<u8>"
+        },
+        {
+          "name": "expected_quote",
+          "type": "vector<u8>"
+        },
+        {
+          "name": "fee_revision",
+          "type": "u64"
+        },
+        {
+          "name": "attempt",
+          "type": "vector<u8>"
+        },
+        {
+          "name": "payment",
+          "type": "Coin<C>"
+        },
+        {
+          "name": "clock",
+          "type": "&Clock"
+        },
+        {
+          "name": "ctx",
+          "type": "&mut TxContext"
+        }
+      ],
+      "declaration": "public fun buy_item<C>(l:&mut Listing<Item,C>,cfg:&mut Config<C>,expected:u64,manifest_hash:vector<u8>,expected_quote:vector<u8>,fee_revision:u64,attempt:vector<u8>,payment:Coin<C>,clock:&Clock,ctx:&mut TxContext)"
+    },
+    "buy_control": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&mut Listing<Control,C>"
+        },
+        {
+          "name": "p",
+          "type": "&Product<C>"
+        },
+        {
+          "name": "cfg",
+          "type": "&mut Config<C>"
+        },
+        {
+          "name": "expected",
+          "type": "u64"
+        },
+        {
+          "name": "manifest_hash",
+          "type": "vector<u8>"
+        },
+        {
+          "name": "expected_quote",
+          "type": "vector<u8>"
+        },
+        {
+          "name": "fee_revision",
+          "type": "u64"
+        },
+        {
+          "name": "attempt",
+          "type": "vector<u8>"
+        },
+        {
+          "name": "payment",
+          "type": "Coin<C>"
+        },
+        {
+          "name": "clock",
+          "type": "&Clock"
+        },
+        {
+          "name": "ctx",
+          "type": "&mut TxContext"
+        }
+      ],
+      "declaration": "public fun buy_control<C>(l:&mut Listing<Control,C>,p:&Product<C>,cfg:&mut Config<C>,expected:u64,manifest_hash:vector<u8>,expected_quote:vector<u8>,fee_revision:u64,attempt:vector<u8>,payment:Coin<C>,clock:&Clock,ctx:&mut TxContext)"
+    },
+    "register": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "cfg",
+          "type": "&mut soulidity_foundation::economics::Config<C>"
+        },
+        {
+          "name": "admin",
+          "type": "&mut soulidity_foundation::economics::Admin"
+        },
+        {
+          "name": "expected",
+          "type": "u64"
+        },
+        {
+          "name": "hash",
+          "type": "vector<u8>"
+        },
+        {
+          "name": "publisher",
+          "type": "&sui::package::Publisher"
+        },
+        {
+          "name": "cap",
+          "type": "&sui::package::UpgradeCap"
+        }
+      ],
+      "declaration": "public fun register<C>(cfg:&mut soulidity_foundation::economics::Config<C>,admin:&mut soulidity_foundation::economics::Admin,expected:u64,hash:vector<u8>,publisher:&sui::package::Publisher,cap:&sui::package::UpgradeCap)"
+    },
+    "settle_for_testing": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "cfg",
+          "type": "&mut Config<C>"
+        },
+        {
+          "name": "s",
+          "type": "&Snapshot"
+        },
+        {
+          "name": "r",
+          "type": "Receipt"
+        },
+        {
+          "name": "payment",
+          "type": "Coin<C>"
+        },
+        {
+          "name": "subject",
+          "type": "ID"
+        },
+        {
+          "name": "attempt",
+          "type": "vector<u8>"
+        },
+        {
+          "name": "ctx",
+          "type": "&mut TxContext"
+        }
+      ],
+      "declaration": "public fun settle_for_testing<C>(cfg:&mut Config<C>,s:&Snapshot,r:Receipt,payment:Coin<C>,subject:ID,attempt:vector<u8>,ctx:&mut TxContext)"
+    },
+    "setup_for_testing": {
+      "generics": [],
+      "params": [
+        {
+          "name": "access_price",
+          "type": "u64"
+        },
+        {
+          "name": "completion_mode",
+          "type": "u8"
+        },
+        {
+          "name": "completion_price",
+          "type": "u64"
+        },
+        {
+          "name": "quota",
+          "type": "u64"
+        },
+        {
+          "name": "cap",
+          "type": "u64"
+        },
+        {
+          "name": "fixed_fee",
+          "type": "u64"
+        }
+      ],
+      "declaration": "public fun setup_for_testing(access_price:u64,completion_mode:u8,completion_price:u64,quota:u64,cap:u64,fixed_fee:u64)"
+    }
+  },
+  "core": {
+    "init_for_testing": {
+      "generics": [],
+      "params": [
+        {
+          "name": "ctx",
+          "type": "&mut TxContext"
+        }
+      ],
+      "declaration": "public fun init_for_testing(ctx:&mut TxContext)"
+    },
+    "factory_policy": {
+      "generics": [],
+      "params": [
+        {
+          "name": "f",
+          "type": "&Factory"
+        }
+      ],
+      "declaration": "public fun factory_policy(f:&Factory)"
+    },
+    "create": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "f",
+          "type": "&Factory"
+        },
+        {
+          "name": "p",
+          "type": "&TransferPolicy<Right>"
+        },
+        {
+          "name": "cfg",
+          "type": "&Config<C>"
+        },
+        {
+          "name": "k",
+          "type": "&mut Kiosk"
+        },
+        {
+          "name": "a",
+          "type": "&mut Account"
+        },
+        {
+          "name": "name",
+          "type": "String"
+        },
+        {
+          "name": "description",
+          "type": "String"
+        },
+        {
+          "name": "image_url",
+          "type": "String"
+        },
+        {
+          "name": "extra",
+          "type": "u16"
+        },
+        {
+          "name": "tradeable",
+          "type": "bool"
+        },
+        {
+          "name": "max_supply",
+          "type": "Option<u64>"
+        },
+        {
+          "name": "floor",
+          "type": "Option<u128>"
+        },
+        {
+          "name": "fee_revision",
+          "type": "u64"
+        },
+        {
+          "name": "expiry",
+          "type": "u64"
+        },
+        {
+          "name": "clock",
+          "type": "&Clock"
+        },
+        {
+          "name": "ctx",
+          "type": "&mut TxContext"
+        }
+      ],
+      "declaration": "public fun create<C>(f:&Factory,p:&TransferPolicy<Right>,cfg:&Config<C>,k:&mut Kiosk,a:&mut Account,name:String,description:String,image_url:String,extra:u16,tradeable:bool,max_supply:Option<u64>,floor:Option<u128>,fee_revision:u64,expiry:u64,clock:&Clock,ctx:&mut TxContext)"
+    },
+    "add_soul": {
+      "generics": [],
+      "params": [
+        {
+          "name": "c",
+          "type": "&mut Collection"
+        },
+        {
+          "name": "s",
+          "type": "&mut Soul"
+        },
+        {
+          "name": "expected_collection",
+          "type": "u64"
+        },
+        {
+          "name": "expected_soul",
+          "type": "u64"
+        },
+        {
+          "name": "ctx",
+          "type": "&TxContext"
+        }
+      ],
+      "declaration": "public fun add_soul(c:&mut Collection,s:&mut Soul,expected_collection:u64,expected_soul:u64,ctx:&TxContext)"
+    },
+    "add_kiosk_soul": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "c",
+          "type": "&mut Collection"
+        },
+        {
+          "name": "cfg",
+          "type": "&Config<C>"
+        },
+        {
+          "name": "k",
+          "type": "&mut Kiosk"
+        },
+        {
+          "name": "a",
+          "type": "&mut Account"
+        },
+        {
+          "name": "id",
+          "type": "ID"
+        },
+        {
+          "name": "expected_collection",
+          "type": "u64"
+        },
+        {
+          "name": "expected_soul",
+          "type": "u64"
+        },
+        {
+          "name": "ctx",
+          "type": "&TxContext"
+        }
+      ],
+      "declaration": "public fun add_kiosk_soul<C>(c:&mut Collection,cfg:&Config<C>,k:&mut Kiosk,a:&mut Account,id:ID,expected_collection:u64,expected_soul:u64,ctx:&TxContext)"
+    },
+    "snapshot": {
+      "generics": [],
+      "params": [
+        {
+          "name": "c",
+          "type": "&Collection"
+        }
+      ],
+      "declaration": "public fun snapshot(c:&Collection)"
+    },
+    "snapshot_hash": {
+      "generics": [],
+      "params": [
+        {
+          "name": "c",
+          "type": "&Collection"
+        }
+      ],
+      "declaration": "public fun snapshot_hash(c:&Collection)"
+    },
+    "creator": {
+      "generics": [],
+      "params": [
+        {
+          "name": "c",
+          "type": "&Collection"
+        }
+      ],
+      "declaration": "public fun creator(c:&Collection)"
+    },
+    "protocol_version": {
+      "generics": [],
+      "params": [],
+      "declaration": "public fun protocol_version()"
+    },
+    "version": {
+      "generics": [],
+      "params": [
+        {
+          "name": "c",
+          "type": "&Collection"
+        }
+      ],
+      "declaration": "public fun version(c:&Collection)"
+    },
+    "right_version": {
+      "generics": [],
+      "params": [
+        {
+          "name": "r",
+          "type": "&Right"
+        }
+      ],
+      "declaration": "public fun right_version(r:&Right)"
+    },
+    "protocol": {
+      "generics": [],
+      "params": [
+        {
+          "name": "c",
+          "type": "&Collection"
+        }
+      ],
+      "declaration": "public fun protocol(c:&Collection)"
+    },
+    "current_holder": {
+      "generics": [],
+      "params": [
+        {
+          "name": "c",
+          "type": "&Collection"
+        }
+      ],
+      "declaration": "public fun current_holder(c:&Collection)"
+    },
+    "current_kiosk": {
+      "generics": [],
+      "params": [
+        {
+          "name": "c",
+          "type": "&Collection"
+        }
+      ],
+      "declaration": "public fun current_kiosk(c:&Collection)"
+    },
+    "ownership_epoch": {
+      "generics": [],
+      "params": [
+        {
+          "name": "c",
+          "type": "&Collection"
+        }
+      ],
+      "declaration": "public fun ownership_epoch(c:&Collection)"
+    },
+    "revision": {
+      "generics": [],
+      "params": [
+        {
+          "name": "c",
+          "type": "&Collection"
+        }
+      ],
+      "declaration": "public fun revision(c:&Collection)"
+    },
+    "right_id": {
+      "generics": [],
+      "params": [
+        {
+          "name": "c",
+          "type": "&Collection"
+        }
+      ],
+      "declaration": "public fun right_id(c:&Collection)"
+    },
+    "extra_royalty": {
+      "generics": [],
+      "params": [
+        {
+          "name": "c",
+          "type": "&Collection"
+        }
+      ],
+      "declaration": "public fun extra_royalty(c:&Collection)"
+    },
+    "tradeable": {
+      "generics": [],
+      "params": [
+        {
+          "name": "c",
+          "type": "&Collection"
+        }
+      ],
+      "declaration": "public fun tradeable(c:&Collection)"
+    },
+    "max_supply": {
+      "generics": [],
+      "params": [
+        {
+          "name": "c",
+          "type": "&Collection"
+        }
+      ],
+      "declaration": "public fun max_supply(c:&Collection)"
+    },
+    "supply": {
+      "generics": [],
+      "params": [
+        {
+          "name": "c",
+          "type": "&Collection"
+        }
+      ],
+      "declaration": "public fun supply(c:&Collection)"
+    },
+    "floor_price": {
+      "generics": [],
+      "params": [
+        {
+          "name": "c",
+          "type": "&Collection"
+        }
+      ],
+      "declaration": "public fun floor_price(c:&Collection)"
+    },
+    "contains": {
+      "generics": [],
+      "params": [
+        {
+          "name": "c",
+          "type": "&Collection"
+        },
+        {
+          "name": "id",
+          "type": "ID"
+        }
+      ],
+      "declaration": "public fun contains(c:&Collection,id:ID)"
+    },
+    "right_collection": {
+      "generics": [],
+      "params": [
+        {
+          "name": "r",
+          "type": "&Right"
+        }
+      ],
+      "declaration": "public fun right_collection(r:&Right)"
+    },
+    "right_name": {
+      "generics": [],
+      "params": [
+        {
+          "name": "r",
+          "type": "&Right"
+        }
+      ],
+      "declaration": "public fun right_name(r:&Right)"
+    },
+    "right_description": {
+      "generics": [],
+      "params": [
+        {
+          "name": "r",
+          "type": "&Right"
+        }
+      ],
+      "declaration": "public fun right_description(r:&Right)"
+    },
+    "right_image": {
+      "generics": [],
+      "params": [
+        {
+          "name": "r",
+          "type": "&Right"
+        }
+      ],
+      "declaration": "public fun right_image(r:&Right)"
+    },
+    "list": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "c",
+          "type": "&Collection"
+        },
+        {
+          "name": "k",
+          "type": "&mut Kiosk"
+        },
+        {
+          "name": "a",
+          "type": "&mut Account"
+        },
+        {
+          "name": "cfg",
+          "type": "&Config<C>"
+        },
+        {
+          "name": "ask",
+          "type": "u64"
+        },
+        {
+          "name": "expiry",
+          "type": "u64"
+        },
+        {
+          "name": "expected_epoch",
+          "type": "u64"
+        },
+        {
+          "name": "fee_revision",
+          "type": "u64"
+        },
+        {
+          "name": "clock",
+          "type": "&Clock"
+        },
+        {
+          "name": "ctx",
+          "type": "&mut TxContext"
+        }
+      ],
+      "declaration": "public fun list<C>(c:&Collection,k:&mut Kiosk,a:&mut Account,cfg:&Config<C>,ask:u64,expiry:u64,expected_epoch:u64,fee_revision:u64,clock:&Clock,ctx:&mut TxContext)"
+    },
+    "quote": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&Listing<C>"
+        },
+        {
+          "name": "cfg",
+          "type": "&Config<C>"
+        },
+        {
+          "name": "buyer",
+          "type": "address"
+        }
+      ],
+      "declaration": "public fun quote<C>(l:&Listing<C>,cfg:&Config<C>,buyer:address)"
+    },
+    "cancel": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&mut Listing<C>"
+        },
+        {
+          "name": "k",
+          "type": "&mut Kiosk"
+        },
+        {
+          "name": "a",
+          "type": "&mut Account"
+        },
+        {
+          "name": "expected",
+          "type": "u64"
+        },
+        {
+          "name": "ctx",
+          "type": "&TxContext"
+        }
+      ],
+      "declaration": "public fun cancel<C>(l:&mut Listing<C>,k:&mut Kiosk,a:&mut Account,expected:u64,ctx:&TxContext)"
+    },
+    "buy": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&mut Listing<C>"
+        },
+        {
+          "name": "c",
+          "type": "&mut Collection"
+        },
+        {
+          "name": "f",
+          "type": "&Factory"
+        },
+        {
+          "name": "p",
+          "type": "&TransferPolicy<Right>"
+        },
+        {
+          "name": "seller",
+          "type": "&mut Kiosk"
+        },
+        {
+          "name": "buyer",
+          "type": "&mut Kiosk"
+        },
+        {
+          "name": "a",
+          "type": "&mut Account"
+        },
+        {
+          "name": "cfg",
+          "type": "&mut Config<C>"
+        },
+        {
+          "name": "expected_listing",
+          "type": "u64"
+        },
+        {
+          "name": "expected_epoch",
+          "type": "u64"
+        },
+        {
+          "name": "fee_revision",
+          "type": "u64"
+        },
+        {
+          "name": "expected_quote",
+          "type": "vector<u8>"
+        },
+        {
+          "name": "attempt",
+          "type": "vector<u8>"
+        },
+        {
+          "name": "payment",
+          "type": "Coin<C>"
+        },
+        {
+          "name": "clock",
+          "type": "&Clock"
+        },
+        {
+          "name": "ctx",
+          "type": "&mut TxContext"
+        }
+      ],
+      "declaration": "public fun buy<C>(l:&mut Listing<C>,c:&mut Collection,f:&Factory,p:&TransferPolicy<Right>,seller:&mut Kiosk,buyer:&mut Kiosk,a:&mut Account,cfg:&mut Config<C>,expected_listing:u64,expected_epoch:u64,fee_revision:u64,expected_quote:vector<u8>,attempt:vector<u8>,payment:Coin<C>,clock:&Clock,ctx:&mut TxContext)"
+    },
+    "listing_state": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&Listing<C>"
+        }
+      ],
+      "declaration": "public fun listing_state<C>(l:&Listing<C>)"
+    },
+    "listing_receipt": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&Listing<C>"
+        }
+      ],
+      "declaration": "public fun listing_receipt<C>(l:&Listing<C>)"
+    },
+    "listing_ask": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "&Listing<C>"
+        }
+      ],
+      "declaration": "public fun listing_ask<C>(l:&Listing<C>)"
+    },
+    "delete_listing": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "l",
+          "type": "Listing<C>"
+        },
+        {
+          "name": "ctx",
+          "type": "&TxContext"
+        }
+      ],
+      "declaration": "public fun delete_listing<C>(l:Listing<C>,ctx:&TxContext)"
+    },
+    "register": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "cfg",
+          "type": "&mut soulidity_foundation::economics::Config<C>"
+        },
+        {
+          "name": "admin",
+          "type": "&mut soulidity_foundation::economics::Admin"
+        },
+        {
+          "name": "expected",
+          "type": "u64"
+        },
+        {
+          "name": "hash",
+          "type": "vector<u8>"
+        },
+        {
+          "name": "factory",
+          "type": "&Factory"
+        },
+        {
+          "name": "cap",
+          "type": "&sui::package::UpgradeCap"
+        }
+      ],
+      "declaration": "public fun register<C>(cfg:&mut soulidity_foundation::economics::Config<C>,admin:&mut soulidity_foundation::economics::Admin,expected:u64,hash:vector<u8>,factory:&Factory,cap:&sui::package::UpgradeCap)"
+    },
+    "right_for_testing": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "cfg",
+          "type": "&Config<C>"
+        },
+        {
+          "name": "k",
+          "type": "&mut Kiosk"
+        },
+        {
+          "name": "a",
+          "type": "&Account"
+        },
+        {
+          "name": "id",
+          "type": "ID"
+        },
+        {
+          "name": "ctx",
+          "type": "&TxContext"
+        }
+      ],
+      "declaration": "public fun right_for_testing<C>(cfg:&Config<C>,k:&mut Kiosk,a:&Account,id:ID,ctx:&TxContext)"
+    },
+    "bootstrap_for_testing": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "cfg",
+          "type": "&mut Config<C>"
+        },
+        {
+          "name": "admin",
+          "type": "&mut soulidity_foundation::economics::Admin"
+        }
+      ],
+      "declaration": "public fun bootstrap_for_testing<C>(cfg:&mut Config<C>,admin:&mut soulidity_foundation::economics::Admin)"
+    },
+    "wrong_right_type_for_testing": {
+      "generics": [
+        "C",
+        "T:key+store"
+      ],
+      "params": [
+        {
+          "name": "cfg",
+          "type": "&Config<C>"
+        },
+        {
+          "name": "k",
+          "type": "&mut Kiosk"
+        },
+        {
+          "name": "a",
+          "type": "&Account"
+        },
+        {
+          "name": "id",
+          "type": "ID"
+        },
+        {
+          "name": "ctx",
+          "type": "&TxContext"
+        }
+      ],
+      "declaration": "public fun wrong_right_type_for_testing<C,T:key+store>(cfg:&Config<C>,k:&mut Kiosk,a:&Account,id:ID,ctx:&TxContext)"
+    },
+    "old_revision_right_for_testing": {
+      "generics": [
+        "C"
+      ],
+      "params": [
+        {
+          "name": "cfg",
+          "type": "&Config<C>"
+        },
+        {
+          "name": "k",
+          "type": "&mut Kiosk"
+        },
+        {
+          "name": "a",
+          "type": "&Account"
+        },
+        {
+          "name": "id",
+          "type": "ID"
+        },
+        {
+          "name": "ctx",
+          "type": "&TxContext"
+        }
+      ],
+      "declaration": "public fun old_revision_right_for_testing<C>(cfg:&Config<C>,k:&mut Kiosk,a:&Account,id:ID,ctx:&TxContext)"
+    }
+  }
+}

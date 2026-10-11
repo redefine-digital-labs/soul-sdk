@@ -1,0 +1,11 @@
+# Product-engineering review attachment to existing DOF-001/P01/P09
+
+Handbook1.0 sections1–4,5,7,8.3/8.4,9,12 and OPERATING_MODEL8 applied. Original157/30 scope, existing owners/status and full parent goal unchanged. This attachment records isolated Code/Build/Test evidence and never creates a competing board.
+
+Product: seller reprices an existing Soul atomically, same owned Soul, new shared listing receipt. Authority: actual Config<C>, seller check and listing CAS remain in contract; caller inputs provide no managed-authority bypass. Exact Application Soul revision/hash and fee revision protect admission; Collection branch uses actual bound object. No balance/fees/rounding algorithms changed in SDK; paid settlement remains a separate journey. Sui ownership/custody and receipt identity are distinct. No admin/upgrade/Cap/multisig/timelock/immutable state changes or deployed controls claimed.
+
+Build: fixed cached @mysten/sui2.16.0, TypeScript6.0.3, tsx4.23.1; package pins and original full tsconfig match. Test: unsigned actual Transaction commands, BCS bytes/types, offline onlyTransactionKind serialization with deterministic test-only shared references (no RPC/chain validation), malformed-input supplied-PTB preservation and unchanged76 regressions. Complete execution receipts/hashes retained. Source/ABI guards PASS.
+
+Release/Deploy/Operate/Monitor remain pending; installed UI integration, signed target PTBs, chain custody/readback, outcome recovery and independent release checks require parent integration/verification owners. External audit not performed. Recovery: ignore this not-activated candidate; no source installation or chain rollback needed. Existing task stage evidence is reported to parent only; no external record mutation in this writer scope.
+
+Final05 source/typecheck/tests:121/121 (76+42+3),107source full original-configtsc,16 source/input guards. Lossy generic type normalization rejects before supplied PTB mutation; no shared helper/other source changes. Fifth maximum gate reached; independent whitespace/nested-positive/trailing matrix pending. Parent04dc386-file historical freeze retained byte-exact under explicit append-only subdirectory authorization.

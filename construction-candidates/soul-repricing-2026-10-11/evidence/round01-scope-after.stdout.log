@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "upstream_manifest_pin": true,
+    "upstream_manifest_complete": true,
+    "contract_manifest_pin": true,
+    "contract3230_exact": true,
+    "actual105_exact": true,
+    "installed181_exact": true,
+    "protected_exact": true,
+    "source107_exact_except_builder": true,
+    "unchanged76_test_files_exact": true,
+    "plain_source_and_tests": true,
+    "only_runtime_symlink": true,
+    "original_tsconfig_exact": true,
+    "retained_abi_exact": true
+  },
+  "all_pass": true,
+  "changed_source": [
+    "tx/update-price.ts"
+  ]
+}

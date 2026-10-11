@@ -1,5 +1,7 @@
 # Construction checkpoint — 2026-10-11
 
+Latest source candidate: [Soul repricing](construction-candidates/soul-repricing-2026-10-11/ACCEPTANCE.md). Its121 offline tests and full107-source typecheck pass, but independent review found malformed nested type identifiers accepted while mutating a supplied transaction. Acceptance is FAIL / NOT_INSTALL_READY; source is preserved for reproduction and correction. No wallet routing, UI cutover, release or deployment occurred. Earlier checkpoints below remain historical evidence.
+
 These repositories are independently owned maintenance units under construction. Repository creation and remote backup do not prove independent deployment or completion of the original product. Existing Owners, Delivery/DEV/BUG records and the 15 retained maintenance units remain authoritative.
 
 The latest Maker source-lookup candidate is NOT_INSTALL_READY: the exact whole-Core local run passed 1061 of 1062 tests; the original post-mint supply rejection still exhausts the default VM budget. Maker's 49 scoped tests pass. The original matching publication baseline passed 52 of 52. No budget or test loop was increased.
