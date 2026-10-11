@@ -1,0 +1,94 @@
+{
+  "endpoints": [
+    {
+      "specifier": "@soulidity/sui-core/sui-grpc-compat",
+      "resolved": "file:///private/tmp/sdk-sui-core-extraction-20261010/packed-consumer-frozen/node_modules/@soulidity/sui-core/dist/sui-grpc-compat.js",
+      "runtimeExports": [
+        "SuiGrpcJsonRpcCompatClient",
+        "createSuiGrpcCompatClient",
+        "getSuiGrpcFullnodeUrl"
+      ]
+    },
+    {
+      "specifier": "@soulidity/sui-core/sui-network",
+      "resolved": "file:///private/tmp/sdk-sui-core-extraction-20261010/packed-consumer-frozen/node_modules/@soulidity/sui-core/dist/sui-network.js",
+      "runtimeExports": [
+        "resolveSuiNetwork"
+      ]
+    },
+    {
+      "specifier": "@soulidity/sui-core/tx-result",
+      "resolved": "file:///private/tmp/sdk-sui-core-extraction-20261010/packed-consumer-frozen/node_modules/@soulidity/sui-core/dist/tx-result.js",
+      "runtimeExports": [
+        "SuiTxExecutionError",
+        "assertSuiTxSucceeded",
+        "getSuiTxErrorProperties",
+        "normalizeSuiTxResult",
+        "resolveSuiTxResultWithEffects"
+      ]
+    },
+    {
+      "specifier": "@soulidity/sui-core/coin-selection",
+      "resolved": "file:///private/tmp/sdk-sui-core-extraction-20261010/packed-consumer-frozen/node_modules/@soulidity/sui-core/dist/coin-selection.js",
+      "runtimeExports": [
+        "CoinPaginationExhaustedError",
+        "selectCoinObjectIdsForAmountAcrossPages"
+      ]
+    },
+    {
+      "specifier": "@soulidity/sui-core/object-inputs",
+      "resolved": "file:///private/tmp/sdk-sui-core-extraction-20261010/packed-consumer-frozen/node_modules/@soulidity/sui-core/dist/object-inputs.js",
+      "runtimeExports": [
+        "assertObjectInputsExist",
+        "findMissingObjectIds"
+      ]
+    },
+    {
+      "specifier": "@soulidity/sui-core/request",
+      "resolved": "file:///private/tmp/sdk-sui-core-extraction-20261010/packed-consumer-frozen/node_modules/@soulidity/sui-core/dist/request.js",
+      "runtimeExports": [
+        "parseOptionalObjectId",
+        "parseOptionalString",
+        "parseRequiredAddress",
+        "parseRequiredObjectId",
+        "parseRequiredTxDigest"
+      ]
+    },
+    {
+      "specifier": "@soulidity/sui-core/format",
+      "resolved": "file:///private/tmp/sdk-sui-core-extraction-20261010/packed-consumer-frozen/node_modules/@soulidity/sui-core/dist/format.js",
+      "runtimeExports": [
+        "formatAtomicAmountForDisplay",
+        "parseDisplayAmountToAtomic"
+      ]
+    },
+    {
+      "specifier": "@soulidity/sui-core/profile-read-step",
+      "resolved": "file:///private/tmp/sdk-sui-core-extraction-20261010/packed-consumer-frozen/node_modules/@soulidity/sui-core/dist/profile-read-step.js",
+      "runtimeExports": [
+        "profileReadStep"
+      ]
+    },
+    {
+      "specifier": "@soulidity/sui-core/chain-object-discovery",
+      "resolved": "file:///private/tmp/sdk-sui-core-extraction-20261010/packed-consumer-frozen/node_modules/@soulidity/sui-core/dist/chain-object-discovery.js",
+      "runtimeExports": [
+        "ChainObjectDiscoveryError",
+        "createChainObjectDiscovery"
+      ]
+    },
+    {
+      "specifier": "@soulidity/sui-core/chain-event-discovery",
+      "resolved": "file:///private/tmp/sdk-sui-core-extraction-20261010/packed-consumer-frozen/node_modules/@soulidity/sui-core/dist/chain-event-discovery.js",
+      "runtimeExports": [
+        "ChainEventDiscoveryError",
+        "createChainEventDiscovery"
+      ]
+    }
+  ],
+  "rejectedNonExports": [
+    "root",
+    "wildcard",
+    "business"
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "relative_path": "tests/new-web/sui-grpc-compat.test.ts",
+    "sha256": "861ee638982da952275950aeca36463f14e6422004680b8ececf74794d8cfac2",
+    "difference": "none"
+  },
+  {
+    "relative_path": "tests/new-web/browser-sui-client.test.ts",
+    "sha256": "a9322e3d2a226aaf54b5147e49237c2b60debc83abff575df0ec6b9ed71b9301",
+    "difference": "none"
+  },
+  {
+    "relative_path": "tests/web/sui-network.test.ts",
+    "sha256": "2510386e5cc0421cc9884c08c3c90aa0803e9f17291fe65e5c6bd4f1e7c2431f",
+    "difference": "none"
+  },
+  {
+    "relative_path": "tests/new-web/object-inputs.test.ts",
+    "sha256": "78e7477417ff641e7fcd62f4569f7086df8d76fbe6533f445888ab7d2beddcda",
+    "difference": "none"
+  },
+  {
+    "relative_path": "tests/new-web/chain-object-discovery.test.ts",
+    "sha256": "73f9c01b706edd6a20a787d666d07e5b54ac5099e0793a9de1cccc570b65e83d",
+    "difference": "none"
+  },
+  {
+    "relative_path": "tests/new-web/chain-event-discovery.test.ts",
+    "sha256": "f30e2fa8f5f54362187d6d030c3a66dad16ee3c9ee381ae4dcac73c6414c47e9",
+    "difference": "none"
+  },
+  {
+    "relative_path": "tests/new-web/wallet-sign-result.test.ts",
+    "sha256": "c07d210e8e0affcdc49f61862c1bea214ae8553b3fe7368bad09aad3f1f7c661",
+    "difference": "none"
+  },
+  {
+    "relative_path": "tests/new-web/wallet-sign-lifecycle.test.tsx",
+    "sha256": "25abb889adb07db4d143df345cb8f1b1ecff46c8c2739985112c746fa4868c96",
+    "difference": "none"
+  },
+  {
+    "relative_path": "tests/new-web/market-payment-coins.test.ts",
+    "sha256": "352ede7ad05bbe387335c19c6dc1555ed0e12b9281c428b9cc127c75873a06f2",
+    "difference": "none"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "status": "passed_for_actual_sui_utility_source_cutover",
+  "original_tests": 300,
+  "typed_build": {
+    "SDK105": "passed",
+    "original_browser_factory_and_wallet_hook": "passed"
+  },
+  "source_guard_count": 127,
+  "same_canonical_authority_files": 10,
+  "source_context": "/tmp/sdk-actual-source-context-after-cutover-20261010",
+  "original_root_lock_sha256": "622c2fcd14b3ccf30562edead0aed72ac0495fad1ea4e71026abfd08d5890a19",
+  "original_web_lock_sha256": "9405cbf03da93eecd416cdd5ae6bd35651d156b9105dcd4dcb79138d3bfa6911",
+  "limits": [
+    "No full UI production build or wallet transaction acceptance",
+    "No reconstructedStandard/Content/Maker/Market business adapter acceptance",
+    "No npm publication or deployed authority"
+  ],
+  "node_sha256": "9caea9deafcb0c7f22fac3206c32f0dcaf8d1f13460b0be3017fa09e7a4be4f6",
+  "npm_cli_sha256": "8e5f6f3429f8cdbe693cdc29904e9d5a7b127a494bd15c804bd54c7403bfcbe7"
+}

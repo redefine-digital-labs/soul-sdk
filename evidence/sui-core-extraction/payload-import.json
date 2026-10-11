@@ -1,0 +1,7 @@
+{
+  "archive_sha256": "14c5a0af86a3e0afff49f8c3a04e6b4ea5902c61050ac6c7113b0843ecfc1c56",
+  "imported_regular_files": 139,
+  "target_repository": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk",
+  "actual_source_cutover": false,
+  "independent_review": "independent-candidate-review.json"
+}

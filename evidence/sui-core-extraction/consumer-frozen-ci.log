@@ -1,0 +1,3 @@
+npm warn deprecated @mysten/dapp-kit@1.0.4: This package only supports the deprecated Sui JSON-RPC API and will not receive further updates. See the migration guide: https://sdk.mystenlabs.com/sui/migrations/sui-2.0/dapp-kit
+
+added 199 packages in 963ms

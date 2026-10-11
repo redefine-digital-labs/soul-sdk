@@ -1,0 +1,92 @@
+{
+  "status": "isolated candidate passed; coordinator integration pending",
+  "source_sha_unchanged": 10,
+  "source_count_original_sdk": 105,
+  "baseline_original_tests": {
+    "files": 9,
+    "passed": 300
+  },
+  "linked_candidate_original_tests": {
+    "files": 9,
+    "passed": 300,
+    "same_assertions_and_names": true
+  },
+  "independent_package_tests": {
+    "files": 7,
+    "passed": 277,
+    "original_tests": 269,
+    "new_boundary_tests": 8,
+    "original_changes": "import-only, evidence/original-test-imports.diff"
+  },
+  "typed_build": {
+    "independent_package": "passed",
+    "baseline_sdk105": "passed",
+    "linked_sdk105": "passed",
+    "original_production_browser_client_and_wallet_hook": "passed",
+    "packed_external_public_declarations": "passed"
+  },
+  "runtime_public_subpaths": 10,
+  "old_sdk_barrel_symbols": 888,
+  "archive": {
+    "path": "/tmp/sdk-sui-core-extraction-20261010/evidence/sui-core-import-payload.tar.gz",
+    "sha256": "b5cc3aae58a83b40c4f171176b21b45006786449050aeea2cda456effc292eae",
+    "files": 64
+  },
+  "limits": [
+    "No shared repository changes",
+    "No RPC/signing/real keys/production/commits/publishing",
+    "No full UI build or new Standard/Content/Maker/Market adapter acceptance",
+    "No independent review yet"
+  ],
+  "existing_records": [
+    {
+      "id": "DOF.agile.DOF-003",
+      "original_id": "DOF-003",
+      "record_id": "Rec0C6ZBED95M",
+      "owner_ref": "Codex本任务执行／集成；领域职责：FLUX＋LUQI（角色分工，不表示已启动独立会话）",
+      "reviewer_ref": "SENTINEL职责／独立复核待执行；产品验收沿用现有职责",
+      "source": null
+    },
+    {
+      "id": "DOF.contracts.C13",
+      "original_id": "C13",
+      "record_id": "Rec0C7JJCKJH2",
+      "owner_ref": "Codex／本重构集成；领域职责沿用既有岗位，不表示已新建账号",
+      "reviewer_ref": "现有产品Owner＋SENTINEL；高风险另需具备能力的非实现者审查，尚未执行",
+      "source": null
+    },
+    {
+      "id": "DOF.mapping.F22",
+      "original_id": "F22",
+      "record_id": "Rec0C7GS0E0G1",
+      "owner_ref": "Codex／本重构集成；领域职责沿用既有岗位，不表示已新建账号",
+      "reviewer_ref": "现有产品Owner＋SENTINEL；高风险另需具备能力的非实现者审查，尚未执行",
+      "source": null
+    },
+    {
+      "id": "DOF.artifacts.P08",
+      "original_id": "P08",
+      "record_id": "Rec0C79UY0FHB",
+      "owner_ref": "SABLE / FLUX；岗位沿用既有，不表示已启动新执行者",
+      "reviewer_ref": "SABLE / FLUX；岗位沿用既有，不表示已启动新执行者",
+      "source": null
+    },
+    {
+      "id": "DOF.artifacts.P10",
+      "original_id": "P10",
+      "record_id": "Rec0C79UY99NZ",
+      "owner_ref": "FLUX / SENTINEL；岗位沿用既有，不表示已启动新执行者",
+      "reviewer_ref": "FLUX / SENTINEL；岗位沿用既有，不表示已启动新执行者",
+      "source": null
+    }
+  ],
+  "handbook": {
+    "version": "1.0",
+    "applicable_sections": [
+      "1-5",
+      "9",
+      "12"
+    ],
+    "stage": "Code/Build/Test isolated source extraction"
+  }
+}

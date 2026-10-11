@@ -1,0 +1,8 @@
+{
+  "execution": "ad-hoc real Transaction smoke, before sandbox verification; no RPC/sign/build/network used",
+  "tests": 35,
+  "pass": 34,
+  "fail": 1,
+  "failure": "source semantics assertion matched Config word in comment; corrected test to remove comments; builder output cases passed",
+  "raw_stdout_saved": false
+}

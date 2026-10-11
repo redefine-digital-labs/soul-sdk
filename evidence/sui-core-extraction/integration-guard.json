@@ -1,0 +1,652 @@
+{
+  "original_root": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity",
+  "paths": [
+    {
+      "path": "packages/soulidity-sdk/src/chain-event-discovery.ts",
+      "sha256": "ce7c1459a0d41fa131922b61f1981119bc959f0281aa30a1a65a007adcc6d4fc",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/chain-object-discovery.ts",
+      "sha256": "ad994bae13816b4fa664de0c90c248162e9f1a3a0acedc3b128dc91b6a3673ac",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/client-session.ts",
+      "sha256": "3ce11ac361e50a954cc3c50c87fa4d19be6c7be620d9ee034a742a1ad2be2cbf",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/coin-selection.ts",
+      "sha256": "e12d46df8ab16ba09cfb463b7296564bc8572b0cec3f30d2aea4e51046ed2205",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/collection-bind-preflight.ts",
+      "sha256": "49d9686a07859b0fbc908a067da369c0f3fb094f0cf99bf011c0f287087d53dc",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/collection-detail-discovery.ts",
+      "sha256": "8a637d4ea3c8a236fda7524985c69f956d5fbf60321d715ed142845718c0dbb7",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/collection-floor-policy.ts",
+      "sha256": "f8c43f650ec4f06bf2e3c5ec807b524a590da16d4aa64e1bad0d2de78fd57757",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/collection-floor-read.ts",
+      "sha256": "e4cdaa58459e9e8674ce68901d458d239e9e1d7d8ff5aabdf5c0d8d88b6b692a",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/collection-market-discovery.ts",
+      "sha256": "d1783c0410a6a872816f51c53d2057c313171bbfe13b91c9d60ece295e550d75",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/collection-portfolio-discovery.ts",
+      "sha256": "7df6d593964f7ee63273b8f5b241f928b23e576b3954434b7702532ac567b67f",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/collection-public-read.ts",
+      "sha256": "e74e53987c85421653743cd52c71781ff268fa571e7e7cb74ed443b116cdf59e",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/community-accept-operation.ts",
+      "sha256": "c67e364759c55c781948ecad430119dd931377b6fcc5031a2b7aa41bd25aa58d",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/community-document-read.ts",
+      "sha256": "465216a6ff407f4df7afbcd83fd07ccde791a4cd11b0e05d2ec884a103ae02b8",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/community-document.ts",
+      "sha256": "fd131efd6083fc9aae0d260e84ecf1cf1e86a05b47436e5d38369fc55eafd250",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/community-posts-read.ts",
+      "sha256": "38e7b6eaa67809827bf23e0773b24dc9b7a4c83119883d8eaa21c3a677f101a1",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/community-posts-write.ts",
+      "sha256": "ebf895b9691226e5b9798e04fbeb0f1d047c3070e67c527806e99c0161ca7758",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/community-publish-intent.ts",
+      "sha256": "ec8a445ab33bd8514ff14c12c8d640d21e90d9567c20156e78e22ac48e4a95a9",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/community-publish-operation.ts",
+      "sha256": "7c07f45620e173fa8c0d8274e465eb5568bdc45efe30dabe3140e62d59df22ea",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/community-vote-operation.ts",
+      "sha256": "62f7e31a67e82ac5d0c12d1edf43b425f347543c99f1b0a85765bd9af3c8ec1f",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/community-votes.ts",
+      "sha256": "07da22da0582f739c410c809471d4c0393a93b70e447d42b5a846bcccd9eece7",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/content-document-id.ts",
+      "sha256": "6bc03eeb24e75d9720a8f6481118d4bb17d4ba3f870ef3d037f07f2029700784",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/content-schema.ts",
+      "sha256": "d3d476ffa54f217be228b82beb7ae0018473e13cfdb3cdbb9a1814a8d9dd0476",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/content-templates.ts",
+      "sha256": "3bbaba97bae6c656052b590e0b4d6224d84c729bf98987b66b26927ee7087364",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/content-upload-recovery-id.ts",
+      "sha256": "75f74c186b7298933cfa31fbafd6d47a230e7356f5fa49199659a3dcd7d7bbd9",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/content-version-pagination.ts",
+      "sha256": "8c2f988247c6632de29c1977fc1672f164aa23c3d4491444fcae59f005cd2946",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/deployment-manifest-history.json",
+      "sha256": "65ef8710e19fb0eac41c1b1e4c8a5f5985ba8b4b498d6cbed3a630203f09b2ca",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/deployment-manifest.json",
+      "sha256": "6e54446433db0ec902c92ecce20334de77f8d17ce0dabab8edb36d7dee17f784",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/deployment-release-attempt.json",
+      "sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/deployment.ts",
+      "sha256": "8a194c2cfb56756a2544f2ab56fdf06196f79bf722af6973ddc8ffd87986b8be",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/env.ts",
+      "sha256": "c7e5dcc6fbeba5e0af76d5a866f2dd8348fd75d3be3c961e366153f9d572f7db",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/events.ts",
+      "sha256": "3be1e377e8554a438f660c066aac640a847a7aaff577d80f455c51853ce66692",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/format.ts",
+      "sha256": "d893291bf00e9df8002a9c150e912c7c8919eef02eb228f8b7d34afbc0a32178",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/grant-scopes.ts",
+      "sha256": "0f303a57110ae4cc14719278af1cdd3c4ce89715bc95679cc2e064d7b59c3ffc",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/index.ts",
+      "sha256": "2f1962ead1112a0753c90d4dbc6a1dcef7d1ca18be092bb41ab33c161ed1aa8c",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/kinds.ts",
+      "sha256": "0c9dce5620491fad4735ce2727c8b1c936d6ed2df7d32b77fbb4724465f4a3f8",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/kiosk-item-custody.ts",
+      "sha256": "bc131d7123c7b6452af365d09c9abf69d486a276ff8dc5e7f467a1516537b145",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/kiosk.ts",
+      "sha256": "3940261a2802da562d1a940e76cb41b0fa665539652c7f54686a594296767514",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/legacy-mint-bridge.ts",
+      "sha256": "6dee69c564d0d91142f4757987798fdcec0d42b2689840998c76d5bc9522e827",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/listing-price.ts",
+      "sha256": "405ddec67b6883dcf87a7615f593af7b9ad825e9c47780b2729996135f70a098",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/market-config-cache.ts",
+      "sha256": "0c3b6b9fcab07bad0259e0672db036203fd3e7c149ceb74cd3b26b98770ca463",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/market-errors.ts",
+      "sha256": "1443eed0b1f9c9d97761bd1a62b0ba35d42fca3682240741e9c6cf3510d4c82b",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/metadata.ts",
+      "sha256": "890106c2bcb0948b60f490badda6a4b22ae9e710b91610e0fb4852874a1e8a25",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/mint-content-identity.ts",
+      "sha256": "1eb48bc6764ba808c5f046bb0f745772cf21dfd3f91d060242cca04c8f2e7df3",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/native-market-quote.ts",
+      "sha256": "ad93cd1955f2b771abde4ba9f2314d3cde6fb003a11a204b77645d5fdacd5911",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/object-inputs.ts",
+      "sha256": "3e79b4b7f0fe8896ca068ecbebb6b2b6798d15581253a2ffbff7db335c6a211e",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/persona-sprite.ts",
+      "sha256": "7e8deeb27c77d37909dd8d7182f4a4a485ebecb9cf06268789f4f9f23c86724a",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/persona.ts",
+      "sha256": "a1f536c26c365d675957860d66b35155705861343965612f9d5f3090b55d84d4",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/personal-kiosk.ts",
+      "sha256": "3130743903f54300374cf6fa8fd21a185b3ae6037feb974403de6d86666b3705",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/private-named-loadout-read.ts",
+      "sha256": "696780e60764ac42fe274211127b4607d746b5cd9ba1b97388e4a6183fbac6b9",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/private-named-loadout.ts",
+      "sha256": "da25fd1bf3a0092a5717ded8b3281d80212d79cc2502ee6aee59bb07a7cae832",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/private-wallet-bookmarks-read.ts",
+      "sha256": "cd0dddb1af5391a93cff37050a0ab59a96df925f59cf6a42ae3093cfe73812b9",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/private-wallet-bookmarks.ts",
+      "sha256": "9fb29e61de9c63a50cd93b3ce5bb6a97388082fcc7bd5f1822374889e7b6735f",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/profile-read-step.ts",
+      "sha256": "5cb92ab24d9d9cf2ecfde1fa3054bf4464e52ae364e7852a2fd3c7e91151cacf",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/projection-scalars.ts",
+      "sha256": "77549b0782b59952538bbac488293702ce1b34bea374e9df8fc3a96e1f9dd7f7",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/public-profile-metadata.ts",
+      "sha256": "94409e4c615d9b0312d7c0c097cbfd610ac8934d0ab294ba7cfb8d17613aecb3",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/public-profile-operation.ts",
+      "sha256": "a2daacab0380f93f9cd2d646bf7467e3c8093af8d95dcc5e6530a315960a8d75",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/public-profile-save.ts",
+      "sha256": "33ec6aa7ad082ce3beec34e39d7d2a02f6432c3365922926a34c925c902a0167",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/queries.ts",
+      "sha256": "2b2c5af198d58c678e9962541a15904cc2cff6071f08c001bcd67be63ca5a6f4",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/request.ts",
+      "sha256": "bd05820378ad1af616b7bdc37e009b1c6368ff638d6b542fab92b272959c1bc6",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/serialization.ts",
+      "sha256": "bde5286e18c9e06f81d9342cb1e8c7d750e468f07c8d07ecac808cf380e2d3d0",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/soul-authored-discovery.ts",
+      "sha256": "f73d1358dda17bc4b788829a0edea414836fe0598b63d29e30109b891d569f30",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/soul-detail-state.ts",
+      "sha256": "d34f1cba5e862eb3016313efd90b96d6af455dcaa2faf727a8c895292b27fc9c",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/soul-public-listing.ts",
+      "sha256": "a827848eb7515399007bab4be92cd1d0a4d479e8ad6c5d47df1eee639d063c04",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/soul-public-preview.ts",
+      "sha256": "cb9e60ca0db70a31267080da4e70b589ebb7563da2b1a8c16095bda70754c2f3",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/soul-public-read.ts",
+      "sha256": "9a2199f36fa6448954133c2a8984cdea2f36ee9dcb0b67d4fc45b4a3bb6ef266",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/sui-client.ts",
+      "sha256": "64ea168e063ef526409caaa52e718cb78c4b21d7d847a073f4271d4ec670d6bb",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/sui-grpc-compat.ts",
+      "sha256": "872ea5e92d3c5931e7cf7abad2b55ccec245c7e9160c7482e33542b0611b62f2",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/sui-network.ts",
+      "sha256": "a1340afe9fc97b180826d730878222015b6a05ecdbb226c96aad9f8ac8906aa8",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/tags.ts",
+      "sha256": "6b0738e751e529ac8af7ccd846b7e949a2a5884bc8917963410f54be3abe3c7a",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/tx/access-snapshot.ts",
+      "sha256": "82ceba732344798c3a9a2cb1ac85c1622394b227d89e55d9fcb16f8215e605af",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/tx/animacraft-equipment-market-v8.ts",
+      "sha256": "b5caa56242d8922efa114d083ade1af8ded785d1bfff24a8199309e60142dd06",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/tx/animacraft-equipment-read-v8.ts",
+      "sha256": "88fd8956107821a8b509a19e198b15f4e82645fec7b0af51ef3dc6aff7bd171c",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/tx/animacraft-equipment-removal-v8.ts",
+      "sha256": "6edfe36c338c0c10d333c04ec8093d7d6e141973a2cd25198f9a41e2c2ba9d9b",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/tx/animacraft-equipment-v8.ts",
+      "sha256": "ff56f87c2b0d6243b6652a49c4651b4fd4b7c03af446af73da8ef3263105f1b3",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/tx/animacraft-market-v8.ts",
+      "sha256": "00dd8b4fd4cd33d8608007d536b0515e88fb40600bdcb1e5a7e223e5d3fe73f1",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/tx/animacraft-native-read-v8.ts",
+      "sha256": "72143531b6e07949765d3aff605bef83e76bf293fe4eb0b1f4a2e9827677087f",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/tx/animacraft-selected-sale-v8.ts",
+      "sha256": "adc603a87c38d6ec18c3b4988d5c0cdd81f815fbf7eb69db7da9548affd45aad",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/tx/animacraft-selected-soul-sale-v8.ts",
+      "sha256": "60a78c3879022fa19cd21828c645d38e44043f8519ad79dbf1f5d0cb257d1b3c",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/tx/animacraft-v8.ts",
+      "sha256": "9a3bb0a149e1c9af4051f1dda22e4dfc01aaef82d4b71f2fbe0a716f0fb62eed",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/tx/buy.ts",
+      "sha256": "354071f8c29cbbba4dd38e3d70418abfd9c0398a13e160045c6fba22f9015859",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/tx/collection.ts",
+      "sha256": "55e5bb03a770d4fca631cea164eff9463d807bb412a4145141bc1844b3c62109",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/tx/content.ts",
+      "sha256": "77ce3674e644da00ed75b1cda7381f341b9d1edd3742d79795cd509dbecb7726",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/tx/delist.ts",
+      "sha256": "e06fb92f0022be4c9c2556ce7cb26cfa00345e5e6fa909a908a265c1154d11f3",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/tx/grant.ts",
+      "sha256": "d4375861a1890b39e39743b9491057d69e2c72435a957675dd7e647985375ae2",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/tx/import.ts",
+      "sha256": "a9fb22f6477f1bcc1e02804701054d21b077db7d5898b4291157e58cb4f441d2",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/tx/kiosk-management.ts",
+      "sha256": "43ccf27af0ccbdeb3ea6098a849a5cc902ad0637f20c907a9a7ee94732801b95",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/tx/list.ts",
+      "sha256": "49d5236fb52555051923e3561bfcab8db15458202eab1f091d1db407605d718d",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/tx/mint-helpers.ts",
+      "sha256": "921a73bcafba9602468095a9e27f92b7b3a0a1ecf697fcb96d9130d7a5400201",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/tx/paid-access.ts",
+      "sha256": "33fd6be0052c587ed4e858cbc94bd27a037a3a8cb38010d185384d0bca4f6ff1",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/tx/personal-join.ts",
+      "sha256": "f4f9ff7e09619db19d170b16bc7fcbbef980be852162b5beb7294ee7d7e367d4",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/tx/publish.ts",
+      "sha256": "c67e5c704e2b4e464d101b5bff1df6cf82ab6fac04587a3f5c67cda53139b7d5",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/tx/shared.ts",
+      "sha256": "1b6f0174cb069aabe9ba66bfe1d441c0e8e49b4fef58aa1c45ceff7b4de7f087",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/tx/update-collection-price.ts",
+      "sha256": "6fe034e6a670fa6d5b75216a6ea68316c0db30be7f8da2c0a832404c0a3ca752",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/tx/update-price.ts",
+      "sha256": "f63c7a4ff2a6c39f8ff38f274613a5f0caa80b7f1d6ae9200f55274b909e1fce",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/tx-result.ts",
+      "sha256": "4e407919fc199aac953d36cf000b1a328b722139c95c76ab58a5313359b0f48b",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/types.ts",
+      "sha256": "9b4e3c372d90bb14510321af082f96be9d85495083c729129f5b762d47768f04",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/upload-validation.ts",
+      "sha256": "705c5c2af960be8da19053c6d5667628087ef66063686da80213639541c5c1e7",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/wallet-follow-operation.ts",
+      "sha256": "c70a555b19f2bc2defa9ee543ed65acb80c4965b75482deddc78c4afa9ec3abf",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/wallet-kiosk-inventory.ts",
+      "sha256": "c55f7f374c3f6f0dbf65ce9f940165904ae0ff2e2288c7fd196b526d8a1827f2",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/wallet-profile.ts",
+      "sha256": "240395e958e236c952c728acf15041651191a28fbbfa84427b573b790f2b4ad3",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/wallet-social.ts",
+      "sha256": "85b49ebb2aa7a4bf5df263ad3281b35fb739c8b267b9120cb088adf677433dd7",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/walrus-asset-id.ts",
+      "sha256": "cb8fc17625fb85143334da557479b00819039202287a96e27391b1f3163da0f7",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/walrus-blob.ts",
+      "sha256": "c98097f1fae5a4bd239ba110c4f5be17f3d468c8f32ccff3e213b961ee49f650",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/walrus-quote.ts",
+      "sha256": "aee50e6b45dba3c4ba3d9c2a6be68c7a6fe40fbdf4195207a45ae6c6555759fd",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "packages/soulidity-sdk/src/walrus.ts",
+      "sha256": "5970a56582b32ca0cf8dd979d8b1c49c509c61091454356e5adf5f05298f8ba9",
+      "kind": "original-sdk-source"
+    },
+    {
+      "path": "web/app/create/content/page.tsx",
+      "sha256": "36796bf2b27d6f5b1ad36559f1d9b72f5b6c458d9321bf5e908b98acecd708dc",
+      "kind": "original-ui-source"
+    },
+    {
+      "path": "web/app/create/preview/page.tsx",
+      "sha256": "19ac7a00176370bcc8ee42334c9e9b6f343985741bdadcddfb96a8f747b231d9",
+      "kind": "original-ui-source"
+    },
+    {
+      "path": "web/app/create/success/page.tsx",
+      "sha256": "7d4fc671ebd6eb531849a1daf9fe9527e1ad5c98f8928b5f87bf95994f37648b",
+      "kind": "original-ui-source"
+    },
+    {
+      "path": "web/app/souls/[id]/page.tsx",
+      "sha256": "b63f71c61dbea0a82395e84c2bf14fa254e1bfbe9bcadf9e0e1606eaf70e893b",
+      "kind": "original-ui-source"
+    },
+    {
+      "path": "web/app/souls/[id]/buy/page.tsx",
+      "sha256": "66b238f10df2d8a3e18f00fc91e2e714d5e1b118fb7fd0db67229212a4080317",
+      "kind": "original-ui-source"
+    },
+    {
+      "path": "web/app/souls/[id]/sell/page.tsx",
+      "sha256": "5f17a57605a5bf729e4058ff216ea3dbcb55396d4051f983b86ba3d9d5e2f25c",
+      "kind": "original-ui-source"
+    },
+    {
+      "path": "web/app/souls/[id]/sell/authorize/page.tsx",
+      "sha256": "8db0921c1ac7c8d84b838f91d69d2c8c0d54dbc33c9ff3ef5ad29608c8619523",
+      "kind": "original-ui-source"
+    },
+    {
+      "path": "web/app/souls/[id]/sell/success/page.tsx",
+      "sha256": "28af06a27a5056322cfea84fba232adf97d0d1336f83f1d1ab4fa10f335b5519",
+      "kind": "original-ui-source"
+    },
+    {
+      "path": "web/app/market/page.tsx",
+      "sha256": "a735af87348f673308706ef4894ad98e69f266e56d086021243e50a8122bc1c9",
+      "kind": "original-ui-source"
+    },
+    {
+      "path": "web/app/my-souls/page.tsx",
+      "sha256": "fd2878a7a71d110386d8df12e8353ee09d31dffe217e73b713d7b7fe0e1aa091",
+      "kind": "original-ui-source"
+    },
+    {
+      "path": "web/lib/sui/browser-client.ts",
+      "sha256": "b64498c65d3a617cc28e188112eb40da00eba9eb76e42c6fd8019f95c9b59773",
+      "kind": "original-ui-source"
+    },
+    {
+      "path": "web/lib/sui/package-object-client.ts",
+      "sha256": "0aa34eadff4658dc42aca2740f360d0c1a95cd049ccddf9799d847d1872864e6",
+      "kind": "original-ui-source"
+    },
+    {
+      "path": "web/components/providers/app-providers.tsx",
+      "sha256": "13ddc040b1f5756430a7677dffbe38d57f06526f890f49d8db5eb0c5536deeb3",
+      "kind": "original-ui-source"
+    },
+    {
+      "path": "web/lib/hooks/use-wallet-sign.ts",
+      "sha256": "30268585a52ac163cc17fecacf06268b5f4cb32da9a50241677edcd90c12dc1f",
+      "kind": "original-ui-source"
+    },
+    {
+      "path": "web/lib/hooks/use-committed-session.ts",
+      "sha256": "836f8137a6be2e1b7da2255f8c67b1dfe1bd77e5440810f704f6adfbf189aa95",
+      "kind": "original-ui-source"
+    },
+    {
+      "path": "web/lib/animacraft/market-payment-coins.ts",
+      "sha256": "c95fde753b2be464863b0c9f52408d213b33d0f2daa99ffcaec5815163f5d8b0",
+      "kind": "original-ui-source"
+    },
+    {
+      "path": "web/lib/animacraft/market-buy-operation.ts",
+      "sha256": "f34cd51a58801133d639fc50664dcae0ddfb3e880491c57221ed3651a5b07280",
+      "kind": "original-ui-source"
+    },
+    {
+      "path": "web/lib/animacraft/market-buy-types.ts",
+      "sha256": "ca790f30e91aaf033ab57cd2e6baffa5edd3ff4dc95cfa22238454cbfe0a5ed6",
+      "kind": "original-ui-source"
+    },
+    {
+      "path": "web/lib/animacraft/market-cancel-checkpoint.ts",
+      "sha256": "2473813e7832858771019e382e13da842cc169918933d0a9326c1fae82fc6c67",
+      "kind": "original-ui-source"
+    },
+    {
+      "path": "web/package.json",
+      "sha256": "ad0085fce963383f2281d251aa2a8bc0e3dd352cc8cc82f9da4e691703048283",
+      "kind": "original-ui-source"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "622c2fcd14b3ccf30562edead0aed72ac0495fad1ea4e71026abfd08d5890a19",
+      "kind": "original-lock"
+    },
+    {
+      "path": "web/package-lock.json",
+      "sha256": "9405cbf03da93eecd416cdd5ae6bd35651d156b9105dcd4dcb79138d3bfa6911",
+      "kind": "original-lock"
+    }
+  ],
+  "cutover_ten": [
+    "sui-grpc-compat.ts",
+    "sui-network.ts",
+    "tx-result.ts",
+    "coin-selection.ts",
+    "object-inputs.ts",
+    "request.ts",
+    "format.ts",
+    "profile-read-step.ts",
+    "chain-object-discovery.ts",
+    "chain-event-discovery.ts"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "node_modules/.bin/tsc",
+    "--project",
+    "tsconfig.targeted.json",
+    "--noEmit"
+  ],
+  "cwd": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/independent-market-sdk-candidate-v1",
+  "exit_code": 0,
+  "elapsed_seconds": 1.3922569751739502,
+  "stdout_stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "status": "PASS",
+  "scope": "Root independent targeted compile; no UI activation or full SDK acceptance"
+}

@@ -1,0 +1,245 @@
+{
+  "actual_root": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity",
+  "package_root": "/tmp/sdk-sui-core-extraction-20261010/packages/sui-core",
+  "sources": [
+    {
+      "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/sui-grpc-compat.ts",
+      "real_path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/sui-grpc-compat.ts",
+      "sha256": "872ea5e92d3c5931e7cf7abad2b55ccec245c7e9160c7482e33542b0611b62f2",
+      "line_count": 598,
+      "imports": [
+        "@mysten/sui/bcs",
+        "@mysten/sui/grpc",
+        "@mysten/sui/jsonRpc",
+        "@mysten/sui/utils"
+      ],
+      "exports": [
+        "SuiGrpcJsonRpcCompatClient",
+        "SuiGrpcNetwork",
+        "createSuiGrpcCompatClient",
+        "getSuiGrpcFullnodeUrl"
+      ]
+    },
+    {
+      "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/sui-network.ts",
+      "real_path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/sui-network.ts",
+      "sha256": "a1340afe9fc97b180826d730878222015b6a05ecdbb226c96aad9f8ac8906aa8",
+      "line_count": 5,
+      "imports": [],
+      "exports": [
+        "SupportedSuiNetwork",
+        "resolveSuiNetwork"
+      ]
+    },
+    {
+      "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/tx-result.ts",
+      "real_path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/tx-result.ts",
+      "sha256": "4e407919fc199aac953d36cf000b1a328b722139c95c76ab58a5313359b0f48b",
+      "line_count": 122,
+      "imports": [],
+      "exports": [
+        "SuiTxExecutionError",
+        "SuiTxResult",
+        "SuiTxResultWithEffects",
+        "assertSuiTxSucceeded",
+        "getSuiTxErrorProperties",
+        "normalizeSuiTxResult",
+        "resolveSuiTxResultWithEffects"
+      ]
+    },
+    {
+      "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/coin-selection.ts",
+      "real_path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/coin-selection.ts",
+      "sha256": "e12d46df8ab16ba09cfb463b7296564bc8572b0cec3f30d2aea4e51046ed2205",
+      "line_count": 110,
+      "imports": [],
+      "exports": [
+        "CoinBalanceLike",
+        "CoinPageLike",
+        "CoinPageLoaderLike",
+        "CoinPaginationExhaustedError",
+        "selectCoinObjectIdsForAmountAcrossPages"
+      ]
+    },
+    {
+      "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/object-inputs.ts",
+      "real_path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/object-inputs.ts",
+      "sha256": "3e79b4b7f0fe8896ca068ecbebb6b2b6798d15581253a2ffbff7db335c6a211e",
+      "line_count": 72,
+      "imports": [],
+      "exports": [
+        "assertObjectInputsExist",
+        "findMissingObjectIds"
+      ]
+    },
+    {
+      "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/request.ts",
+      "real_path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/request.ts",
+      "sha256": "bd05820378ad1af616b7bdc37e009b1c6368ff638d6b542fab92b272959c1bc6",
+      "line_count": 54,
+      "imports": [
+        "@mysten/sui/utils"
+      ],
+      "exports": [
+        "parseOptionalObjectId",
+        "parseOptionalString",
+        "parseRequiredAddress",
+        "parseRequiredObjectId",
+        "parseRequiredTxDigest"
+      ]
+    },
+    {
+      "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/format.ts",
+      "real_path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/format.ts",
+      "sha256": "d893291bf00e9df8002a9c150e912c7c8919eef02eb228f8b7d34afbc0a32178",
+      "line_count": 39,
+      "imports": [],
+      "exports": [
+        "formatAtomicAmountForDisplay",
+        "parseDisplayAmountToAtomic"
+      ]
+    },
+    {
+      "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/profile-read-step.ts",
+      "real_path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/profile-read-step.ts",
+      "sha256": "5cb92ab24d9d9cf2ecfde1fa3054bf4464e52ae364e7852a2fd3c7e91151cacf",
+      "line_count": 18,
+      "imports": [],
+      "exports": [
+        "profileReadStep"
+      ]
+    },
+    {
+      "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/chain-object-discovery.ts",
+      "real_path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/chain-object-discovery.ts",
+      "sha256": "ad994bae13816b4fa664de0c90c248162e9f1a3a0acedc3b128dc91b6a3673ac",
+      "line_count": 244,
+      "imports": [
+        "@mysten/sui/utils"
+      ],
+      "exports": [
+        "ChainObjectDiscoveryError",
+        "ChainObjectDiscoveryErrorCode",
+        "ChainObjectDiscoveryOptions",
+        "ChainObjectDiscoveryOwner",
+        "ChainObjectDiscoveryPage",
+        "ChainObjectDiscoveryScope",
+        "createChainObjectDiscovery"
+      ]
+    },
+    {
+      "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/chain-event-discovery.ts",
+      "real_path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/chain-event-discovery.ts",
+      "sha256": "ce7c1459a0d41fa131922b61f1981119bc959f0281aa30a1a65a007adcc6d4fc",
+      "line_count": 273,
+      "imports": [
+        "@mysten/sui/utils"
+      ],
+      "exports": [
+        "ChainEventDiscoveryCandidate",
+        "ChainEventDiscoveryError",
+        "ChainEventDiscoveryErrorCode",
+        "ChainEventDiscoveryOptions",
+        "ChainEventDiscoveryPage",
+        "ChainEventDiscoveryScope",
+        "createChainEventDiscovery"
+      ]
+    }
+  ],
+  "selected_node_types": {
+    "version": "25.6.2",
+    "resolved": "https://registry.npmjs.org/@types/node/-/node-25.6.2.tgz",
+    "integrity": "sha512-sokuT28dxf9JT5Kady1fsXOvI4HVpjZa95NKT5y9PNTIrs2AsobR4GFAA90ZG8M+nxVRLysCXsVj6eGC7Vbrlw==",
+    "license": "MIT",
+    "dependencies": {
+      "undici-types": "~7.19.0"
+    }
+  },
+  "original_tests": [
+    "tests/new-web/sui-grpc-compat.test.ts",
+    "tests/new-web/browser-sui-client.test.ts",
+    "tests/web/sui-network.test.ts",
+    "tests/new-web/object-inputs.test.ts",
+    "tests/new-web/chain-object-discovery.test.ts",
+    "tests/new-web/chain-event-discovery.test.ts",
+    "tests/new-web/wallet-sign-result.test.ts",
+    "tests/new-web/wallet-sign-lifecycle.test.tsx",
+    "tests/new-web/market-payment-coins.test.ts"
+  ],
+  "unchanged_consumer_files": [
+    "web/lib/sui/browser-client.ts",
+    "web/lib/sui/package-object-client.ts",
+    "web/components/providers/app-providers.tsx",
+    "web/lib/hooks/use-wallet-sign.ts",
+    "web/lib/hooks/use-committed-session.ts",
+    "web/lib/animacraft/market-payment-coins.ts",
+    "web/lib/animacraft/market-buy-operation.ts",
+    "web/lib/animacraft/market-buy-types.ts",
+    "web/lib/animacraft/market-cancel-checkpoint.ts",
+    "web/package.json"
+  ],
+  "direct_test_import_only_changes": [
+    "tests/new-web/sui-grpc-compat.test.ts",
+    "tests/new-web/object-inputs.test.ts",
+    "tests/new-web/chain-object-discovery.test.ts",
+    "tests/new-web/chain-event-discovery.test.ts",
+    "tests/web/sui-network.test.ts",
+    "tests/new-web/wallet-sign-result.test.ts"
+  ],
+  "original_owner_records": [
+    {
+      "id": "DOF.agile.DOF-003",
+      "original_id": "DOF-003",
+      "record_id": "Rec0C6ZBED95M",
+      "owner_ref": "Codex本任务执行／集成；领域职责：FLUX＋LUQI（角色分工，不表示已启动独立会话）",
+      "reviewer_ref": "SENTINEL职责／独立复核待执行；产品验收沿用现有职责",
+      "source": null
+    },
+    {
+      "id": "DOF.contracts.C13",
+      "original_id": "C13",
+      "record_id": "Rec0C7JJCKJH2",
+      "owner_ref": "Codex／本重构集成；领域职责沿用既有岗位，不表示已新建账号",
+      "reviewer_ref": "现有产品Owner＋SENTINEL；高风险另需具备能力的非实现者审查，尚未执行",
+      "source": null
+    },
+    {
+      "id": "DOF.mapping.F22",
+      "original_id": "F22",
+      "record_id": "Rec0C7GS0E0G1",
+      "owner_ref": "Codex／本重构集成；领域职责沿用既有岗位，不表示已新建账号",
+      "reviewer_ref": "现有产品Owner＋SENTINEL；高风险另需具备能力的非实现者审查，尚未执行",
+      "source": null
+    },
+    {
+      "id": "DOF.artifacts.P08",
+      "original_id": "P08",
+      "record_id": "Rec0C79UY0FHB",
+      "owner_ref": "SABLE / FLUX；岗位沿用既有，不表示已启动新执行者",
+      "reviewer_ref": "SABLE / FLUX；岗位沿用既有，不表示已启动新执行者",
+      "source": null
+    },
+    {
+      "id": "DOF.artifacts.P10",
+      "original_id": "P10",
+      "record_id": "Rec0C79UY99NZ",
+      "owner_ref": "FLUX / SENTINEL；岗位沿用既有，不表示已启动新执行者",
+      "reviewer_ref": "FLUX / SENTINEL；岗位沿用既有，不表示已启动新执行者",
+      "source": null
+    }
+  ],
+  "handbook": {
+    "version": "1.0",
+    "applicable_sections": [
+      "1-5",
+      "9",
+      "12"
+    ],
+    "stage": "Code/Build/Test isolated source extraction"
+  },
+  "remaining": [
+    "Shared source ownership cutover by coordinator",
+    "Published identity and business adapters",
+    "Independent review"
+  ]
+}

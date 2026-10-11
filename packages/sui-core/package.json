@@ -1,0 +1,80 @@
+{
+  "name": "@soulidity/sui-core",
+  "version": "0.0.1",
+  "description": "Sui transport and runtime utilities extracted byte-for-byte from the Soulidity SDK",
+  "type": "module",
+  "exports": {
+    "./sui-grpc-compat": {
+      "types": "./dist/sui-grpc-compat.d.ts",
+      "import": "./dist/sui-grpc-compat.js",
+      "default": "./dist/sui-grpc-compat.js"
+    },
+    "./sui-network": {
+      "types": "./dist/sui-network.d.ts",
+      "import": "./dist/sui-network.js",
+      "default": "./dist/sui-network.js"
+    },
+    "./tx-result": {
+      "types": "./dist/tx-result.d.ts",
+      "import": "./dist/tx-result.js",
+      "default": "./dist/tx-result.js"
+    },
+    "./coin-selection": {
+      "types": "./dist/coin-selection.d.ts",
+      "import": "./dist/coin-selection.js",
+      "default": "./dist/coin-selection.js"
+    },
+    "./object-inputs": {
+      "types": "./dist/object-inputs.d.ts",
+      "import": "./dist/object-inputs.js",
+      "default": "./dist/object-inputs.js"
+    },
+    "./request": {
+      "types": "./dist/request.d.ts",
+      "import": "./dist/request.js",
+      "default": "./dist/request.js"
+    },
+    "./format": {
+      "types": "./dist/format.d.ts",
+      "import": "./dist/format.js",
+      "default": "./dist/format.js"
+    },
+    "./profile-read-step": {
+      "types": "./dist/profile-read-step.d.ts",
+      "import": "./dist/profile-read-step.js",
+      "default": "./dist/profile-read-step.js"
+    },
+    "./chain-object-discovery": {
+      "types": "./dist/chain-object-discovery.d.ts",
+      "import": "./dist/chain-object-discovery.js",
+      "default": "./dist/chain-object-discovery.js"
+    },
+    "./chain-event-discovery": {
+      "types": "./dist/chain-event-discovery.d.ts",
+      "import": "./dist/chain-event-discovery.js",
+      "default": "./dist/chain-event-discovery.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src",
+    "npm-shrinkwrap.json"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@mysten/sui": "2.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "25.6.2",
+    "typescript": "6.0.3",
+    "vitest": "4.1.5"
+  }
+}

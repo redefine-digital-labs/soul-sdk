@@ -1,0 +1,455 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-10-10T13:41:29.730538+00:00",
+  "role": "fresh independent read-only actual-import verifier",
+  "status": "PASS — bounded actual Sui-core source import",
+  "actual_repository": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk",
+  "actual_legacy_root": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity",
+  "actual_head": "0cfb60a29b2b378dd9fbf31970b324b2ef2e301e",
+  "checks": [
+    {
+      "id": "frozen-payload-actual-import",
+      "status": "PASS",
+      "files": 139,
+      "mismatches": [],
+      "archive_sha256": "14c5a0af86a3e0afff49f8c3a04e6b4ea5902c61050ac6c7113b0843ecfc1c56",
+      "archive_regular_files": 139,
+      "archive_directory_entries": 20,
+      "no_archive_symlink_hardlink_special_absolute_or_traversal_entries": true
+    },
+    {
+      "id": "freeze-key-files",
+      "status": "PASS",
+      "count": 16,
+      "mismatches": []
+    },
+    {
+      "id": "original-127-inputs-preserved",
+      "status": "PASS",
+      "guard_count": 127,
+      "guard_kinds": {
+        "original-sdk-source": 105,
+        "original-ui-source": 20,
+        "original-lock": 2
+      },
+      "mismatches": [],
+      "symlink_paths": [
+        "packages/soulidity-sdk/src/chain-event-discovery.ts",
+        "packages/soulidity-sdk/src/chain-object-discovery.ts",
+        "packages/soulidity-sdk/src/coin-selection.ts",
+        "packages/soulidity-sdk/src/format.ts",
+        "packages/soulidity-sdk/src/object-inputs.ts",
+        "packages/soulidity-sdk/src/profile-read-step.ts",
+        "packages/soulidity-sdk/src/request.ts",
+        "packages/soulidity-sdk/src/sui-grpc-compat.ts",
+        "packages/soulidity-sdk/src/sui-network.ts",
+        "packages/soulidity-sdk/src/tx-result.ts"
+      ]
+    },
+    {
+      "id": "ten-single-source-authority-and-restore-backups",
+      "status": "PASS",
+      "files": [
+        {
+          "consumer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/sui-grpc-compat.ts",
+          "authority": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/sui-grpc-compat.ts",
+          "restore": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/actual-ten-source-before/sui-grpc-compat.ts",
+          "sha256": "872ea5e92d3c5931e7cf7abad2b55ccec245c7e9160c7482e33542b0611b62f2",
+          "status": "PASS"
+        },
+        {
+          "consumer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/sui-network.ts",
+          "authority": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/sui-network.ts",
+          "restore": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/actual-ten-source-before/sui-network.ts",
+          "sha256": "a1340afe9fc97b180826d730878222015b6a05ecdbb226c96aad9f8ac8906aa8",
+          "status": "PASS"
+        },
+        {
+          "consumer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/tx-result.ts",
+          "authority": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/tx-result.ts",
+          "restore": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/actual-ten-source-before/tx-result.ts",
+          "sha256": "4e407919fc199aac953d36cf000b1a328b722139c95c76ab58a5313359b0f48b",
+          "status": "PASS"
+        },
+        {
+          "consumer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/coin-selection.ts",
+          "authority": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/coin-selection.ts",
+          "restore": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/actual-ten-source-before/coin-selection.ts",
+          "sha256": "e12d46df8ab16ba09cfb463b7296564bc8572b0cec3f30d2aea4e51046ed2205",
+          "status": "PASS"
+        },
+        {
+          "consumer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/object-inputs.ts",
+          "authority": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/object-inputs.ts",
+          "restore": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/actual-ten-source-before/object-inputs.ts",
+          "sha256": "3e79b4b7f0fe8896ca068ecbebb6b2b6798d15581253a2ffbff7db335c6a211e",
+          "status": "PASS"
+        },
+        {
+          "consumer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/request.ts",
+          "authority": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/request.ts",
+          "restore": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/actual-ten-source-before/request.ts",
+          "sha256": "bd05820378ad1af616b7bdc37e009b1c6368ff638d6b542fab92b272959c1bc6",
+          "status": "PASS"
+        },
+        {
+          "consumer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/format.ts",
+          "authority": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/format.ts",
+          "restore": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/actual-ten-source-before/format.ts",
+          "sha256": "d893291bf00e9df8002a9c150e912c7c8919eef02eb228f8b7d34afbc0a32178",
+          "status": "PASS"
+        },
+        {
+          "consumer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/profile-read-step.ts",
+          "authority": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/profile-read-step.ts",
+          "restore": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/actual-ten-source-before/profile-read-step.ts",
+          "sha256": "5cb92ab24d9d9cf2ecfde1fa3054bf4464e52ae364e7852a2fd3c7e91151cacf",
+          "status": "PASS"
+        },
+        {
+          "consumer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/chain-object-discovery.ts",
+          "authority": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/chain-object-discovery.ts",
+          "restore": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/actual-ten-source-before/chain-object-discovery.ts",
+          "sha256": "ad994bae13816b4fa664de0c90c248162e9f1a3a0acedc3b128dc91b6a3673ac",
+          "status": "PASS"
+        },
+        {
+          "consumer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/chain-event-discovery.ts",
+          "authority": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/chain-event-discovery.ts",
+          "restore": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/actual-ten-source-before/chain-event-discovery.ts",
+          "sha256": "ce7c1459a0d41fa131922b61f1981119bc959f0281aa30a1a65a007adcc6d4fc",
+          "status": "PASS"
+        }
+      ],
+      "active_old_regular_copies": 0
+    },
+    {
+      "id": "original-sdk-source-inventory",
+      "status": "PASS",
+      "files": 105,
+      "typescript_files": 102,
+      "json_files": 3,
+      "barrel_sha256": "2f1962ead1112a0753c90d4dbc6a1dcef7d1ca18be092bb41ab33c161ed1aa8c"
+    },
+    {
+      "id": "actual-restore-plan-guard",
+      "status": "PASS",
+      "argv": [
+        "python3",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/tools/sui-core-extraction/source-authority.py",
+        "restore",
+        "--actual-root",
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity",
+        "--target-repo",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk",
+        "--evidence-dir",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction",
+        "--backup-dir",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/actual-ten-source-before"
+      ],
+      "exit_code": 0,
+      "applied": false,
+      "stderr": ""
+    },
+    {
+      "id": "actual-lock-original-closure",
+      "status": "PASS",
+      "closure_nodes": 117,
+      "normalized_original_records_matched": 117,
+      "normalization": "Only dev/devOptional install-scope flags excluded; package location can relocate nested dependencies.",
+      "lock_sha256": "73f0e0074765332ff9518786ecf0af91ba7bb92e52cdd7a746786e0bacd623e7",
+      "relocated_paths": [
+        {
+          "path": "node_modules/tinyglobby/node_modules/fdir",
+          "original_matches": [
+            "node_modules/fdir"
+          ],
+          "version": "6.5.0",
+          "resolved": "https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz",
+          "integrity": "sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg=="
+        },
+        {
+          "path": "node_modules/tinyglobby/node_modules/picomatch",
+          "original_matches": [
+            "node_modules/picomatch"
+          ],
+          "version": "4.0.4",
+          "resolved": "https://registry.npmjs.org/picomatch/-/picomatch-4.0.4.tgz",
+          "integrity": "sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A=="
+        }
+      ]
+    },
+    {
+      "id": "legacy-root-and-web-locks",
+      "status": "PASS",
+      "paths": [
+        {
+          "path": "package-lock.json",
+          "sha256": "622c2fcd14b3ccf30562edead0aed72ac0495fad1ea4e71026abfd08d5890a19"
+        },
+        {
+          "path": "web/package-lock.json",
+          "sha256": "9405cbf03da93eecd416cdd5ae6bd35651d156b9105dcd4dcb79138d3bfa6911"
+        }
+      ]
+    },
+    {
+      "id": "original-nine-tests-unchanged",
+      "status": "PASS",
+      "files": 9,
+      "mismatches": []
+    },
+    {
+      "id": "actual-postcutover-exact-original-assertions",
+      "status": "PASS",
+      "report": "/tmp/sdk-actual-source-context-after-cutover-20261010/original-tests.json",
+      "report_sha256": "38a8fae43c96eaaed07f3b272db2b0e97a15fcf832c0c786d6eab803d3fe5251",
+      "assertions": 300,
+      "failed": 0,
+      "rerun_by_this_reviewer": false,
+      "comparison": [
+        {
+          "report": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/baseline-original-tests.json",
+          "assertion_identity_status_multiset_equal": true,
+          "sha256": "83d11e69f1043995b477057905e68ecc1d8fcad9180ffc2134e8b4ecc0ea01e6"
+        },
+        {
+          "report": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/candidate-original-tests.json",
+          "assertion_identity_status_multiset_equal": true,
+          "sha256": "9ef468f1587c3da0ded22b41d7b0e85a325f1a6203e0f239ce917329251dea23"
+        },
+        {
+          "report": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/actual-source-original-tests.json",
+          "assertion_identity_status_multiset_equal": true,
+          "sha256": "9218d59d590b313cea120b86f7d76a6e2a094dafd6bc556afbcff7a34edcafc2"
+        }
+      ]
+    },
+    {
+      "id": "pinned-toolchain",
+      "status": "PASS",
+      "node": "/Users/naoer/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+      "version": "24.19.0",
+      "sha256": "9caea9deafcb0c7f22fac3206c32f0dcaf8d1f13460b0be3017fa09e7a4be4f6",
+      "typescript": "6.0.3"
+    },
+    {
+      "id": "tsconfig.sdk.json",
+      "status": "PASS",
+      "argv": [
+        "/Users/naoer/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/node_modules/typescript/bin/tsc",
+        "--noEmit",
+        "-p",
+        "tsconfig.sdk.json"
+      ],
+      "cwd": "/tmp/sdk-actual-source-context-after-cutover-20261010",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "config_sha256": "5cbbac1d00fec395ef8080e0e0924b9956a05737f13e0630060a8ef4a94dc117",
+      "root_include": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/**/*.ts"
+      ],
+      "Sui_grpc_type_path": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/node_modules/@mysten/sui/dist/grpc/index.d.mts"
+      ]
+    },
+    {
+      "id": "tsconfig.consumer.json",
+      "status": "PASS",
+      "argv": [
+        "/Users/naoer/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/node_modules/typescript/bin/tsc",
+        "--noEmit",
+        "-p",
+        "tsconfig.consumer.json"
+      ],
+      "cwd": "/tmp/sdk-actual-source-context-after-cutover-20261010",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "",
+      "config_sha256": "3177ae8bb63d18b470072894f87c38782aa8a47e4af5330cd3ced24ea8e10b95",
+      "root_include": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/web/lib/sui/browser-client.ts",
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/web/lib/hooks/use-wallet-sign.ts"
+      ],
+      "Sui_grpc_type_path": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/node_modules/@mysten/sui/dist/grpc/index.d.mts"
+      ]
+    },
+    {
+      "id": "actual-barrel-symbols-and-resolution",
+      "status": "PASS",
+      "diagnostics": 0,
+      "exports": 888,
+      "name_sha256": "8f59c81f1721d074ecef151cfd454d515ad9d4e9daa3cce28308838fe75a9414",
+      "real_core_source_paths": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/chain-event-discovery.ts",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/chain-object-discovery.ts",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/coin-selection.ts",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/profile-read-step.ts",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/sui-grpc-compat.ts",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/format.ts",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/sui-network.ts",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/tx-result.ts",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/object-inputs.ts",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/request.ts"
+      ],
+      "Sui_declarations": 110
+    },
+    {
+      "id": "actual-core-dependencies-and-original-ui-links",
+      "status": "PASS",
+      "dependency_packages": [
+        {
+          "name": "@mysten/sui",
+          "version": "2.16.0",
+          "realpath": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/node_modules/@mysten/sui",
+          "matches_manifest": true
+        },
+        {
+          "name": "fflate",
+          "version": "0.8.2",
+          "realpath": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/fflate",
+          "matches_manifest": true
+        },
+        {
+          "name": "@mysten/dapp-kit",
+          "version": "1.0.4",
+          "realpath": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/@mysten/dapp-kit",
+          "matches_manifest": true
+        },
+        {
+          "name": "@noble/hashes",
+          "version": "2.2.0",
+          "realpath": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/@noble/hashes",
+          "matches_manifest": true
+        },
+        {
+          "name": "@protobuf-ts/runtime-rpc",
+          "version": "2.11.1",
+          "realpath": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/@protobuf-ts/runtime-rpc",
+          "matches_manifest": true
+        },
+        {
+          "name": "react",
+          "version": "19.2.6",
+          "realpath": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/react",
+          "matches_manifest": true
+        },
+        {
+          "name": "react-dom",
+          "version": "19.2.6",
+          "realpath": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/react-dom",
+          "matches_manifest": true
+        }
+      ],
+      "ui_entries": 10,
+      "actual_original_sdk_link": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src"
+    },
+    {
+      "id": "actual-independent-package-run-evidence",
+      "status": "PASS",
+      "report": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/installed-package-run/evidence.json",
+      "report_sha256": "34bc5dc8fef7d3d76bb05c59c0eded4d59770b8fd887166ab7574b706ae7821b",
+      "commands": [
+        {
+          "label": "npm-ci",
+          "argv": [
+            "/Users/naoer/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+            "/opt/homebrew/lib/node_modules/npm/bin/npm-cli.js",
+            "ci",
+            "--ignore-scripts",
+            "--no-audit",
+            "--no-fund",
+            "--registry",
+            "https://registry.npmjs.org"
+          ],
+          "cwd": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core",
+          "exit_code": 0
+        },
+        {
+          "label": "build",
+          "argv": [
+            "/Users/naoer/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+            "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/node_modules/typescript/bin/tsc",
+            "-p",
+            "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/tsconfig.json"
+          ],
+          "cwd": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core",
+          "exit_code": 0
+        },
+        {
+          "label": "test",
+          "argv": [
+            "/Users/naoer/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+            "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/node_modules/vitest/vitest.mjs",
+            "run",
+            "--reporter=json",
+            "--outputFile=/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/installed-package-run/tests.json"
+          ],
+          "cwd": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core",
+          "exit_code": 0
+        },
+        {
+          "label": "pack",
+          "argv": [
+            "/Users/naoer/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+            "/opt/homebrew/lib/node_modules/npm/bin/npm-cli.js",
+            "pack",
+            "--ignore-scripts",
+            "--json",
+            "--pack-destination",
+            "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/installed-package-run"
+          ],
+          "cwd": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core",
+          "exit_code": 0
+        }
+      ],
+      "tests_passed": 277,
+      "pack": {
+        "filename": "soulidity-sui-core-0.0.1.tgz",
+        "integrity": "sha512-4SQHye3huaLnfawxs4SbupcINUqFCjwVQxeARAnFGoWBt/WjlbDS4eY/ctUfY/iza+shtzDIWS7dh/qEvK87pQ==",
+        "sha256": "eb49086bc5e105a1c877617b004203ee2944926916171ccdb7cf564523fc1e72"
+      },
+      "rerun_by_this_reviewer": false
+    },
+    {
+      "id": "bounded-management-scope",
+      "status": "PASS",
+      "scope": "Pure Sui transport/runtime utilities only; business adapters remain original and pending reconstruction",
+      "published": false,
+      "stage": "Test",
+      "full_runtime_acceptance": "not_run: full wallet/UI/contract journeys pending",
+      "management_during_review": "Coordinator updates are in progress; source-authority map regeneration and final durable evidence pointers are outside this source-import pass."
+    }
+  ],
+  "findings": [],
+  "handbook": {
+    "version": "1.0",
+    "sections": [
+      "1-5",
+      "9",
+      "12"
+    ],
+    "stage": "Code/Build/Test actual source import",
+    "existing_records": [
+      "DOF-003",
+      "C13",
+      "F22",
+      "P08",
+      "P10"
+    ]
+  },
+  "limitations": [
+    "This review passes the ten-file source-authority import and existing typed/regression scope only; it does not close the complete ecosystem goal.",
+    "The 300 original test results and 277 independent package test results were read and verified against exact frozen identities; this reviewer independently reran only both noEmit checks and readonly restore-plan validation.",
+    "No npm publication, full UI production build/deployment, new Standard/Content/Maker/Market business adapter acceptance, Sui production build, RPC, signatures, keys, funds, commits, pushes or PRs.",
+    "Read-only source context resolves actual source/dependencies through links and explicit aliases; it is evidence of the scoped test combination, not OS-level privilege isolation or live wallet/network acceptance.",
+    "Management map regeneration and final actual-postcutover evidence pointers remain the coordinator's current write scope; frozen candidate status fields remain historical."
+  ],
+  "writes": [
+    "/tmp/sdk-sui-core-actual-review-20261010.json"
+  ]
+}

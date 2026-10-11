@@ -1,0 +1,103 @@
+--- original/tests/new-web/sui-grpc-compat.test.ts
++++ candidate/tests/new-web/sui-grpc-compat.test.ts
+@@ -1,7 +1,7 @@
+ import type { SuiGrpcClient } from '@mysten/sui/grpc'
+ import { describe, expect, it, vi } from 'vitest'
+ 
+-import { SuiGrpcJsonRpcCompatClient } from '../../packages/soulidity-sdk/src/sui-grpc-compat'
++import { SuiGrpcJsonRpcCompatClient } from '@soulidity/sui-core/sui-grpc-compat'
+ 
+ function compatWithCore(core: Record<string, unknown>) {
+   const grpc = {
+
+--- original/tests/new-web/object-inputs.test.ts
++++ candidate/tests/new-web/object-inputs.test.ts
+@@ -1,6 +1,6 @@
+ import { describe, expect, it, vi } from 'vitest'
+ 
+-import { assertObjectInputsExist, findMissingObjectIds } from '@soulidity/sdk'
++import { assertObjectInputsExist, findMissingObjectIds } from '@soulidity/sui-core/object-inputs'
+ 
+ describe('findMissingObjectIds', () => {
+   it('returns object ids whose RPC responses are missing or report not found', async () => {
+
+--- original/tests/new-web/chain-object-discovery.test.ts
++++ candidate/tests/new-web/chain-object-discovery.test.ts
+@@ -1,6 +1,6 @@
+ import { afterEach, describe, expect, it, vi } from 'vitest'
+ import { toBase58 } from '@mysten/sui/utils'
+-import { ChainObjectDiscoveryError, createChainObjectDiscovery, type ChainObjectDiscoveryOptions } from '../../packages/soulidity-sdk/src/chain-object-discovery'
++import { ChainObjectDiscoveryError, createChainObjectDiscovery, type ChainObjectDiscoveryOptions } from '@soulidity/sui-core/chain-object-discovery'
+ 
+ const id = (n: number) => `0x${n.toString(16).padStart(64, '0')}`
+ // Official mainnet GraphQL observed 2026-09-10. This fixture is not a live-read or BCS proof.
+
+--- original/tests/new-web/chain-event-discovery.test.ts
++++ candidate/tests/new-web/chain-event-discovery.test.ts
+@@ -1,6 +1,6 @@
+ import { afterEach, describe, expect, it, vi } from 'vitest'
+ import { fromHex, toBase58 } from '@mysten/sui/utils'
+-import { ChainEventDiscoveryError, createChainEventDiscovery, type ChainEventDiscoveryOptions } from '../../packages/soulidity-sdk/src/chain-event-discovery'
++import { ChainEventDiscoveryError, createChainEventDiscovery, type ChainEventDiscoveryOptions } from '@soulidity/sui-core/chain-event-discovery'
+ 
+ const id = (n: number) => `0x${n.toString(16).padStart(64, '0')}`
+ // Official mainnet GraphQL observed 2026-09-10. This fixture is not a live-read or BCS proof.
+
+--- original/tests/web/sui-network.test.ts
++++ candidate/tests/web/sui-network.test.ts
+@@ -1,6 +1,6 @@
+ import { describe, expect, it } from 'vitest'
+ 
+-import { resolveSuiNetwork } from '@soulidity/sdk'
++import { resolveSuiNetwork } from '@soulidity/sui-core/sui-network'
+ 
+ describe('resolveSuiNetwork', () => {
+   it('accepts the supported network names', () => {
+
+--- original/tests/new-web/wallet-sign-result.test.ts
++++ candidate/tests/new-web/wallet-sign-result.test.ts
+@@ -10,7 +10,7 @@
+ 
+ describe('wallet sign transaction result normalization', () => {
+   it('rejects missing executeTransactionBlock results before callers read effects', async () => {
+-    const { normalizeSuiTxResult } = await import('@soulidity/sdk')
++    const { normalizeSuiTxResult } = await import('@soulidity/sui-core/tx-result')
+ 
+     expect(() => normalizeSuiTxResult(undefined)).toThrow(
+       'Wallet transaction execution did not return a transaction result',
+@@ -18,7 +18,7 @@
+   })
+ 
+   it('accepts digest-only executeTransactionBlock results before effects resolution', async () => {
+-    const { normalizeSuiTxResult } = await import('@soulidity/sdk')
++    const { normalizeSuiTxResult } = await import('@soulidity/sui-core/tx-result')
+ 
+     expect(normalizeSuiTxResult({ digest: 'abc' })).toMatchObject({ digest: 'abc' })
+   })
+@@ -40,7 +40,7 @@
+   })
+ 
+   it('resolves digest-only execute results through waitForTransaction with effects enabled', async () => {
+-    const { resolveSuiTxResultWithEffects } = await import('@soulidity/sdk')
++    const { resolveSuiTxResultWithEffects } = await import('@soulidity/sui-core/tx-result')
+     const waitForTransaction = vi.fn().mockResolvedValue({
+       digest: 'abc',
+       effects: { status: { status: 'success' } },
+@@ -62,7 +62,7 @@
+   })
+ 
+   it('throws a readable app error when fallback still returns no effects', async () => {
+-    const { resolveSuiTxResultWithEffects } = await import('@soulidity/sdk')
++    const { resolveSuiTxResultWithEffects } = await import('@soulidity/sui-core/tx-result')
+     const waitForTransaction = vi.fn().mockResolvedValue({ digest: 'abc' })
+ 
+     await expect(resolveSuiTxResultWithEffects({ waitForTransaction }, { digest: 'abc' }))
+@@ -70,7 +70,7 @@
+   })
+ 
+   it('preserves digest, status, and chain error for failed transaction effects', async () => {
+-    const { SuiTxExecutionError, assertSuiTxSucceeded } = await import('@soulidity/sdk')
++    const { SuiTxExecutionError, assertSuiTxSucceeded } = await import('@soulidity/sui-core/tx-result')
+ 
+     try {
+       assertSuiTxSucceeded({

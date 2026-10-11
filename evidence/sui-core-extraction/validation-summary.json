@@ -1,0 +1,121 @@
+{
+  "status": "isolated extraction passed; coordinator actual canonical cutover pending",
+  "sources_byte_unchanged": 10,
+  "original_sdk_inputs": {
+    "files": 105,
+    "typescript": 102,
+    "json": 3,
+    "barrel_symbols": 888
+  },
+  "tests": {
+    "baseline_original": {
+      "files": 9,
+      "passed": 300
+    },
+    "linked_candidate_original": {
+      "files": 9,
+      "passed": 300,
+      "same_names_and_assertions": true
+    },
+    "public_package": {
+      "files": 7,
+      "passed": 277,
+      "original_assertions": 269,
+      "new_blackbox_boundary_tests": 8
+    },
+    "actual_source_readonly_context": {
+      "files": 9,
+      "passed": 300,
+      "actual_sources": "direct readonly links; no shared dependency installation"
+    }
+  },
+  "builds": {
+    "independent_real_Mysten_typed_build": "passed",
+    "baseline_and_linked_sdk105": "passed",
+    "original_browser_factory_and_wallet_hook": "passed",
+    "actual_source_sdk105_and_same2UI": "passed",
+    "fresh_tgz_external_runtime10_and_declarations": "passed",
+    "standalone_runner_ci_build_test_pack": "passed"
+  },
+  "core_lock": {
+    "closure_nodes": 117,
+    "original_record_matches": 117,
+    "sha256": "73f0e0074765332ff9518786ecf0af91ba7bb92e52cdd7a746786e0bacd623e7"
+  },
+  "core_exports": {
+    "explicit_subpaths": 10,
+    "root_export": false,
+    "business_export": false
+  },
+  "source_authority_guard": {
+    "frozen_inputs": 127,
+    "positive_roundtrip": "passed",
+    "reject_controls": 7,
+    "script_sha256": "ab6974f23e7f96c82789a3a6e057a408bbc773bd3b5607252c8a024e162c9069"
+  },
+  "npm_pack": {
+    "filename": "soulidity-sui-core-0.0.1.tgz",
+    "sha256": "eb49086bc5e105a1c877617b004203ee2944926916171ccdb7cf564523fc1e72",
+    "integrity": "sha512-4SQHye3huaLnfawxs4SbupcINUqFCjwVQxeARAnFGoWBt/WjlbDS4eY/ctUfY/iza+shtzDIWS7dh/qEvK87pQ==",
+    "source_files": 10,
+    "total_files": 53
+  },
+  "handbook": {
+    "version": "1.0",
+    "applicable_sections": [
+      "1-5",
+      "9",
+      "12"
+    ],
+    "stage": "Code/Build/Test isolated source extraction"
+  },
+  "records": [
+    {
+      "id": "DOF.agile.DOF-003",
+      "original_id": "DOF-003",
+      "record_id": "Rec0C6ZBED95M",
+      "owner_ref": "Codex本任务执行／集成；领域职责：FLUX＋LUQI（角色分工，不表示已启动独立会话）",
+      "reviewer_ref": "SENTINEL职责／独立复核待执行；产品验收沿用现有职责",
+      "source": null
+    },
+    {
+      "id": "DOF.contracts.C13",
+      "original_id": "C13",
+      "record_id": "Rec0C7JJCKJH2",
+      "owner_ref": "Codex／本重构集成；领域职责沿用既有岗位，不表示已新建账号",
+      "reviewer_ref": "现有产品Owner＋SENTINEL；高风险另需具备能力的非实现者审查，尚未执行",
+      "source": null
+    },
+    {
+      "id": "DOF.mapping.F22",
+      "original_id": "F22",
+      "record_id": "Rec0C7GS0E0G1",
+      "owner_ref": "Codex／本重构集成；领域职责沿用既有岗位，不表示已新建账号",
+      "reviewer_ref": "现有产品Owner＋SENTINEL；高风险另需具备能力的非实现者审查，尚未执行",
+      "source": null
+    },
+    {
+      "id": "DOF.artifacts.P08",
+      "original_id": "P08",
+      "record_id": "Rec0C79UY0FHB",
+      "owner_ref": "SABLE / FLUX；岗位沿用既有，不表示已启动新执行者",
+      "reviewer_ref": "SABLE / FLUX；岗位沿用既有，不表示已启动新执行者",
+      "source": null
+    },
+    {
+      "id": "DOF.artifacts.P10",
+      "original_id": "P10",
+      "record_id": "Rec0C79UY99NZ",
+      "owner_ref": "FLUX / SENTINEL；岗位沿用既有，不表示已启动新执行者",
+      "reviewer_ref": "FLUX / SENTINEL；岗位沿用既有，不表示已启动新执行者",
+      "source": null
+    }
+  ],
+  "limits": [
+    "No shared writes, RPC/signing/real keys/production/commits/npm publication",
+    "No full UI production build or deployment acceptance",
+    "No Standard/Content/Maker/Market business adapters claim",
+    "Verifier-only UI extras recorded separately; baseline/linked share one environment",
+    "Independent review records provided separately by read-only reviewer"
+  ]
+}

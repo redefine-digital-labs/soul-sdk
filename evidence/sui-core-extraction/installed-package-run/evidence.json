@@ -1,0 +1,83 @@
+{
+  "status": "passed",
+  "node": {
+    "path": "/Users/naoer/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+    "version": "v24.19.0",
+    "sha256": "9caea9deafcb0c7f22fac3206c32f0dcaf8d1f13460b0be3017fa09e7a4be4f6"
+  },
+  "npm_cli": "/opt/homebrew/lib/node_modules/npm/bin/npm-cli.js",
+  "commands": [
+    {
+      "label": "npm-ci",
+      "argv": [
+        "/Users/naoer/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/opt/homebrew/lib/node_modules/npm/bin/npm-cli.js",
+        "ci",
+        "--ignore-scripts",
+        "--no-audit",
+        "--no-fund",
+        "--registry",
+        "https://registry.npmjs.org"
+      ],
+      "cwd": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core",
+      "exit_code": 0
+    },
+    {
+      "label": "build",
+      "argv": [
+        "/Users/naoer/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/node_modules/typescript/bin/tsc",
+        "-p",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/tsconfig.json"
+      ],
+      "cwd": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core",
+      "exit_code": 0
+    },
+    {
+      "label": "test",
+      "argv": [
+        "/Users/naoer/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/node_modules/vitest/vitest.mjs",
+        "run",
+        "--reporter=json",
+        "--outputFile=/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/installed-package-run/tests.json"
+      ],
+      "cwd": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core",
+      "exit_code": 0
+    },
+    {
+      "label": "pack",
+      "argv": [
+        "/Users/naoer/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/opt/homebrew/lib/node_modules/npm/bin/npm-cli.js",
+        "pack",
+        "--ignore-scripts",
+        "--json",
+        "--pack-destination",
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/installed-package-run"
+      ],
+      "cwd": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core",
+      "exit_code": 0
+    }
+  ],
+  "source_shas": {
+    "src/chain-event-discovery.ts": "ce7c1459a0d41fa131922b61f1981119bc959f0281aa30a1a65a007adcc6d4fc",
+    "src/chain-object-discovery.ts": "ad994bae13816b4fa664de0c90c248162e9f1a3a0acedc3b128dc91b6a3673ac",
+    "src/coin-selection.ts": "e12d46df8ab16ba09cfb463b7296564bc8572b0cec3f30d2aea4e51046ed2205",
+    "src/format.ts": "d893291bf00e9df8002a9c150e912c7c8919eef02eb228f8b7d34afbc0a32178",
+    "src/object-inputs.ts": "3e79b4b7f0fe8896ca068ecbebb6b2b6798d15581253a2ffbff7db335c6a211e",
+    "src/profile-read-step.ts": "5cb92ab24d9d9cf2ecfde1fa3054bf4464e52ae364e7852a2fd3c7e91151cacf",
+    "src/request.ts": "bd05820378ad1af616b7bdc37e009b1c6368ff638d6b542fab92b272959c1bc6",
+    "src/sui-grpc-compat.ts": "872ea5e92d3c5931e7cf7abad2b55ccec245c7e9160c7482e33542b0611b62f2",
+    "src/sui-network.ts": "a1340afe9fc97b180826d730878222015b6a05ecdbb226c96aad9f8ac8906aa8",
+    "src/tx-result.ts": "4e407919fc199aac953d36cf000b1a328b722139c95c76ab58a5313359b0f48b"
+  },
+  "lock_sha256": "73f0e0074765332ff9518786ecf0af91ba7bb92e52cdd7a746786e0bacd623e7",
+  "tests_passed": 277,
+  "pack": {
+    "filename": "soulidity-sui-core-0.0.1.tgz",
+    "integrity": "sha512-4SQHye3huaLnfawxs4SbupcINUqFCjwVQxeARAnFGoWBt/WjlbDS4eY/ctUfY/iza+shtzDIWS7dh/qEvK87pQ==",
+    "sha256": "eb49086bc5e105a1c877617b004203ee2944926916171ccdb7cf564523fc1e72"
+  },
+  "limits": "Local npm unit only; no source cutover, published package, full UI deployment or contract adapter claim"
+}

@@ -1,0 +1,697 @@
+[
+  {
+    "path": "evidence/sui-core-extraction/actual-source-original-tests.json",
+    "sha256": "9218d59d590b313cea120b86f7d76a6e2a094dafd6bc556afbcff7a34edcafc2",
+    "bytes": 105092
+  },
+  {
+    "path": "evidence/sui-core-extraction/actual-source-original-tests.log",
+    "sha256": "c87ecd15af513e0ef8dabd73671725a5a234932128bb0fcf9849715287c8a7d0",
+    "bytes": 104
+  },
+  {
+    "path": "evidence/sui-core-extraction/actual-source-production-consumers-typecheck.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "evidence/sui-core-extraction/actual-source-sdk105-typecheck.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "evidence/sui-core-extraction/baseline-original-tests.json",
+    "sha256": "83d11e69f1043995b477057905e68ecc1d8fcad9180ffc2134e8b4ecc0ea01e6",
+    "bytes": 105061
+  },
+  {
+    "path": "evidence/sui-core-extraction/baseline-original-tests.log",
+    "sha256": "34bf8a71d38b96250072cf547990dd7af1f9aa0f8d136a8ea9cfebbe340b0ae9",
+    "bytes": 99
+  },
+  {
+    "path": "evidence/sui-core-extraction/baseline-sdk105-typecheck.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "evidence/sui-core-extraction/candidate-original-tests.json",
+    "sha256": "9ef468f1587c3da0ded22b41d7b0e85a325f1a6203e0f239ce917329251dea23",
+    "bytes": 105015
+  },
+  {
+    "path": "evidence/sui-core-extraction/candidate-original-tests.log",
+    "sha256": "926045a063067de99e71750491a240508beba525fc988bf16c6502348eb6a3b2",
+    "bytes": 100
+  },
+  {
+    "path": "evidence/sui-core-extraction/candidate-production-consumers-typecheck.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "evidence/sui-core-extraction/candidate-sdk105-typecheck.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "evidence/sui-core-extraction/consumer-environment/package-lock.json",
+    "sha256": "4a740d6e04b7c4ae28d16710f40bc47aa77f093a05f73388825b1b887ab8da9d",
+    "bytes": 137460
+  },
+  {
+    "path": "evidence/sui-core-extraction/consumer-environment/package.json",
+    "sha256": "c53b3a3a430e27779abe041ec68965fc05f06672bf8fff0d95bc21ba52e8f1db",
+    "bytes": 4581
+  },
+  {
+    "path": "evidence/sui-core-extraction/consumer-environment/tests/no-network.ts",
+    "sha256": "5c438c4374e628d1093d96ae15c122493567215bc96f60f9200841c6ca47aca1",
+    "bytes": 129
+  },
+  {
+    "path": "evidence/sui-core-extraction/consumer-frozen-ci.log",
+    "sha256": "e9b93bdd3bcee68bd4a85f53bdf7e910ef3a75e15454fd3f19925b467d40794e",
+    "bytes": 254
+  },
+  {
+    "path": "evidence/sui-core-extraction/consumer-install.log",
+    "sha256": "ca6aa0c5f29e13b1abe6319aa635ce5ee9da238e49f4727249b50aab8f4b8d5c",
+    "bytes": 342
+  },
+  {
+    "path": "evidence/sui-core-extraction/consumer-links.json",
+    "sha256": "c1f3d7cc925195b86712b023e7acc386b0c82d5bcc259b3fc5f14a30ec4f1ffe",
+    "bytes": 7018
+  },
+  {
+    "path": "evidence/sui-core-extraction/consumer-lock-resolution.log",
+    "sha256": "bf1545d0d7cc916d8994bc12639a4d30a3723ff02d05231244d7d5807dc2314d",
+    "bytes": 19
+  },
+  {
+    "path": "evidence/sui-core-extraction/consumer-ten-source-before/chain-event-discovery.ts",
+    "sha256": "ce7c1459a0d41fa131922b61f1981119bc959f0281aa30a1a65a007adcc6d4fc",
+    "bytes": 17352
+  },
+  {
+    "path": "evidence/sui-core-extraction/consumer-ten-source-before/chain-object-discovery.ts",
+    "sha256": "ad994bae13816b4fa664de0c90c248162e9f1a3a0acedc3b128dc91b6a3673ac",
+    "bytes": 14969
+  },
+  {
+    "path": "evidence/sui-core-extraction/consumer-ten-source-before/coin-selection.ts",
+    "sha256": "e12d46df8ab16ba09cfb463b7296564bc8572b0cec3f30d2aea4e51046ed2205",
+    "bytes": 2932
+  },
+  {
+    "path": "evidence/sui-core-extraction/consumer-ten-source-before/format.ts",
+    "sha256": "d893291bf00e9df8002a9c150e912c7c8919eef02eb228f8b7d34afbc0a32178",
+    "bytes": 1355
+  },
+  {
+    "path": "evidence/sui-core-extraction/consumer-ten-source-before/object-inputs.ts",
+    "sha256": "3e79b4b7f0fe8896ca068ecbebb6b2b6798d15581253a2ffbff7db335c6a211e",
+    "bytes": 2231
+  },
+  {
+    "path": "evidence/sui-core-extraction/consumer-ten-source-before/profile-read-step.ts",
+    "sha256": "5cb92ab24d9d9cf2ecfde1fa3054bf4464e52ae364e7852a2fd3c7e91151cacf",
+    "bytes": 822
+  },
+  {
+    "path": "evidence/sui-core-extraction/consumer-ten-source-before/request.ts",
+    "sha256": "bd05820378ad1af616b7bdc37e009b1c6368ff638d6b542fab92b272959c1bc6",
+    "bytes": 1560
+  },
+  {
+    "path": "evidence/sui-core-extraction/consumer-ten-source-before/sui-grpc-compat.ts",
+    "sha256": "872ea5e92d3c5931e7cf7abad2b55ccec245c7e9160c7482e33542b0611b62f2",
+    "bytes": 18637
+  },
+  {
+    "path": "evidence/sui-core-extraction/consumer-ten-source-before/sui-network.ts",
+    "sha256": "a1340afe9fc97b180826d730878222015b6a05ecdbb226c96aad9f8ac8906aa8",
+    "bytes": 203
+  },
+  {
+    "path": "evidence/sui-core-extraction/consumer-ten-source-before/tx-result.ts",
+    "sha256": "4e407919fc199aac953d36cf000b1a328b722139c95c76ab58a5313359b0f48b",
+    "bytes": 3249
+  },
+  {
+    "path": "evidence/sui-core-extraction/consumer-verifier-extra-dependencies.json",
+    "sha256": "e2f839cd9e79ea9eb52cc2de219dc7f083a7cf3c57fbbf5aed0a49c064545e2e",
+    "bytes": 19622
+  },
+  {
+    "path": "evidence/sui-core-extraction/dependency-integrity.json",
+    "sha256": "295fc85a748487317a777ae106de644051a6967212cfcf7f74ac04639d5caa5b",
+    "bytes": 2016
+  },
+  {
+    "path": "evidence/sui-core-extraction/frozen-lock-closure.json",
+    "sha256": "8af99d25c5df91ffde4762ab835f56f9c34efb8836fbd1c2665801035c540bf7",
+    "bytes": 15461
+  },
+  {
+    "path": "evidence/sui-core-extraction/initial-fresh-install/baseline-original-tests.json",
+    "sha256": "be61cb30afd1a9da9a4f505af10dde9c7f64034df43c4ca63064bd15941d6a6d",
+    "bytes": 105070
+  },
+  {
+    "path": "evidence/sui-core-extraction/initial-fresh-install/candidate-original-tests.json",
+    "sha256": "8f454107256a7084e9ddbc61ab47e631d6928241d1eeb29a2e2ef5cec2c83d05",
+    "bytes": 105020
+  },
+  {
+    "path": "evidence/sui-core-extraction/initial-fresh-install/consumer-package-lock.json",
+    "sha256": "6a5ffbee2a237b5563c9371df0684d61636dcf4938a380ffb76c2d04eaf6f8d9",
+    "bytes": 125668
+  },
+  {
+    "path": "evidence/sui-core-extraction/initial-fresh-install/dependency-integrity.json",
+    "sha256": "a1db130c28a7e1fb6c97461472282f768b299c747c4c60a9964d28460a255277",
+    "bytes": 1817
+  },
+  {
+    "path": "evidence/sui-core-extraction/initial-fresh-install/npm-pack.json",
+    "sha256": "3f61e0c9d3f7d4c3371b05680cef3b8b55ba66d7e7744b4ac66a92c6ab742b0f",
+    "bytes": 5844
+  },
+  {
+    "path": "evidence/sui-core-extraction/initial-fresh-install/public-package-tests.json",
+    "sha256": "8691930b447dda764d521e1c1d39ade2e9a88d137e677f054422e140dfb68ac2",
+    "bytes": 99130
+  },
+  {
+    "path": "evidence/sui-core-extraction/initial-fresh-install/soulidity-sui-core-0.0.1.tgz",
+    "sha256": "7199234d14c1a76c6368aaad6e2c1563c955de6c70a3278d5fdf95f0e6eef2d2",
+    "bytes": 52333
+  },
+  {
+    "path": "evidence/sui-core-extraction/initial-fresh-install/sui-core-shrinkwrap.json",
+    "sha256": "2424dce69ff319ea23fc44f045afb36eaf7df0adffbd092d1163fbf5d358c13d",
+    "bytes": 50882
+  },
+  {
+    "path": "evidence/sui-core-extraction/initial-fresh-install/validation-summary.json",
+    "sha256": "cd5cf0c3157486a1097e07d1684fa83e196ba6e320580f167ab8225e5d8db369",
+    "bytes": 3191
+  },
+  {
+    "path": "evidence/sui-core-extraction/integration-guard.json",
+    "sha256": "09d69f3078ee963bffd0fda4b0dc550a2b18e6c1ad54028e1e2220ce22e6d18e",
+    "bytes": 25199
+  },
+  {
+    "path": "evidence/sui-core-extraction/npm-pack.json",
+    "sha256": "6ba1b6f51ded8b8c136e9ab9b5039a24417e6ed6269af2a07b3d9df00702e8f3",
+    "bytes": 5844
+  },
+  {
+    "path": "evidence/sui-core-extraction/npm-pack.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "evidence/sui-core-extraction/original-test-imports.diff",
+    "sha256": "9ee3fb41a49e60a46e079f9644a73bd3bb2eb198849a6ee476083797b1bc6a06",
+    "bytes": 4990
+  },
+  {
+    "path": "evidence/sui-core-extraction/original-test-shas.json",
+    "sha256": "be0f007317f78d89f00b518689bcdb7e130fd768c520ed3baef4190d0a7cf666",
+    "bytes": 1626
+  },
+  {
+    "path": "evidence/sui-core-extraction/pack/soulidity-sui-core-0.0.1.tgz",
+    "sha256": "eb49086bc5e105a1c877617b004203ee2944926916171ccdb7cf564523fc1e72",
+    "bytes": 54355
+  },
+  {
+    "path": "evidence/sui-core-extraction/package-build.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "evidence/sui-core-extraction/package-frozen-ci.log",
+    "sha256": "7a301cecad473da64908efedd293fbe4024b7a717808806881b0486d623e8f44",
+    "bytes": 28
+  },
+  {
+    "path": "evidence/sui-core-extraction/package-install.log",
+    "sha256": "66ef3ce63b93d319620638c52bf3dca39f713d7f680bca486c172ad508691926",
+    "bytes": 26
+  },
+  {
+    "path": "evidence/sui-core-extraction/package-shrinkwrap.log",
+    "sha256": "f48171672d5df60abaabb5da2d83c786daf0d75f33baf6f1c95c500d43185bb0",
+    "bytes": 69
+  },
+  {
+    "path": "evidence/sui-core-extraction/packed-consumer-install.log",
+    "sha256": "e883d366cb3b941bdae5d7fdb80575a781b792c328469a413336bc688a879865",
+    "bytes": 25
+  },
+  {
+    "path": "evidence/sui-core-extraction/packed-public-types.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "evidence/sui-core-extraction/packed-runtime-exports.json",
+    "sha256": "72f82129a8e8c403d40a1a576f6648ac6481769163796b95b0e5cb506037ca7f",
+    "bytes": 3529
+  },
+  {
+    "path": "evidence/sui-core-extraction/production-consumer-resolution.json",
+    "sha256": "98e24eb13caf841aa1216d7ebfca86db74fa2dee2832a9176570365dff2898de",
+    "bytes": 34708
+  },
+  {
+    "path": "evidence/sui-core-extraction/public-package-tests.json",
+    "sha256": "7843ffbd183e76b3b3fb70530dc9d7dc6130808a9b08a69be78f2149f819eb5e",
+    "bytes": 99054
+  },
+  {
+    "path": "evidence/sui-core-extraction/public-package-tests.log",
+    "sha256": "2525bc04fe5a3353724b52a1c4aa4aff826ccf0c12855b12000fc7ed0655b09d",
+    "bytes": 96
+  },
+  {
+    "path": "evidence/sui-core-extraction/resolution-proof.log",
+    "sha256": "8cca9d6770b0b42dc8a91eb971843a724e744cdcae5b3ea98c4438f66e4c54f6",
+    "bytes": 89
+  },
+  {
+    "path": "evidence/sui-core-extraction/source-authority-negative-cases.json",
+    "sha256": "d0f3df9b4dcf3f069bf708589d5ca9dee9351dab7eb15d429ee427c03a115302",
+    "bytes": 2648
+  },
+  {
+    "path": "evidence/sui-core-extraction/source-authority-roundtrip.json",
+    "sha256": "c7a1d4c89b6ece0319ef430befc967e066913be5f2c43b3b100551ed19a6be3c",
+    "bytes": 18612
+  },
+  {
+    "path": "evidence/sui-core-extraction/source-import.json",
+    "sha256": "04131fe0ad7e1f1c5b79b78a4173bf37ad569a5f1ba859fa1538fea0e174a624",
+    "bytes": 9664
+  },
+  {
+    "path": "evidence/sui-core-extraction/standalone-runner-final/build.stderr",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "evidence/sui-core-extraction/standalone-runner-final/build.stdout",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "evidence/sui-core-extraction/standalone-runner-final/evidence.json",
+    "sha256": "a543a9626427d2f43ada5cd8bba4185e11b844ee7edec96acff8965a3c6ab17a",
+    "bytes": 3760
+  },
+  {
+    "path": "evidence/sui-core-extraction/standalone-runner-final/npm-ci.stderr",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "evidence/sui-core-extraction/standalone-runner-final/npm-ci.stdout",
+    "sha256": "a985b2617133c9ae21b847d4105ee98ca3d52c0e64114ccb72cdbedc7b4782b7",
+    "bytes": 28
+  },
+  {
+    "path": "evidence/sui-core-extraction/standalone-runner-final/pack.stderr",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "evidence/sui-core-extraction/standalone-runner-final/pack.stdout",
+    "sha256": "6ba1b6f51ded8b8c136e9ab9b5039a24417e6ed6269af2a07b3d9df00702e8f3",
+    "bytes": 5844
+  },
+  {
+    "path": "evidence/sui-core-extraction/standalone-runner-final/soulidity-sui-core-0.0.1.tgz",
+    "sha256": "eb49086bc5e105a1c877617b004203ee2944926916171ccdb7cf564523fc1e72",
+    "bytes": 54355
+  },
+  {
+    "path": "evidence/sui-core-extraction/standalone-runner-final/test.stderr",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "evidence/sui-core-extraction/standalone-runner-final/test.stdout",
+    "sha256": "b671c2ad9f274656097fd5b149c2b0b6d6ca95955c948713c86063b9a8e98ebe",
+    "bytes": 113
+  },
+  {
+    "path": "evidence/sui-core-extraction/standalone-runner-final/tests.json",
+    "sha256": "a749015629baaed16e43ca8ff7acf784987f2b3e21f41bd56649c2b8a72a4f36",
+    "bytes": 99052
+  },
+  {
+    "path": "evidence/sui-core-extraction/validation-summary.json",
+    "sha256": "3fb76690ef32049e76621416c347b663479455e87a84e53d74f1937b83212540",
+    "bytes": 4184
+  },
+  {
+    "path": "packages/sui-core/README.md",
+    "sha256": "8584060fb356c7d78685afba2963cf09fa78a1e414754b0643f7247de13d9571",
+    "bytes": 405
+  },
+  {
+    "path": "packages/sui-core/dist/chain-event-discovery.d.ts",
+    "sha256": "711b9f629366ce35f6c78ce5c3d26f2271821e0b496a4261b3cc75b59cfee21e",
+    "bytes": 3006
+  },
+  {
+    "path": "packages/sui-core/dist/chain-event-discovery.d.ts.map",
+    "sha256": "64431851dba4c385cd550bf87bbef20c8bb4ce310ae1340c2b464d634c1de2f4",
+    "bytes": 1771
+  },
+  {
+    "path": "packages/sui-core/dist/chain-event-discovery.js",
+    "sha256": "85ec4f6f5be1356c7f0a9d3d29a2682bdc3e303521b4716b86e059d5eb2d9cd4",
+    "bytes": 16453
+  },
+  {
+    "path": "packages/sui-core/dist/chain-event-discovery.js.map",
+    "sha256": "5f9616dba79328f37861cafa0b92a511fdbd5c86dc852fc4e5bcea77bb108088",
+    "bytes": 13893
+  },
+  {
+    "path": "packages/sui-core/dist/chain-object-discovery.d.ts",
+    "sha256": "48b7b8e2e7160f92ae58dfc55258f9df5c71392e1468dd619cf2043c5c5aa4ab",
+    "bytes": 2552
+  },
+  {
+    "path": "packages/sui-core/dist/chain-object-discovery.d.ts.map",
+    "sha256": "4d85d315a2eac0ce3d9c755906f94631a4e6a8bcb66ebf0d046c8177dbaee971",
+    "bytes": 1736
+  },
+  {
+    "path": "packages/sui-core/dist/chain-object-discovery.js",
+    "sha256": "5928bd94e1ba71d74a9127fc32d5138b6476fe171c6d46d31c6e1d37047dacc2",
+    "bytes": 14303
+  },
+  {
+    "path": "packages/sui-core/dist/chain-object-discovery.js.map",
+    "sha256": "44fb8a4a85e655895ff00367817204c960eeaf93926eaa623b243d997bee39e7",
+    "bytes": 12762
+  },
+  {
+    "path": "packages/sui-core/dist/coin-selection.d.ts",
+    "sha256": "b01485bebf9079eba6599c9ac0a1877dd1b72313d4605ef4530fc0126f195970",
+    "bytes": 801
+  },
+  {
+    "path": "packages/sui-core/dist/coin-selection.d.ts.map",
+    "sha256": "52d75779104616b13df109f65b59e96d24270f21a239de3c0b8ece9963f0449f",
+    "bytes": 834
+  },
+  {
+    "path": "packages/sui-core/dist/coin-selection.js",
+    "sha256": "9c0ec3a78a34be1bc0905c1b1062f556e8c249ebdc8326d4e48a1dc65eb728d0",
+    "bytes": 2719
+  },
+  {
+    "path": "packages/sui-core/dist/coin-selection.js.map",
+    "sha256": "013daaf86af0dc7f0f340dd1a0c6b879410258d2da9ada25d225df9852808330",
+    "bytes": 2619
+  },
+  {
+    "path": "packages/sui-core/dist/format.d.ts",
+    "sha256": "95eefec2c92bd8a39ff5ccd72a02ad7410d329598b88c4333c24494e7bcf47e5",
+    "bytes": 322
+  },
+  {
+    "path": "packages/sui-core/dist/format.d.ts.map",
+    "sha256": "3925bca5c37215706eb1ae0bc3018815a9a6efa20c497c11fcc571182f94b922",
+    "bytes": 368
+  },
+  {
+    "path": "packages/sui-core/dist/format.js",
+    "sha256": "279d80565b1d89b2a4cc71b33fa3a29a255e7aaa65f3d77f211a8d010a96f8cc",
+    "bytes": 1318
+  },
+  {
+    "path": "packages/sui-core/dist/format.js.map",
+    "sha256": "1ae1b9a4920e16ba10c8363285087495d9160915a653616465d254c78a604ba8",
+    "bytes": 1443
+  },
+  {
+    "path": "packages/sui-core/dist/object-inputs.d.ts",
+    "sha256": "4e029427e283fc29b8f2324fbc53e5e9854b2589786464a6dff8205cfb593a1f",
+    "bytes": 682
+  },
+  {
+    "path": "packages/sui-core/dist/object-inputs.d.ts.map",
+    "sha256": "6c41887cb4cf2c85bbc3b5a5ce000ccfe482fe7bc8003b02c0fd7c437382546d",
+    "bytes": 709
+  },
+  {
+    "path": "packages/sui-core/dist/object-inputs.js",
+    "sha256": "487d9766cd061d511ff5c64169723f00ddf9cd844a41d45161354e18a835f96b",
+    "bytes": 1891
+  },
+  {
+    "path": "packages/sui-core/dist/object-inputs.js.map",
+    "sha256": "0dad38b41f895a17521cd3210ffc3a55110ed3ed432a750fc584bdec76ac8dc9",
+    "bytes": 2265
+  },
+  {
+    "path": "packages/sui-core/dist/profile-read-step.d.ts",
+    "sha256": "56687c0ae206676e3cbed220ed58d9ba7b13cc10b25b7c3e7f375215ea53f8db",
+    "bytes": 339
+  },
+  {
+    "path": "packages/sui-core/dist/profile-read-step.d.ts.map",
+    "sha256": "ab334de05c04bf8ca7394b84fb535d404f544319816472a35536af872116d0a8",
+    "bytes": 308
+  },
+  {
+    "path": "packages/sui-core/dist/profile-read-step.js",
+    "sha256": "17fef4311e47e41f46c89b039bf3bba0decaf6546b71bac7bd941694d5448042",
+    "bytes": 946
+  },
+  {
+    "path": "packages/sui-core/dist/profile-read-step.js.map",
+    "sha256": "2a86a8e5f74639cd832f46da73bbae993377e1ddb4649ad09f956426f5dc6868",
+    "bytes": 987
+  },
+  {
+    "path": "packages/sui-core/dist/request.d.ts",
+    "sha256": "e87f7670dec53d0a8d6b4cc9f9b231b9d989f95dbc23f47463db563b42434467",
+    "bytes": 424
+  },
+  {
+    "path": "packages/sui-core/dist/request.d.ts.map",
+    "sha256": "2b953f0a49c923122ff0daf823aa84a492c8e3b70001d85345233d9c5fd8f49e",
+    "bytes": 433
+  },
+  {
+    "path": "packages/sui-core/dist/request.js",
+    "sha256": "696216c9605567e525f60c745fc600e397738e24903525a8d9437e2b3f5e626d",
+    "bytes": 1537
+  },
+  {
+    "path": "packages/sui-core/dist/request.js.map",
+    "sha256": "1baf18a5f9805faa13a5c28bf6a63628c0a2c7e2d44cd2034d26a65391ecc6b5",
+    "bytes": 1623
+  },
+  {
+    "path": "packages/sui-core/dist/sui-grpc-compat.d.ts",
+    "sha256": "de7aa3bd37012c21ab96b80f0f17a4e799a76da06266dea76d4bfa367c6f4c7a",
+    "bytes": 16386
+  },
+  {
+    "path": "packages/sui-core/dist/sui-grpc-compat.d.ts.map",
+    "sha256": "99882ba7b505be526cbebc37d485044670c595bf45b3bbb911ab7fd79a3c372e",
+    "bytes": 4025
+  },
+  {
+    "path": "packages/sui-core/dist/sui-grpc-compat.js",
+    "sha256": "f33113cacbc35ca20b588e3db25571866ae01550b9e7cb92ed6943a6d2685a2b",
+    "bytes": 16141
+  },
+  {
+    "path": "packages/sui-core/dist/sui-grpc-compat.js.map",
+    "sha256": "6c3da4d600ebe050f0e5aae1e5ade6edb28b57043ab3611b5f2bc5eba97b9e58",
+    "bytes": 14601
+  },
+  {
+    "path": "packages/sui-core/dist/sui-network.d.ts",
+    "sha256": "d97cbf9c0ce7ca13a0a3b022496963797b121294c3fdc561f052dffcb99de94b",
+    "bytes": 196
+  },
+  {
+    "path": "packages/sui-core/dist/sui-network.d.ts.map",
+    "sha256": "4c2fd04bab0d605d1e83eaf25f123f4d0b9d70096f65e4d36a81bd7203e2d834",
+    "bytes": 240
+  },
+  {
+    "path": "packages/sui-core/dist/sui-network.js",
+    "sha256": "8777e2c44059bdc113f6b2d2d69d1cb0926d58c27997b778e789677be2a33f82",
+    "bytes": 140
+  },
+  {
+    "path": "packages/sui-core/dist/sui-network.js.map",
+    "sha256": "93620ea0067ae25e9d186fb1a79b150026f3013e0bd7ccf5d7768a9b6403859f",
+    "bytes": 228
+  },
+  {
+    "path": "packages/sui-core/dist/tx-result.d.ts",
+    "sha256": "aa88117980b0b610311ccce78d5dfc89e7f447b4596ff8591cafb3a7caba9c0e",
+    "bytes": 1319
+  },
+  {
+    "path": "packages/sui-core/dist/tx-result.d.ts.map",
+    "sha256": "5b256708c02c0ed6944c43fe85235e3ff32a20190d3597e2001c7b56e4ca5acd",
+    "bytes": 1310
+  },
+  {
+    "path": "packages/sui-core/dist/tx-result.js",
+    "sha256": "adede118ce44a77cd3ea95c76259bddd79b9924a45d9369b9659e34af596bafe",
+    "bytes": 2580
+  },
+  {
+    "path": "packages/sui-core/dist/tx-result.js.map",
+    "sha256": "ba97017319e1c32320197328ce57b76dbd788fd6a5621ccc854063d124c184cd",
+    "bytes": 2493
+  },
+  {
+    "path": "packages/sui-core/npm-shrinkwrap.json",
+    "sha256": "73f0e0074765332ff9518786ecf0af91ba7bb92e52cdd7a746786e0bacd623e7",
+    "bytes": 60279
+  },
+  {
+    "path": "packages/sui-core/package.json",
+    "sha256": "2c0922b5363615732d8615543b523d4ac4c010402b2a3ae20e2801371c0fa261",
+    "bytes": 2261
+  },
+  {
+    "path": "packages/sui-core/src/chain-event-discovery.ts",
+    "sha256": "ce7c1459a0d41fa131922b61f1981119bc959f0281aa30a1a65a007adcc6d4fc",
+    "bytes": 17352
+  },
+  {
+    "path": "packages/sui-core/src/chain-object-discovery.ts",
+    "sha256": "ad994bae13816b4fa664de0c90c248162e9f1a3a0acedc3b128dc91b6a3673ac",
+    "bytes": 14969
+  },
+  {
+    "path": "packages/sui-core/src/coin-selection.ts",
+    "sha256": "e12d46df8ab16ba09cfb463b7296564bc8572b0cec3f30d2aea4e51046ed2205",
+    "bytes": 2932
+  },
+  {
+    "path": "packages/sui-core/src/format.ts",
+    "sha256": "d893291bf00e9df8002a9c150e912c7c8919eef02eb228f8b7d34afbc0a32178",
+    "bytes": 1355
+  },
+  {
+    "path": "packages/sui-core/src/object-inputs.ts",
+    "sha256": "3e79b4b7f0fe8896ca068ecbebb6b2b6798d15581253a2ffbff7db335c6a211e",
+    "bytes": 2231
+  },
+  {
+    "path": "packages/sui-core/src/profile-read-step.ts",
+    "sha256": "5cb92ab24d9d9cf2ecfde1fa3054bf4464e52ae364e7852a2fd3c7e91151cacf",
+    "bytes": 822
+  },
+  {
+    "path": "packages/sui-core/src/request.ts",
+    "sha256": "bd05820378ad1af616b7bdc37e009b1c6368ff638d6b542fab92b272959c1bc6",
+    "bytes": 1560
+  },
+  {
+    "path": "packages/sui-core/src/sui-grpc-compat.ts",
+    "sha256": "872ea5e92d3c5931e7cf7abad2b55ccec245c7e9160c7482e33542b0611b62f2",
+    "bytes": 18637
+  },
+  {
+    "path": "packages/sui-core/src/sui-network.ts",
+    "sha256": "a1340afe9fc97b180826d730878222015b6a05ecdbb226c96aad9f8ac8906aa8",
+    "bytes": 203
+  },
+  {
+    "path": "packages/sui-core/src/tx-result.ts",
+    "sha256": "4e407919fc199aac953d36cf000b1a328b722139c95c76ab58a5313359b0f48b",
+    "bytes": 3249
+  },
+  {
+    "path": "packages/sui-core/tests/new-web/chain-event-discovery.test.ts",
+    "sha256": "45da293eda191fc86e13c7fcaa4749bd23c75a06a897da44f6dd1a7ccdac65dc",
+    "bytes": 29971
+  },
+  {
+    "path": "packages/sui-core/tests/new-web/chain-object-discovery.test.ts",
+    "sha256": "00b6d8403a23d3b4107dedd948f6a0b5bc453fd601561fa1284676f89c395557",
+    "bytes": 22691
+  },
+  {
+    "path": "packages/sui-core/tests/new-web/object-inputs.test.ts",
+    "sha256": "532170fbeb24ec44ff8efce3bc8f89cc8ac77b0aeb86b603aa12047193d314d8",
+    "bytes": 1989
+  },
+  {
+    "path": "packages/sui-core/tests/new-web/sui-grpc-compat.test.ts",
+    "sha256": "5622f4193933b79cef980d5711a7e08bb08f7026b07b213d661fc5834875e442",
+    "bytes": 5392
+  },
+  {
+    "path": "packages/sui-core/tests/new-web/wallet-sign-result.test.ts",
+    "sha256": "fcf847864b74669a8a48e821fc196decfb0a901690828144faa909dc66a04a2a",
+    "bytes": 4564
+  },
+  {
+    "path": "packages/sui-core/tests/no-network.ts",
+    "sha256": "5c438c4374e628d1093d96ae15c122493567215bc96f60f9200841c6ca47aca1",
+    "bytes": 129
+  },
+  {
+    "path": "packages/sui-core/tests/utility-boundaries.test.ts",
+    "sha256": "70f5eacb29db11af4f5eea1a71e39ae2fcc9d9b6fd9bdde3047f32907464def7",
+    "bytes": 4374
+  },
+  {
+    "path": "packages/sui-core/tests/web/sui-network.test.ts",
+    "sha256": "550459de10e459b777771f301d867e20ea42c8f31af3e9236156e52cc6fcf16d",
+    "bytes": 557
+  },
+  {
+    "path": "packages/sui-core/tsconfig.json",
+    "sha256": "ab7fe22f57a6f145b2545a9384989ed63ab9963b762901196c254337b12f1540",
+    "bytes": 529
+  },
+  {
+    "path": "packages/sui-core/vitest.config.ts",
+    "sha256": "bbbcaf0fc254a5fb65ac29ed41d1cbc0c425c3fc5fae9d6ce759c1e64bfeb6b8",
+    "bytes": 195
+  },
+  {
+    "path": "packages/sui-core/web/lib/hooks/use-wallet-sign.ts",
+    "sha256": "30268585a52ac163cc17fecacf06268b5f4cb32da9a50241677edcd90c12dc1f",
+    "bytes": 4999
+  },
+  {
+    "path": "tools/sui-core-extraction/create-actual-source-context.py",
+    "sha256": "b33e49353fc9dff9486ca3388748f7d1c8251ed5de2ec71a5b6fe0888008febc",
+    "bytes": 6078
+  },
+  {
+    "path": "tools/sui-core-extraction/source-authority.py",
+    "sha256": "ab6974f23e7f96c82789a3a6e057a408bbc773bd3b5607252c8a024e162c9069",
+    "bytes": 4304
+  },
+  {
+    "path": "tools/sui-core-extraction/verify-package.py",
+    "sha256": "6232f4323b49fbe87514d0e18c2f90d640d125d48d8f5c69f1b0fd2f573d8861",
+    "bytes": 3304
+  }
+]
