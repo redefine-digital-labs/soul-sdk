@@ -1,0 +1,8 @@
+{
+  "finding": "SDK-EVIDENCE-01",
+  "initial_review": "Targeted tsc success was writer-reported without saved exit receipt",
+  "resolution": "Root executed targeted tsc independently using existing pinned isolated dependencies; actual exit0, raw output hash and receipt saved",
+  "status": "RESOLVED_FOR_TARGETED_TYPECHECK_ONLY",
+  "receipt": "sdk-targeted-tsc.json",
+  "remaining": "Candidate still NOT_ACTIVATED/NOT_INSTALL_READY; full SDK/UI integration, chain PTBs and release acceptance not covered."
+}
