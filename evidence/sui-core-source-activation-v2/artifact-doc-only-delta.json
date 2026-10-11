@@ -1,0 +1,21 @@
+{
+  "status": "PASS_EXACT_MEMBERS_EXCEPT_README",
+  "upstream_archive_sha256": "2784bde336661c37ddac7bdf90789f012e01fad1deab244e32d5883d534f094f",
+  "staged_archive_sha256": "1a9da021fb77946241cf08062cc36b521041e158c55071b6907d57b02f5436fe",
+  "regular_members": 58,
+  "diff": {
+    "package/README.md": {
+      "before": {
+        "sha256": "8584060fb356c7d78685afba2963cf09fa78a1e414754b0643f7247de13d9571",
+        "mode": 420,
+        "size": 405
+      },
+      "after": {
+        "sha256": "a96c9771a11b3c64e50976ddd2a1e19d2a1b438c97ffbc9c49590f60551583b6",
+        "mode": 420,
+        "size": 748
+      }
+    }
+  },
+  "scope": "No src, JS, d.ts, maps, shrinkwrap or package metadata artifact bytes changed"
+}

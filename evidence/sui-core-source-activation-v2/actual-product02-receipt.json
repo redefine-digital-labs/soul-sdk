@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "/usr/bin/sandbox-exec",
+    "-f",
+    "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/shared-sui-source-activation-v1/sandbox-actual02.sb",
+    "python3",
+    "scripts/ci.py",
+    "--product"
+  ],
+  "cwd": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk",
+  "exit_code": 0,
+  "stdout_sha256": "84e64fdb771dc443f507563ba963d56124839de2944957345ea80739d44191a4",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "initial_failure": "Config bundler cache path .vite-temp missing from output-only sandbox; no source/test change"
+}

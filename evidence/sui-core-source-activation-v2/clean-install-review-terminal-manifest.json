@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "status": "INDEPENDENT_SCOPED_PASS_TERMINAL",
+  "root": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/shared-sui-clean-install-readonly-review-v1",
+  "created_utc": "2026-10-11T07:44:00.247694+00:00",
+  "ordinary_files_count": 11,
+  "files": {
+    "REPORT.md": {
+      "sha256": "59eec2145aec6ca695a3c3931df02dd400be92719e7997f6228ecaaa9fd86b9c",
+      "bytes": 6938
+    },
+    "archive-independent-checks.json": {
+      "sha256": "c1dd3dec2fdcd4e73e896eb2702140dbb1869a831a678de0151df7325916ae34",
+      "bytes": 33634
+    },
+    "dependency-graph-input.json": {
+      "sha256": "df8721151a0aa832a07a8bebe034e24aade4b9e86cbb54f69f2922a0ede7d2e5",
+      "bytes": 258152
+    },
+    "freeze.py": {
+      "sha256": "521dd3545ecf5a68588a006f71a3d8b2ab799a1dae946390697afaa649d6ee09",
+      "bytes": 1111
+    },
+    "input-pinmanifest.json": {
+      "sha256": "04780e1a79b2c8cee82ae31383e28a3c41241bd7b0b4c5735780bda6e4eced59",
+      "bytes": 2695071
+    },
+    "probe.mjs": {
+      "sha256": "d37fbedad6bc054b854d36d1b5896bcb0097a71d62e5be2543d1ce5c4651eaaf",
+      "bytes": 2165
+    },
+    "probe.stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "probe.stdout.log": {
+      "sha256": "264b36e51a7cabf3e6feb974021e60c4d73e29de1de6fe646ff0721efe0cd0ff",
+      "bytes": 140
+    },
+    "result.json": {
+      "sha256": "4ceb79427eb5345d28c3cb4336441a15412eb1fb1492e6fbd2d2c2e788738441",
+      "bytes": 2108
+    },
+    "review.py": {
+      "sha256": "9430eaa6e71f6bec1e4d81d5a92227e624846618589d0da24a928ecb67c266ba",
+      "bytes": 18688
+    },
+    "sandbox-review.sb": {
+      "sha256": "a0fa48937bfba91d2ccb48b913fc3d97de6b925bd20b9ebaac106953d0709552",
+      "bytes": 282
+    }
+  },
+  "manifest_excludes": "this manifest only",
+  "source_activation_readiness": "PINNED_PURE_PACKAGE_ONLY",
+  "business_activation_readiness": false,
+  "actual_activation": false,
+  "release": false,
+  "deploy": false,
+  "full_goal": "ACTIVE"
+}

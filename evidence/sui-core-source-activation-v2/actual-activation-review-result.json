@@ -1,0 +1,140 @@
+{
+  "status": "SCOPED_PASS",
+  "findings": [],
+  "scope": "Actual local pure Sui utility source integration only",
+  "frozen_root_manifest_sha256": "6cdf824a136c7f7751215b587ff3c2f4b6f8c2dace6fc7da5af073d4ab9d0837",
+  "frozen_root_result_sha256": "01ecdd42b0328de9320e81485b10d4321989a13ae9ed1f06f69fdfd99a80c909",
+  "external_input_bytes_preserved": true,
+  "actual_source_activation": "SCOPED_PASS",
+  "business_activation_readiness": "NOT_ESTABLISHED",
+  "qualified_financial_security_audit": false,
+  "npm_publication": false,
+  "chain_activation": false,
+  "independent_module_release": false,
+  "full_goal": "ACTIVE",
+  "owners": "UNCHANGED",
+  "existing_records": [
+    "DOF-001",
+    "P01",
+    "P09"
+  ],
+  "handbook": {
+    "version": "1.0",
+    "sections": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      9,
+      12
+    ]
+  },
+  "stage": "Test / independent scoped verification",
+  "checks": {
+    "frozen_manifests": {
+      "root": 1166,
+      "upstream": 278,
+      "fresh_review": 11
+    },
+    "prior_review_guard_deltas": {
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/README.md": {
+        "before": "8584060fb356c7d78685afba2963cf09fa78a1e414754b0643f7247de13d9571",
+        "after": "a96c9771a11b3c64e50976ddd2a1e19d2a1b438c97ffbc9c49590f60551583b6"
+      },
+      "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/package.json": {
+        "before": "2c0922b5363615732d8615543b523d4ac4c010402b2a3ae20e2801371c0fa261",
+        "after": "ed8a4dc3f4ccc95fd9eae6a8d3feb1228a8ffb06595f998a97d549733f2c9557"
+      }
+    },
+    "identity": {
+      "selected": 39,
+      "deltas": 10,
+      "sdk_inputs": 105,
+      "authority_links": 10,
+      "original_package_inputs": 22,
+      "dist_retained": 40,
+      "helper_dist": 4,
+      "original_checker_preserved": true
+    },
+    "tests": {
+      "original_identities_exact": 277,
+      "additive": 10,
+      "raw_actual_passed": 287,
+      "skips_todos_failures": 0,
+      "full_suite_rerun": false
+    },
+    "artifact": {
+      "members": 58,
+      "unchanged_members": 57,
+      "delta": {
+        "package/README.md": {
+          "before": {
+            "sha256": "8584060fb356c7d78685afba2963cf09fa78a1e414754b0643f7247de13d9571",
+            "mode": 420,
+            "size": 405
+          },
+          "after": {
+            "sha256": "a96c9771a11b3c64e50976ddd2a1e19d2a1b438c97ffbc9c49590f60551583b6",
+            "mode": 420,
+            "size": 748
+          }
+        }
+      },
+      "current_sha256": "1a9da021fb77946241cf08062cc36b521041e158c55071b6907d57b02f5436fe",
+      "upstream_sha256": "2784bde336661c37ddac7bdf90789f012e01fad1deab244e32d5883d534f094f"
+    },
+    "profile_negative_controls": {
+      "changed-helper": "Frozen source/test/config mismatch: src/move-type-tag.ts",
+      "extra-business-source": "Exact eleven-source ownership mismatch",
+      "root-export": "Public export profile mismatch",
+      "changed-original-test": "Frozen source/test/config mismatch: tests/utility-boundaries.test.ts",
+      "same-bytes-foreign-link": "Missing regular profile file: src/move-type-tag.ts"
+    },
+    "metadata": {
+      "owners_permissions_milestones_maps_preserved": true,
+      "known_release_units": 1,
+      "unit_publication": "unpublished",
+      "unit_acceptance": "pending",
+      "overall_release": "pending",
+      "record_stage": "Test",
+      "record_status": "in_progress"
+    },
+    "registered_product": {
+      "build_test_pack": "PASS",
+      "raw_commands": 3,
+      "maintenance_contract": "passed",
+      "release_materials": "not_checked"
+    },
+    "fresh_source": {
+      "dist_initially_absent": true,
+      "input_profile_passed_before_build": true,
+      "bounded_build": "PASS",
+      "exact_pack": "PASS",
+      "public_probe": {
+        "status": "PASS",
+        "publicSubpaths": 11,
+        "malformedRejections": 5,
+        "deepLevels": 300
+      },
+      "dependencies": "existing pinned node_modules read-only link; no install",
+      "network": "denied"
+    },
+    "recovery": {
+      "retained_control02_verified": true,
+      "independent_own_restore": true,
+      "independent_own_reapply": true,
+      "later_changed_source_refuses_all_writes": true,
+      "actual_repository_rolled_back": false,
+      "chain_rollback": false
+    },
+    "preceding_failures": {
+      "preparation_generated_dist": "retained and corrected",
+      "stage_artifact_README": "retained; exact README-only delta pinned",
+      "actual_cache_vite_temp": "retained; exact sandbox cache permission corrected",
+      "assertions_budgets": "unchanged"
+    }
+  },
+  "created_utc": "2026-10-11T07:59:19.150667+00:00"
+}

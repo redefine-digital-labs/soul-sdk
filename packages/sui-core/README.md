@@ -1,5 +1,7 @@
 # @soulidity/sui-core
 
-Unpublished candidate. Ten explicit utility subpaths; no root export or business barrel. Sources retain their original bytes and public API. This package does not define a Standard Soul BCS or migrate Maker/Market/Content operations. Caller-supplied signing boundaries remain unchanged.
+Local unpublished pure Sui utility package with eleven explicit subpaths. The ten original sources and APIs retain their bytes. The additive `move-type-tag` helper validates the supported nested struct/vector tag grammar and accepts only Sui ASCII whitespace; vertical tabs are rejected.
 
-Build with the pinned npm shrinkwrap. Source ownership integration is coordinated separately.
+Use the pinned shrinkwrap and registered `scripts/verify_sui_core.py` check. Its explicit v2 source/export/test profile preserves the original ten-source verifier as historical evidence. The reviewed archive identity is pinned.
+
+This package carries no business state, deployment IDs or signing authority. Business adapter activation, full UI journeys, chain publication, npm release and whole-module release acceptance remain pending.

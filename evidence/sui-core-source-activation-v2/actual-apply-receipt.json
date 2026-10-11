@@ -1,0 +1,66 @@
+{
+  "operation": "apply",
+  "repository": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk",
+  "approval_sha256": "84de733d5906050dda80d71b92ee628314b718a0efd01f9bbae0f6abde768168",
+  "changes": [
+    {
+      "path": "module.json",
+      "before_sha256": "547d392c3a658412cfdf3f506dc19166aa5689da06020c84e84729f2fd25e626",
+      "after_sha256": "e8c4d9884f3beac2e65022c04368eefc21eea3f36a85b4d2fa15b90cfd69559b"
+    },
+    {
+      "path": "packages/sui-core/README.md",
+      "before_sha256": "8584060fb356c7d78685afba2963cf09fa78a1e414754b0643f7247de13d9571",
+      "after_sha256": "a96c9771a11b3c64e50976ddd2a1e19d2a1b438c97ffbc9c49590f60551583b6"
+    },
+    {
+      "path": "packages/sui-core/package.json",
+      "before_sha256": "2c0922b5363615732d8615543b523d4ac4c010402b2a3ae20e2801371c0fa261",
+      "after_sha256": "ed8a4dc3f4ccc95fd9eae6a8d3feb1228a8ffb06595f998a97d549733f2c9557"
+    },
+    {
+      "path": "packages/sui-core/src/move-type-tag.ts",
+      "before_sha256": null,
+      "after_sha256": "3d272633dcb5892f87381baa07603548f1d5bd1271b99e997a2cf8da0ef66f17"
+    },
+    {
+      "path": "packages/sui-core/tests/ascii-whitespace.test.ts",
+      "before_sha256": null,
+      "after_sha256": "dda2361af88fa5f1ed652a0b154e90bd17757944fb52ff518e16b8c1dbc696f6"
+    },
+    {
+      "path": "packages/sui-core/tests/move-type-tag.test.ts",
+      "before_sha256": null,
+      "after_sha256": "c328d3971c510024145aa95df5d20a3c3fb7136e7bddfd8028a7f00bbb509862"
+    },
+    {
+      "path": "scripts/verify_sui_core.py",
+      "before_sha256": "490c521741dc4c47dd112eb19dddecafede7941140556fa141ee4e5834fa403e",
+      "after_sha256": "17f675af84d44cd988522edc73cce7ff5fa5dbdc6ec2a7aaf0495799073d090f"
+    },
+    {
+      "path": "tools/sui-core-extraction/source-profile-v2.json",
+      "before_sha256": null,
+      "after_sha256": "b35fe5ef1a227eea90b114b4bdac670210db2ffeef5a1171463b8b8495d913f4"
+    },
+    {
+      "path": "tools/sui-core-extraction/verify-package-v2.py",
+      "before_sha256": null,
+      "after_sha256": "3538613a20f774bf05cdbe16e3759c69a8e8829094c7cd4044f5d20fabe2a693"
+    }
+  ],
+  "guards": {
+    "actual_sdk105_unchanged": true,
+    "original_ten_links_unchanged": true,
+    "primary_current_unchanged": true,
+    "historical_verifier_unchanged": true
+  },
+  "limits": "Pure package source only; business adapters, contracts and chain unactivated",
+  "status": "PASS_LOCAL_SOURCE_APPLY",
+  "guards_after": {
+    "actual_sdk105_unchanged": true,
+    "original_ten_links_unchanged": true,
+    "primary_current_unchanged": true,
+    "historical_verifier_unchanged": true
+  }
+}

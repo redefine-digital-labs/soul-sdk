@@ -52,8 +52,8 @@
   },
   "artifact_state": {
     "repository_creation": "public_remote_created; source_checkpoint_pushed_and_verified",
-    "source_migration": "10 pure Sui files active-source; remaining95 original SDK business inputs retained",
-    "build": "Actual independent sui-core npm ci/build277/test/pack and original300/types passed; source cutover independently checked",
+    "source_migration": "10 original pure Sui source links retained; additive move-type-tag helper has sole source ownership here; business adapters retained",
+    "build": "Actual registered eleven-source package check287/build/pack PASS; fresh package+consumer installs and133 consumer tests independently reviewed; actual source activation independent review pending; original UI/business/chain release remains unverified",
     "runtime_acceptance": "not_run: full wallet/UI/contract journeys pending",
     "independent_deployment": "not_verified",
     "remote_ci_execution": "not_run",
@@ -452,7 +452,7 @@
         "original_list_url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C7JBQ5JF6",
         "owner_ref": "Codex execution/integration for this task; domain responsibility: FLUX+LUQI (role allocation, not an indication that an independent session has started)",
         "reviewer_ref": "SENTINEL responsibility / independent review pending; existing product acceptance responsibilities retained",
-        "linked_original_records_historical": "Original M1–M4, S0–S14, DEV-002; reference BUG005/006/044. The new table does not change original completion statuses."
+        "linked_original_records_historical": "Original M1\u2013M4, S0\u2013S14, DEV-002; reference BUG005/006/044. The new table does not change original completion statuses."
       },
       {
         "id": "DOF.agile.DOF-010",
@@ -463,7 +463,7 @@
         "original_list_url": "https://sega-xya5661.slack.com/lists/T08LQTJFZRS/F0C7JBQ5JF6",
         "owner_ref": "Codex execution/integration for this task; domain responsibility: SABLE+FLUX+HARBOR (role allocation, not an indication that an independent session has started)",
         "reviewer_ref": "SENTINEL responsibility / independent review pending; existing product acceptance responsibilities retained",
-        "linked_original_records_historical": "Original M1–M4, S0–S14, DEV-002; reference BUG005/006/044. The new table does not change original completion statuses."
+        "linked_original_records_historical": "Original M1\u2013M4, S0\u2013S14, DEV-002; reference BUG005/006/044. The new table does not change original completion statuses."
       },
       {
         "id": "DOF.journeys.J08",
@@ -903,9 +903,12 @@
       "evidence/sui-core-extraction/actual-cutover-command.json",
       "evidence/sui-core-extraction/actual-product-ci.json",
       "evidence/sui-core-extraction/actual-post-cutover-verification.json",
-      "evidence/sui-core-extraction/independent-actual-review.json"
+      "evidence/sui-core-extraction/independent-actual-review.json",
+      "evidence/sui-core-source-activation-v2/activation-receipt.json",
+      "evidence/sui-core-source-activation-v2/actual-package-evidence.json"
     ],
     "remaining_exit_criteria": [
+      "Verify actual v2 source activation and exact reviewed artifact; business identities, journeys and independent release remain separate gates",
       "Current source/package/authority/dependencies and acceptance are determined by actual repository evidence",
       "Continue verifying original complete journeys and Release/Deploy/Adopted against the original record"
     ],
@@ -981,7 +984,7 @@
       "version": "1.0",
       "date": "2026-10-06",
       "applicable_sections": [
-        "1–4",
+        "1\u20134",
         "5",
         "9",
         "12"
@@ -989,7 +992,7 @@
       "conditional_sections": [
         "6: funds",
         "7: contracts",
-        "8.3–8.4: Sui/upgrades",
+        "8.3\u20138.4: Sui/upgrades",
         "10: operations"
       ],
       "evidence": [
@@ -1057,7 +1060,19 @@
       "artifact"
     ]
   },
-  "release_units": [],
+  "release_units": [
+    {
+      "id": "sui-core",
+      "kind": "npm",
+      "exact_version": "0.0.1",
+      "source_identity": "tools/sui-core-extraction/source-profile-v2.json@b35fe5ef1a227eea90b114b4bdac670210db2ffeef5a1171463b8b8495d913f4",
+      "artifact_identity": "sha256:1a9da021fb77946241cf08062cc36b521041e158c55071b6907d57b02f5436fe",
+      "upgrade_boundary": "Independent immutable npm artifact consumed by explicit version/integrity; no on-chain UpgradeCap",
+      "publication": "unpublished",
+      "release_acceptance": "pending",
+      "scope": "Pure Sui utility unit only; business subpackages not covered"
+    }
+  ],
   "production_targets": [],
   "ci": {
     "scope": "maintenance_contract_and_sui_core_package",

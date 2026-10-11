@@ -53,6 +53,11 @@
       "types": "./dist/chain-event-discovery.d.ts",
       "import": "./dist/chain-event-discovery.js",
       "default": "./dist/chain-event-discovery.js"
+    },
+    "./move-type-tag": {
+      "types": "./dist/move-type-tag.d.ts",
+      "import": "./dist/move-type-tag.js",
+      "default": "./dist/move-type-tag.js"
     }
   },
   "files": [

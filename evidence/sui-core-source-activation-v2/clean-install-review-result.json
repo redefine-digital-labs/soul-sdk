@@ -1,0 +1,75 @@
+{
+  "status": "SCOPED_PASS",
+  "findings": [],
+  "frozen_manifest_sha256": "0bad15d2a68588d8f9bbb29862fdc0d3f792b64feff1ec0bf78bb940f6e920d0",
+  "frozen_result_sha256": "5340ea61c5bace192c2dbc6a41ac79974181c22d4b1e5ca3c193e8bb4a0490aa",
+  "frozen_regular_members": 1495,
+  "candidate_inputs": 278,
+  "reference_inputs": 107,
+  "observed_external_guards": 316,
+  "historical_guards": {
+    "move": 154,
+    "historical_total": 181,
+    "historical_non_python_match": 180,
+    "python_drift": [
+      "/Users/naoer/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3"
+    ]
+  },
+  "fresh_installs": {
+    "package": 68,
+    "consumer": 30,
+    "registry_cold_cache_misses": {
+      "package": 68,
+      "consumer": 29
+    }
+  },
+  "archive_regularfiles": 4956,
+  "original_assertions_preserved": {
+    "package": 277,
+    "consumer": 121
+  },
+  "package_test_pass": 287,
+  "consumer_test_pass": 133,
+  "full108_tsc": "PASS_FROM_EXACT_FROZEN_RECEIPT",
+  "complete_valid_ptbs": 99,
+  "pack_sha256": "2784bde336661c37ddac7bdf90789f012e01fad1deab244e32d5883d534f094f",
+  "pack_regularfiles": 58,
+  "probe": {
+    "status": "PASS",
+    "public_exports_imported": 11,
+    "ascii_cases": 128,
+    "malformed_rejections": 4,
+    "deep_levels": 300,
+    "required_dependency_edges": 135
+  },
+  "input_bytes_preserved": true,
+  "pure_package_source_activation_readiness": "PASS_FOR_THIS_PINNED_PURE_PACKAGE_ONLY",
+  "actual_source_activation": "NOT_PERFORMED_REQUIRES_SEPARATE_REVIEW",
+  "business_activation_readiness": "NOT_ESTABLISHED",
+  "release": false,
+  "deploy": false,
+  "qualified_external_audit": false,
+  "full_goal": "ACTIVE",
+  "existing_records": [
+    "DOF-001",
+    "P01",
+    "P09"
+  ],
+  "owners": "UNCHANGED",
+  "handbook": {
+    "version": "1.0",
+    "sections": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      9,
+      12
+    ]
+  },
+  "stage": "Test / independent scoped verification",
+  "scope_limit": "macOS darwin arm64, install scripts ignored; no network, install, Git or chain actions by reviewer",
+  "created_utc": "2026-10-11T07:43:14.793131+00:00"
+}
