@@ -51,12 +51,21 @@
     }
   },
   "artifact_state": {
-    "repository_creation": "local_git_created; no remote or commit",
+    "repository_creation": "public_remote_created; source_checkpoint_pushed_and_verified",
     "source_migration": "10 pure Sui files active-source; remaining95 original SDK business inputs retained",
     "build": "Actual independent sui-core npm ci/build277/test/pack and original300/types passed; source cutover independently checked",
     "runtime_acceptance": "not_run: full wallet/UI/contract journeys pending",
     "independent_deployment": "not_verified",
-    "remote_ci_execution": "not_run"
+    "remote_ci_execution": "not_run",
+    "remote_backup": {
+      "url": "https://github.com/redefine-digital-labs/soul-sdk",
+      "visibility": "PUBLIC",
+      "default_branch": "main",
+      "verified_source_commit": "3ef75cf2d62a47a43011cacac03a513c4b87c7dc",
+      "source_checkpoint_verified": true,
+      "actions_enabled": false,
+      "scope": "Source backup; independent product/release/runtime status remains as separately recorded"
+    }
   },
   "management": {
     "functions": [
