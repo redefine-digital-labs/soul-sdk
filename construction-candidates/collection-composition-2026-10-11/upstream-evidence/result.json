@@ -1,0 +1,208 @@
+{
+  "status": "SCOPED_OFFLINE_PASS / NOT_ACTIVATED / NOT_INSTALL_READY",
+  "abi_inputs": {
+    "abi_path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/independent-market-current-candidate-v1/frozen/production-graph/market/sources/market.move",
+    "abi_sha256": "72586a4503fc4737caca6a41b2e4d8826ab2e3eb7ec167d92c955407dff316ff",
+    "core_abi_path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/independent-market-current-candidate-v1/frozen/production-graph/deps/move/soulidity_v1/sources/collection.move",
+    "core_abi_sha256": "2c9d015a20ba03dbd1f8561528e542ef8533f9c0a683698ca78a1408cd41dddd",
+    "market_freeze_sha256": "3225bc37f9812b9b6ef4dd0f4c8521132096b58ab16982e5a5f461fcc2920104"
+  },
+  "toolchain": {
+    "node": "/opt/homebrew/bin/node",
+    "sui": "2.16.0",
+    "tsx": "4.23.1",
+    "typescript": "6.0.3"
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "tests": "34/35 ad-hoc smoke; comment regex false positive",
+      "typecheck": "not run",
+      "raw_stdout_saved": false
+    },
+    {
+      "round": 2,
+      "tests": "35/35 PASS sandboxed",
+      "typecheck": "FAIL TransactionArgument array inference; raw retained"
+    },
+    {
+      "round": 3,
+      "tests": "35/35 PASS sandboxed",
+      "typecheck": "PASS sandboxed"
+    }
+  ],
+  "commands": {
+    "tests": [
+      "/usr/bin/sandbox-exec",
+      "-f",
+      "sandbox.sb",
+      "/opt/homebrew/bin/node",
+      "--import",
+      "tsx",
+      "--test",
+      "tests/market.test.ts"
+    ],
+    "typecheck": [
+      "/usr/bin/sandbox-exec",
+      "-f",
+      "sandbox.sb",
+      "/opt/homebrew/bin/node",
+      "node_modules/typescript/bin/tsc",
+      "-p",
+      "tsconfig.targeted.json"
+    ]
+  },
+  "typecheck_scope": [
+    "src/tx/market-target.ts",
+    "src/tx/list.ts",
+    "src/tx/buy.ts",
+    "src/tx/delist.ts",
+    "tests/market.test.ts"
+  ],
+  "excluded": "all unchanged SDK modules, full index, UI integration and cumulative unrelated TypeScript issues",
+  "adapted_functions": [
+    "buildListSoulTx",
+    "buildBuySoulTx",
+    "buildDelistSoulTx",
+    "buildDeleteSoulListingTx",
+    "buildListCollectionTx",
+    "buildBuyCollectionTx",
+    "buildDelistCollectionTx",
+    "buildDeleteCollectionListingTx"
+  ],
+  "actual_sdk_unchanged": true,
+  "guard181_count": 181,
+  "guard181_mismatches": [],
+  "other_original_source_byte_exact": true,
+  "dependency_pins_unchanged": true,
+  "permission_probes": [
+    {
+      "path": "/Users/naoer/.move",
+      "write_denied": true,
+      "errno": 1
+    },
+    {
+      "path": "/Users/naoer/.npm",
+      "write_denied": true,
+      "errno": 1
+    },
+    {
+      "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src",
+      "write_denied": true,
+      "errno": 1
+    },
+    {
+      "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move",
+      "write_denied": true,
+      "errno": 1
+    },
+    {
+      "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/web",
+      "write_denied": true,
+      "errno": 1
+    },
+    {
+      "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/docs/codex",
+      "write_denied": true,
+      "errno": 1
+    },
+    {
+      "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem",
+      "write_denied": true,
+      "errno": 1
+    },
+    {
+      "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/independent-market-current-candidate-v1/frozen/production-graph/market/sources",
+      "write_denied": true,
+      "errno": 1
+    },
+    {
+      "path": "/Users/naoer/.codex/worktrees/owned-creation-construction/soulidity/output/application-manifest-read-candidate/frozen",
+      "write_denied": true,
+      "errno": 1
+    },
+    {
+      "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/independent-market-sdk-candidate-v1/node_modules",
+      "write_denied": true,
+      "errno": 1
+    },
+    {
+      "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/independent-market-sdk-candidate-v1/baseline",
+      "write_denied": true,
+      "errno": 1
+    },
+    {
+      "network_denied": true,
+      "errno": 1
+    }
+  ],
+  "execution_boundary": {
+    "rpc": false,
+    "sign": false,
+    "build_chain_resolution": false,
+    "new_dependencies": false,
+    "actual_sdk_ui_install": false,
+    "contracts_modified": false,
+    "network_used": false,
+    "current_or_owner_modified": false,
+    "commit_push_pr": false
+  },
+  "remaining": [
+    "actual Sui ownership and object types/origins/config roles/revision/governance/quote authenticity not resolved offline",
+    "actual UI caller adaptation and indexing/event schema not activated",
+    "Collection buyer Kiosk/Account automatic creation pending its own tested adapter",
+    "unchanged Native legacy helper/module scope not activated by candidate",
+    "parent reports current Core1 budget failure; independent Market and full installation remain blocked"
+  ],
+  "raw_logs": {
+    "evidence/permission-probe.raw.json": "a5ef8af6a6bba9b26495479b3858297ea62c75d0d406569d9866f58d7c9e8a32",
+    "evidence/round02-tests.raw.log": "2aeff85a762f1a3255cc224fb5bd38009fae8f3a20796df433fc65e822e3dddb",
+    "evidence/round02-typecheck.raw.log": "f10e8b6dd617e99ff14fdf57e21ba6ff4eb07aba613acf16dfa145e84836b80e",
+    "evidence/round03-tests.raw.log": "53f23ea3ff3d4333f751b51cc90375237ff9f82f01c86ef47f6f27b854bd1924",
+    "evidence/round03-typecheck.raw.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evidence/dump-unsigned.raw.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "reports": {
+    "SPEC.md": "4cdeef90c309efde6e8af4dafeb3dc3951362bad1880ec82e843d7c567c1750f",
+    "PLAN.md": "e9cfead0c23b0a485c640f3bfaa6bb2eda03433a8b17e4926a0e67dabc465d77",
+    "REPORT.md": "858e1f8a87242b84eba0de042aa1d8611f337b1083b668deaf6f9155301475b0",
+    "UI_MAPPING.md": "54a0caff26311ef915361cc9f764bbdb0ca26445187647d61804aa7bb4d577a7",
+    "sandbox.sb": "ca6235567cf34ca7e5b0d8247061e2715e34b8e744f63e64add10fc8d63d020a",
+    "tsconfig.targeted.json": "6e81e725b5fc81099291a3554ecc9c07e3f99be7520fa996d9d4ab51e9445b22",
+    "permission_probe.py": "697f32377fb28c5e244717ea70baf2fcdff95fa6f5647283f71da485237bbdb5",
+    "evidence/baseline.json": "b52b33db6c77829a2e86571250cdc12d5190c611649c8f3d4b0d075ec0cbee4e",
+    "evidence/all-source-hashes.json": "c0cea8c0f08feb5dac660dff77bf97d1bf06aa7c551c4bb8ea5d76d74cf615ee",
+    "evidence/ui-call-sites.json": "bb052101349cc8c335be86a3892cad7b9af6f8c52903821059ac980a83bac527",
+    "evidence/parsed-abi.json": "975ea54f4f9c22dba9c0575612c65e0517db8db6482a9d92042f9bca4d7e6313",
+    "PRODUCT_ENGINEERING_REVIEW.md": "5a80ccec562fe1a0e8158d5a18b9898df8a8f0657377feaaa5e5094dbb6baf06",
+    "evidence/dump-unsigned.mts": "52c86fd1777a8a25b33c9545f71aae86021a621224184d0d894ad62df9cda8d3",
+    "evidence/unsigned-transactions.json": "023203869697311847cff8990bea3b8563eb0a6fd50f516bbe6c1202796769ce"
+  },
+  "governance": {
+    "original_records": [
+      "DOF-001",
+      "P01",
+      "P09"
+    ],
+    "handbook_version": "1.0",
+    "sections": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      "8.3",
+      "8.4",
+      9,
+      12
+    ],
+    "handbook_sha256": "1972858dffa38006f1d3784bcaca9370c52bdebade730b20bb0294b42125ec95",
+    "operating_model_sha256": "183dd9414229552d5be72e8077503109b48edb6008d6661eaf336c9475a4af43",
+    "review_template_sha256": "7f2fe8662fdd052a37e21968b8a4e3beb8bca44b51f573955e4b92163b5f1f47",
+    "owners_status_current_unchanged": true,
+    "release_deploy_operate_monitor": "not performed"
+  },
+  "historical_payment_helper_byte_exact": true
+}

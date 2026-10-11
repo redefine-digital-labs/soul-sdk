@@ -1,0 +1,79 @@
+✔ exact Core/leaf ABI pins prove sealed linear pair creation and by-value finalization (0.717291ms)
+✔ existing buyer pair preserves exact typed payment and adds no new/finalize; offset0 (3.053375ms)
+✔ new pair uses exact result pair for borrow and consuming finalize after buy; offset0 (1.662584ms)
+✔ existing buyer pair preserves exact typed payment and adds no new/finalize; offset2 (1.272ms)
+✔ new pair uses exact result pair for borrow and consuming finalize after buy; offset2 (1.142916ms)
+✔ exact full typed Coin branch with new pair consumes object payment and no split (0.857208ms)
+✔ buyer pair rejects Kiosk only before appending (0.216083ms)
+✔ buyer pair rejects Account only before appending (0.201416ms)
+✔ buyer pair rejects null pair before appending (0.114541ms)
+✔ buyer pair rejects empty pair before appending (0.101958ms)
+✔ buyer pair rejects invalid Kiosk before appending (0.07225ms)
+✔ buyer pair rejects invalid Account before appending (0.051167ms)
+✔ buyer pair rejects zero Account before appending (0.060667ms)
+✔ buyer pair rejects aliased pair before appending (0.059709ms)
+✔ new-pair buy rejects quote length before appending (0.0685ms)
+✔ new-pair buy rejects attempt length before appending (0.049459ms)
+✔ new-pair buy rejects CAS overflow before appending (0.03825ms)
+✔ new-pair buy rejects negative holder epoch before appending (0.03575ms)
+✔ new-pair buy rejects wrong typed payment before appending (0.041083ms)
+✔ new-pair buy rejects insufficient payment before appending (0.051917ms)
+✔ new-pair buy rejects missing target before appending (0.036083ms)
+✔ new-pair buy rejects wrong Factory before appending (0.038792ms)
+✔ reprice emits exact cancel then list with reused Kiosk/Account and full BCS; offset0 (0.432709ms)
+✔ reprice emits exact cancel then list with reused Kiosk/Account and full BCS; offset2 (0.330458ms)
+✔ reprice rejects zero ask before commands or inputs (0.045625ms)
+✔ reprice rejects ask overflow before commands or inputs (0.032792ms)
+✔ reprice rejects numeric ask before commands or inputs (0.031625ms)
+✔ reprice rejects expiry overflow before commands or inputs (0.03175ms)
+✔ reprice rejects holder epoch negative before commands or inputs (0.032375ms)
+✔ reprice rejects fee revision negative before commands or inputs (0.031042ms)
+✔ reprice rejects CAS overflow before commands or inputs (0.031291ms)
+✔ reprice rejects Account missing before commands or inputs (0.036417ms)
+✔ reprice rejects Account aliased before commands or inputs (0.050167ms)
+✔ reprice rejects Collection malformed before commands or inputs (0.051542ms)
+✔ reprice rejects Listing malformed before commands or inputs (0.036916ms)
+✔ reprice rejects target missing before commands or inputs (0.036458ms)
+✔ reprice rejects Clock malformed before commands or inputs (0.036583ms)
+✔ reprice rejects Config malformed before commands or inputs (0.030625ms)
+✔ maximum u64 CAS/epoch/expiry/fees retain bytes while Move determines live policy (0.271416ms)
+✖ frozen Collection relist preserves Right custody; Soul void cancel cannot compose with old escrow ID (1.448833ms)
+✔ new composition files do not use old env/register/cap/finalize-listing routes; Native shared stays exact (0.208125ms)
+ℹ tests 41
+ℹ suites 0
+ℹ pass 40
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 123.660708
+
+✖ failing tests:
+
+test at tests/collection-composition.test.ts:1:11483
+✖ frozen Collection relist preserves Right custody; Soul void cancel cannot compose with old escrow ID (1.448833ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /transfer::public_transfer\(asset,ctx.sender\(\)\)/. Input:
+  
+  'public fun cancel<T:key+store,C>(l:&mut Listing<T,C>,expected:u64,ctx:&TxContext) {\n' +
+    '    assert!(l.state==0 && l.revision==expected,EState);assert!(ctx.sender()==l.seller,ESeller);\n' +
+    '    let asset:T=dof::remove(&mut l.id,AssetKey{});l.state=2;l.revision=l.revision+1;\n' +
+    '    event::emit(Cancelled{listing:object::id(l),asset:l.asset,seller:l.seller});transfer::public_transfer(asset,l.seller);\n' +
+    '}\n' +
+    '/// Restore the original permissionless storage cleanup. No active asset can be\n' +
+    '/// deleted: both terminal state and absence of actual escrow are required.\n' +
+    '/// This exit deliberately does not depend on Config enable, pause or pricing.\n'
+  
+      at TestContext.<anonymous> (/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/independent-market-sdk-composition-candidate-v1/tests/collection-composition.test.ts:141:9)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'public fun cancel<T:key+store,C>(l:&mut Listing<T,C>,expected:u64,ctx:&TxContext) {\n    assert!(l.state==0 && l.revision==expected,EState);assert!(ctx.sender()==l.seller,ESeller);\n    let asset:T=dof::remove(&mut l.id,AssetKey{});l.state=2;l.revision=l.revision+1;\n    event::emit(Cancelled{listing:object::id(l),asset:l.asset,seller:l.seller});transfer::public_transfer(asset,l.seller);\n}\n/// Restore the original permissionless storage cleanup. No active asset can be\n/// deleted: both terminal state and absence of actual escrow are required.\n/// This exit deliberately does not depend on Config enable, pause or pricing.\n',
+    expected: /transfer::public_transfer\(asset,ctx.sender\(\)\)/,
+    operator: 'match',
+    diff: 'simple'
+  }

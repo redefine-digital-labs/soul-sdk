@@ -1,0 +1,73 @@
+[
+  {
+    "name": "prior35-tests",
+    "argv": [
+      "/usr/bin/sandbox-exec",
+      "-f",
+      "sandbox.sb",
+      "python3",
+      "run_verification.py",
+      "2"
+    ],
+    "child_argv": [
+      "/opt/homebrew/bin/node",
+      "--import",
+      "tsx",
+      "--test",
+      "tests/market.test.ts"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.14401006698608398,
+    "stdout": "evidence/round02-prior35-tests.stdout.log",
+    "stdout_sha256": "4771b69a8ca672d382dabd330ec6d02a246258787bf78b082d1a1752d7cf66b8",
+    "stderr": "evidence/round02-prior35-tests.stderr.log",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "composition-tests",
+    "argv": [
+      "/usr/bin/sandbox-exec",
+      "-f",
+      "sandbox.sb",
+      "python3",
+      "run_verification.py",
+      "2"
+    ],
+    "child_argv": [
+      "/opt/homebrew/bin/node",
+      "--import",
+      "tsx",
+      "--test",
+      "tests/collection-composition.test.ts"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.14997482299804688,
+    "stdout": "evidence/round02-composition-tests.stdout.log",
+    "stdout_sha256": "810268483409c6109bd5ea7ed191f06875320d1ab3c5980b745f81e9ba4651f9",
+    "stderr": "evidence/round02-composition-tests.stderr.log",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "targeted-tsc",
+    "argv": [
+      "/usr/bin/sandbox-exec",
+      "-f",
+      "sandbox.sb",
+      "python3",
+      "run_verification.py",
+      "2"
+    ],
+    "child_argv": [
+      "/opt/homebrew/bin/node",
+      "node_modules/typescript/bin/tsc",
+      "-p",
+      "tsconfig.targeted.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.40329718589782715,
+    "stdout": "evidence/round02-targeted-tsc.stdout.log",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr": "evidence/round02-targeted-tsc.stderr.log",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

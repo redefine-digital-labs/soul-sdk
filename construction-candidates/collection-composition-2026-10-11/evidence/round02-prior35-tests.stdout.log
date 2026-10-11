@@ -1,0 +1,43 @@
+✔ frozen source ABI uses owned Soul and directly shares; exit preserves terminal/paused semantics (0.7375ms)
+✔ Soul list ABI plain (1.656125ms)
+✔ Soul buy ABI plain quote (1.5645ms)
+✔ Soul list ABI with actual Collection (0.33525ms)
+✔ Soul buy ABI Collection snapshot and quote (0.941125ms)
+✔ seller Soul cancel exact T,C with CAS and no Config (0.146416ms)
+✔ permissionless Soul terminal cleanup has T,C and listing only (0.103584ms)
+✔ Collection Right list original Core ABI (0.358333ms)
+✔ Collection Right buy original Core ABI with Factory policy and existing Kiosk/Account (1.255ms)
+✔ Collection Right cancel keeps Kiosk/Account and CAS without Config (0.206042ms)
+✔ Collection Right permissionless terminal cleanup listing only (0.110083ms)
+✔ exact full typed Coin consumed without splitting and no change (0.168792ms)
+✔ merged exact Coin consumed in full; remainder from split remains primary owned Coin (0.117834ms)
+✔ reject missing target (0.161667ms)
+✔ reject malformed owned ID (0.038709ms)
+✔ reject zero package ID (0.033375ms)
+✔ reject wrong Soul type (0.0265ms)
+✔ reject wrong C metadata (0.077459ms)
+✔ reject duplicate normalized IDs (0.061666ms)
+✔ reject insufficient coins (0.045ms)
+✔ reject empty coins (0.05225ms)
+✔ reject u64 overflow (0.03725ms)
+✔ reject negative revision (0.033833ms)
+✔ reject number revision (0.031708ms)
+✔ reject zero price (0.025041ms)
+✔ reject zero payment (0.037333ms)
+✔ reject merged overflow (0.0445ms)
+✔ reject manifest hash length (0.030875ms)
+✔ reject quote hash length (0.032125ms)
+✔ reject attempt hash length (0.035958ms)
+✔ reject Collection hash length (0.033625ms)
+✔ reject missing buyer Account (0.024166ms)
+✔ reject missing Factory (0.027459ms)
+✔ reject Core holder epoch overflow (0.041416ms)
+✔ u64 maximum CAS and 32-byte zero hash retain exact bytes without unsafe numeric conversion (0.105708ms)
+ℹ tests 35
+ℹ suites 0
+ℹ pass 35
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 118.520208

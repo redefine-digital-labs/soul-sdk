@@ -1,0 +1,42 @@
+[
+  {
+    "name": "permission-probe",
+    "exit_code": 0,
+    "sandbox_argv": [
+      "/usr/bin/sandbox-exec",
+      "-f",
+      "sandbox.sb",
+      "python3",
+      "retain_checks.py"
+    ],
+    "child_argv": [
+      "python3",
+      "permission_probe.py"
+    ],
+    "stdout": "evidence/permission-probe.stdout.log",
+    "stdout_sha256": "a5b5c40689e710e47bcecfec40d1aacdf92e2b8c4ac251476c687d4b22f7e374",
+    "stderr": "evidence/permission-probe.stderr.log",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "name": "dump-composition",
+    "exit_code": 0,
+    "sandbox_argv": [
+      "/usr/bin/sandbox-exec",
+      "-f",
+      "sandbox.sb",
+      "python3",
+      "retain_checks.py"
+    ],
+    "child_argv": [
+      "/opt/homebrew/bin/node",
+      "--import",
+      "tsx",
+      "evidence/dump-composition.mts"
+    ],
+    "stdout": "evidence/dump-composition.stdout.log",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr": "evidence/dump-composition.stderr.log",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

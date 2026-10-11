@@ -1,0 +1,272 @@
+{
+  "production": [
+    {
+      "path": "web/app/api/agent/souls/[id]/purchase/route.ts",
+      "sha256": "fa1a54fc957525dd56aa2256ed676eaa3338cc9661e49d914ee097938d25d96f",
+      "hits": [
+        {
+          "line": 6,
+          "text": "SoulidityPersonalKioskInvariantError, buildBuySoulTx } from '@soulidity/sdk'"
+        },
+        {
+          "line": 83,
+          "text": "const tx = buildBuySoulTx({"
+        }
+      ]
+    },
+    {
+      "path": "web/app/resources/api-sdk/page.tsx",
+      "sha256": "2b0555c926940d5fb010f13f22c48cce689d1bba60bb12b619a70921e45cbfb7",
+      "hits": [
+        {
+          "line": 125,
+          "text": "['tx/buy.ts', 'buildBuySoulTx \u2014 purchase + kiosk transfer PTB.'],"
+        }
+      ]
+    },
+    {
+      "path": "web/components/souls/listing-modals.tsx",
+      "sha256": "20f40a9634bfa0b2c8ae9a04125106cdc3fce3d9918a74666a94180c9f67b435",
+      "hits": [
+        {
+          "line": 19,
+          "text": "buildDelistSoulTx,"
+        },
+        {
+          "line": 239,
+          "text": "const tx = buildDelistSoulTx({"
+        }
+      ]
+    },
+    {
+      "path": "web/lib/collections/collection-buy-operation.ts",
+      "sha256": "815555c272a529731797d99a395ebabd7ea6e48104ab3041b4dffbb593ec9324",
+      "hits": [
+        {
+          "line": 6,
+          "text": "import { profileReadStep, buildBuyCollectionTx } from '@soulidity/sdk'"
+        },
+        {
+          "line": 33,
+          "text": "buildBuyCollectionTx({ sellerKioskId: p.sellerKioskId, collectionObjectId: p.request.collectionId, listingObjectId: p.request.listingId,"
+        }
+      ]
+    },
+    {
+      "path": "web/lib/collections/collection-command-operation.ts",
+      "sha256": "24f1bd0f1f511ab6f9ec25f7ea506c6a1a15bbcb03957abedde06f9b09eacdb1",
+      "hits": [
+        {
+          "line": 6,
+          "text": "import { profileReadStep, buildListCollectionTx, buildDelistCollectionTx, buildUpdateCollectionListingPriceTx } from '@soulidity/sdk'"
+        },
+        {
+          "line": 24,
+          "text": "if (p.request.action === 'list') buildListCollectionTx({ ...roots, priceAtomic: BigInt(p.request.priceAtomic!) }, target, tx)"
+        },
+        {
+          "line": 26,
+          "text": "else buildDelistCollectionTx({ ...roots, listingObjectId: p.oldListingId! }, target, tx)"
+        }
+      ]
+    },
+    {
+      "path": "web/lib/hooks/use-list-soul.ts",
+      "sha256": "303778a851cfb45e3d808eb9e40eb8640aaa82ff643b02d2c0e689696ef9f09d",
+      "hits": [
+        {
+          "line": 6,
+          "text": "import { assertObjectInputsExist, buildListSoulTx } from '@soulidity/sdk'"
+        },
+        {
+          "line": 35,
+          "text": "const tx = buildListSoulTx({ currentKioskId: soulKioskId, currentKioskCapOnChainId: soulKioskCapId,"
+        }
+      ]
+    },
+    {
+      "path": "web/lib/hooks/use-purchase.ts",
+      "sha256": "03024418a7cae0a949d74a1cfea95c12a0b41fc798dd91c9009939e28f533f9b",
+      "hits": [
+        {
+          "line": 6,
+          "text": "import { assertObjectInputsExist, buildBuySoulTx, getRequiredSoulidityEnv } from '@soulidity/sdk'"
+        },
+        {
+          "line": 54,
+          "text": "const tx = buildBuySoulTx({"
+        }
+      ]
+    },
+    {
+      "path": "web/scripts/e2e-relist-soul.ts",
+      "sha256": "f4db1e915b105ae6a9ec9c2af4faf8334784cde757b35e8aaa17320d2d2d7c72",
+      "hits": [
+        {
+          "line": 9,
+          "text": "* Wraps `buildListSoulTx` from `@soulidity/sdk` (the canonical PTB:"
+        },
+        {
+          "line": 39,
+          "text": "import { buildListSoulTx, extractSoulListedEvent } from '@soulidity/sdk'"
+        },
+        {
+          "line": 63,
+          "text": "// SDK's buildListSoulTx pulls package / market-config / kiosk-registry IDs"
+        },
+        {
+          "line": 120,
+          "text": "const tx = buildListSoulTx({"
+        }
+      ]
+    }
+  ],
+  "regression_tests": [
+    {
+      "path": "tests/new-web/agent-purchase-prepare-route.test.ts",
+      "sha256": "791fc971da9ef6ab8bd243707ba0d7c8078053af2b38e3023ff7746ee6ba482f",
+      "hits": [
+        {
+          "line": 91,
+          "text": "buildBuySoulTx: mockedBuildBuySoulTx,"
+        }
+      ]
+    },
+    {
+      "path": "tests/new-web/collection-buy-retirement.test.ts",
+      "sha256": "d9a7df20ece86ba12ee8777483fb4b79d5e51df94c772b9ba025d055c6048545",
+      "hits": [
+        {
+          "line": 37,
+          "text": "expect(retired(\"// useCollectionActions /api/collections/id/purchase collection:buy\\nfetch('/api/collections/create');fetch(`/api/collections/${id}/add-soul`);buildBuyCollectionTx(input)\"))"
+        }
+      ]
+    },
+    {
+      "path": "tests/new-web/collection-command-retirement.test.ts",
+      "sha256": "f65d2ed4d4250204c23dd593b707e98bc5c7e85cd62e925071bf02305533bccb",
+      "hits": [
+        {
+          "line": 34,
+          "text": "expect(retired('fetch(`/api/collections/${id}/purchase`, options); buildListCollectionTx(input)', 'a.ts')).toEqual([])"
+        }
+      ]
+    },
+    {
+      "path": "tests/new-web/native-agent-purchase-prepare-route.test.ts",
+      "sha256": "742029a26360165a5f5a55c7b84c0a10d58ba03c353565b2958082b82a1116ce",
+      "hits": [
+        {
+          "line": 29,
+          "text": "quoteSoulPurchase: mocks.ordinaryQuote, buildBuySoulTx: mocks.ordinaryBuilder,"
+        }
+      ]
+    },
+    {
+      "path": "tests/new-web/native-list-facade.test.tsx",
+      "sha256": "5b520e316762b0b152d95010c48f4333f7629d9e3a28b9aa48c86440f162c2f8",
+      "hits": [
+        {
+          "line": 9,
+          "text": "vi.mock('@soulidity/sdk',async original=>({...await original<typeof import('@soulidity/sdk')>(),buildListSoulTx:m.build,assertObjectInputsExist:m.assert}))"
+        }
+      ]
+    },
+    {
+      "path": "tests/new-web/sdk-animacraft-builders.test.ts",
+      "sha256": "4181b2cdd6bc7db4c5d7d6a9b73ee198d0046fd9cdb3502e916095de9d33da75",
+      "hits": [
+        {
+          "line": 3,
+          "text": "import { buildListSoulTx, buildUpdateListingPriceTx } from '@soulidity/sdk'"
+        },
+        {
+          "line": 23,
+          "text": "const calls = moveCalls(buildListSoulTx({ ...base, collectionObjectId }))"
+        },
+        {
+          "line": 28,
+          "text": "expect(() => buildListSoulTx({ ...base, animacraftVersion })).toThrow('native V8')"
+        },
+        {
+          "line": 33,
+          "text": "expect(() => buildListSoulTx({ ...base, animacraftProvenanceObjectId })).toThrow('native V8')"
+        }
+      ]
+    },
+    {
+      "path": "tests/new-web/sdk-collection-command-builders.test.ts",
+      "sha256": "cd46eb60dd28018f12f6313c0f4af7db7684abd83a24c7d52b8ac9dbac496275",
+      "hits": [
+        {
+          "line": 4,
+          "text": "import { buildListCollectionTx, buildDelistCollectionTx, buildUpdateCollectionListingPriceTx } from '@soulidity/sdk'"
+        },
+        {
+          "line": 11,
+          "text": "list: (explicit = false, tx?: Transaction) => buildListCollectionTx(common, explicit ? target : undefined, tx),"
+        },
+        {
+          "line": 12,
+          "text": "delist: (explicit = false, tx?: Transaction) => buildDelistCollectionTx(common, explicit ? { packageId: target.packageId } : undefined, tx),"
+        },
+        {
+          "line": 71,
+          "text": "expect(() => buildListCollectionTx({ ...common, priceAtomic: price }, target, new Transaction())).toThrow('positive')"
+        }
+      ]
+    },
+    {
+      "path": "tests/new-web/sdk-fresh-market-v2.test.ts",
+      "sha256": "dd99486ae448b208d69c069edb3146b5b67b4c4241dddf516e6b9f26073d8c95",
+      "hits": [
+        {
+          "line": 4,
+          "text": "import { buildListSoulTx, buildListCollectionTx, buildBuySoulTx, buildBuyCollectionTx,"
+        },
+        {
+          "line": 38,
+          "text": "const listed=buildListSoulTx({...base,...extra});const listing=verify(listed,target,collection?7:6)"
+        },
+        {
+          "line": 47,
+          "text": "verify(buildListCollectionTx({...base,collectionObjectId:id(20)}),'list_collection_right_fixed_price_v2',6)"
+        },
+        {
+          "line": 53,
+          "text": "const tx=buildBuySoulTx({...buy,...(collection?{collectionObjectId:id(20)}:{})})"
+        },
+        {
+          "line": 62,
+          "text": "const tx=buildBuyCollectionTx({...buy,collectionObjectId:id(20),"
+        },
+        {
+          "line": 69,
+          "text": "expect(()=>buildListSoulTx({...base,animacraftVersion})).toThrow('native V8')"
+        },
+        {
+          "line": 70,
+          "text": "expect(()=>buildBuySoulTx({...buy,animacraftVersion})).toThrow('native V8')"
+        },
+        {
+          "line": 74,
+          "text": "expect(()=>buildBuySoulTx({...buy,animacraftProvenanceObjectId})).toThrow('native V8')"
+        }
+      ]
+    },
+    {
+      "path": "tests/new-web/sdk-native-only-surface.test.ts",
+      "sha256": "e5e045b1bd949e4db916efe6aeee5823ec3229a59dbe8601efc0d03e0344811a",
+      "hits": [
+        {
+          "line": 25,
+          "text": "'quoteSoulPurchase', 'quoteCollectionPurchase', 'buildListSoulTx', 'buildBuySoulTx',"
+        },
+        {
+          "line": 26,
+          "text": "'buildDelistSoulTx', 'buildDelistCollectionTx', 'buildDeleteSoulListingTx', 'buildDeleteCollectionListingTx',"
+        }
+      ]
+    }
+  ]
+}
