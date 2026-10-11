@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "python3",
+    "scripts/ci.py",
+    "--product"
+  ],
+  "exit_code": 0,
+  "stdout": "{\"command_id\": \"sui-core-production-type-test-pack\", \"argv\": [\"python3\", \"scripts/verify_sui_core.py\"], \"returncode\": 0, \"stdout\": \"{\\\"status\\\": \\\"passed\\\", \\\"tests\\\": 277, \\\"evidence\\\": \\\"/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/output/sui-core-10f420cc70f1/evidence.json\\\"}\\n\", \"stderr\": \"\"}\n{\"module\": \"SDK\", \"maintenance_contract\": \"passed\", \"product_checks\": \"passed\", \"release_materials\": \"not_checked\", \"remote_execution_or_deployment_verified\": false}\n",
+  "stderr": ""
+}

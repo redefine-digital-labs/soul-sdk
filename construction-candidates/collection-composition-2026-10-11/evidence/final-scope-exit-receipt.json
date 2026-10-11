@@ -1,0 +1,12 @@
+{
+  "sandbox_argv": [
+    "/usr/bin/sandbox-exec",
+    "-f",
+    "sandbox.sb",
+    "python3",
+    "verify_scope.py"
+  ],
+  "exit_code": 0,
+  "stdout_sha256": "958e74214876cdfbe591d173654ce14d773ac3a4b3750ba5466d067711a4f00b",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

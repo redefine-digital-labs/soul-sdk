@@ -1,0 +1,1746 @@
+{
+  "schema_version": 1,
+  "status": "INDEPENDENT_SCOPED_PASS_TERMINAL",
+  "root": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/shared-sui-actual-activation-readonly-review-v1",
+  "created_utc": "2026-10-11T08:00:31.407588+00:00",
+  "ordinary_files_count": 428,
+  "files": {
+    "REPORT.md": {
+      "sha256": "779eba7be865c74b6422a2a7bdd55ba863460dbd63d55756df8968dd27dce90e",
+      "bytes": 9302
+    },
+    "checks.json": {
+      "sha256": "2f254f0215327e36e96c1fb5f2f1f96e456b5831e78b10d9681b4e88f397c878",
+      "bytes": 3540
+    },
+    "consumer/probe.mjs": {
+      "sha256": "0d6a8630a3773aa0be6d2c40de8809f601a6026430a40f98f7094041ad1fae7a",
+      "bytes": 919
+    },
+    "consumer-run2/probe.mjs": {
+      "sha256": "0d6a8630a3773aa0be6d2c40de8809f601a6026430a40f98f7094041ad1fae7a",
+      "bytes": 919
+    },
+    "freeze.py": {
+      "sha256": "d7f485e17fcf51c8a9518867f7b9bdda1b879469f3ec700742f6fbc573cec74c",
+      "bytes": 1487
+    },
+    "fresh-build.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "fresh-build.stdout": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "fresh-pack.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "fresh-pack.stdout": {
+      "sha256": "45d3665ec139999be00e3e3b22ae616996d2ac75fc947a21b4cdc1397cff36d6",
+      "bytes": 6353
+    },
+    "fresh-source/README.md": {
+      "sha256": "a96c9771a11b3c64e50976ddd2a1e19d2a1b438c97ffbc9c49590f60551583b6",
+      "bytes": 748
+    },
+    "fresh-source/dist/chain-event-discovery.d.ts": {
+      "sha256": "711b9f629366ce35f6c78ce5c3d26f2271821e0b496a4261b3cc75b59cfee21e",
+      "bytes": 3006
+    },
+    "fresh-source/dist/chain-event-discovery.d.ts.map": {
+      "sha256": "64431851dba4c385cd550bf87bbef20c8bb4ce310ae1340c2b464d634c1de2f4",
+      "bytes": 1771
+    },
+    "fresh-source/dist/chain-event-discovery.js": {
+      "sha256": "85ec4f6f5be1356c7f0a9d3d29a2682bdc3e303521b4716b86e059d5eb2d9cd4",
+      "bytes": 16453
+    },
+    "fresh-source/dist/chain-event-discovery.js.map": {
+      "sha256": "5f9616dba79328f37861cafa0b92a511fdbd5c86dc852fc4e5bcea77bb108088",
+      "bytes": 13893
+    },
+    "fresh-source/dist/chain-object-discovery.d.ts": {
+      "sha256": "48b7b8e2e7160f92ae58dfc55258f9df5c71392e1468dd619cf2043c5c5aa4ab",
+      "bytes": 2552
+    },
+    "fresh-source/dist/chain-object-discovery.d.ts.map": {
+      "sha256": "4d85d315a2eac0ce3d9c755906f94631a4e6a8bcb66ebf0d046c8177dbaee971",
+      "bytes": 1736
+    },
+    "fresh-source/dist/chain-object-discovery.js": {
+      "sha256": "5928bd94e1ba71d74a9127fc32d5138b6476fe171c6d46d31c6e1d37047dacc2",
+      "bytes": 14303
+    },
+    "fresh-source/dist/chain-object-discovery.js.map": {
+      "sha256": "44fb8a4a85e655895ff00367817204c960eeaf93926eaa623b243d997bee39e7",
+      "bytes": 12762
+    },
+    "fresh-source/dist/coin-selection.d.ts": {
+      "sha256": "b01485bebf9079eba6599c9ac0a1877dd1b72313d4605ef4530fc0126f195970",
+      "bytes": 801
+    },
+    "fresh-source/dist/coin-selection.d.ts.map": {
+      "sha256": "52d75779104616b13df109f65b59e96d24270f21a239de3c0b8ece9963f0449f",
+      "bytes": 834
+    },
+    "fresh-source/dist/coin-selection.js": {
+      "sha256": "9c0ec3a78a34be1bc0905c1b1062f556e8c249ebdc8326d4e48a1dc65eb728d0",
+      "bytes": 2719
+    },
+    "fresh-source/dist/coin-selection.js.map": {
+      "sha256": "013daaf86af0dc7f0f340dd1a0c6b879410258d2da9ada25d225df9852808330",
+      "bytes": 2619
+    },
+    "fresh-source/dist/format.d.ts": {
+      "sha256": "95eefec2c92bd8a39ff5ccd72a02ad7410d329598b88c4333c24494e7bcf47e5",
+      "bytes": 322
+    },
+    "fresh-source/dist/format.d.ts.map": {
+      "sha256": "3925bca5c37215706eb1ae0bc3018815a9a6efa20c497c11fcc571182f94b922",
+      "bytes": 368
+    },
+    "fresh-source/dist/format.js": {
+      "sha256": "279d80565b1d89b2a4cc71b33fa3a29a255e7aaa65f3d77f211a8d010a96f8cc",
+      "bytes": 1318
+    },
+    "fresh-source/dist/format.js.map": {
+      "sha256": "1ae1b9a4920e16ba10c8363285087495d9160915a653616465d254c78a604ba8",
+      "bytes": 1443
+    },
+    "fresh-source/dist/move-type-tag.d.ts": {
+      "sha256": "2235eb2a804a610a79782290fa9eb428f16d280aaff60535cfd54e19aa4e35b3",
+      "bytes": 416
+    },
+    "fresh-source/dist/move-type-tag.d.ts.map": {
+      "sha256": "288751f61d18adff4da5956cc264d445ddc104cb6ed303cc305149632e1b7eb1",
+      "bytes": 257
+    },
+    "fresh-source/dist/move-type-tag.js": {
+      "sha256": "0b5547e20a9ca9bc61407f306033378f86b121fcaa02a9966b55229ce81346a2",
+      "bytes": 2706
+    },
+    "fresh-source/dist/move-type-tag.js.map": {
+      "sha256": "f4d6382f1974a0edb01ffb36ef112c6571c8f340582c3e5b238b496e21ea55a4",
+      "bytes": 2666
+    },
+    "fresh-source/dist/object-inputs.d.ts": {
+      "sha256": "4e029427e283fc29b8f2324fbc53e5e9854b2589786464a6dff8205cfb593a1f",
+      "bytes": 682
+    },
+    "fresh-source/dist/object-inputs.d.ts.map": {
+      "sha256": "6c41887cb4cf2c85bbc3b5a5ce000ccfe482fe7bc8003b02c0fd7c437382546d",
+      "bytes": 709
+    },
+    "fresh-source/dist/object-inputs.js": {
+      "sha256": "487d9766cd061d511ff5c64169723f00ddf9cd844a41d45161354e18a835f96b",
+      "bytes": 1891
+    },
+    "fresh-source/dist/object-inputs.js.map": {
+      "sha256": "0dad38b41f895a17521cd3210ffc3a55110ed3ed432a750fc584bdec76ac8dc9",
+      "bytes": 2265
+    },
+    "fresh-source/dist/profile-read-step.d.ts": {
+      "sha256": "56687c0ae206676e3cbed220ed58d9ba7b13cc10b25b7c3e7f375215ea53f8db",
+      "bytes": 339
+    },
+    "fresh-source/dist/profile-read-step.d.ts.map": {
+      "sha256": "ab334de05c04bf8ca7394b84fb535d404f544319816472a35536af872116d0a8",
+      "bytes": 308
+    },
+    "fresh-source/dist/profile-read-step.js": {
+      "sha256": "17fef4311e47e41f46c89b039bf3bba0decaf6546b71bac7bd941694d5448042",
+      "bytes": 946
+    },
+    "fresh-source/dist/profile-read-step.js.map": {
+      "sha256": "2a86a8e5f74639cd832f46da73bbae993377e1ddb4649ad09f956426f5dc6868",
+      "bytes": 987
+    },
+    "fresh-source/dist/request.d.ts": {
+      "sha256": "e87f7670dec53d0a8d6b4cc9f9b231b9d989f95dbc23f47463db563b42434467",
+      "bytes": 424
+    },
+    "fresh-source/dist/request.d.ts.map": {
+      "sha256": "2b953f0a49c923122ff0daf823aa84a492c8e3b70001d85345233d9c5fd8f49e",
+      "bytes": 433
+    },
+    "fresh-source/dist/request.js": {
+      "sha256": "696216c9605567e525f60c745fc600e397738e24903525a8d9437e2b3f5e626d",
+      "bytes": 1537
+    },
+    "fresh-source/dist/request.js.map": {
+      "sha256": "1baf18a5f9805faa13a5c28bf6a63628c0a2c7e2d44cd2034d26a65391ecc6b5",
+      "bytes": 1623
+    },
+    "fresh-source/dist/sui-grpc-compat.d.ts": {
+      "sha256": "de7aa3bd37012c21ab96b80f0f17a4e799a76da06266dea76d4bfa367c6f4c7a",
+      "bytes": 16386
+    },
+    "fresh-source/dist/sui-grpc-compat.d.ts.map": {
+      "sha256": "99882ba7b505be526cbebc37d485044670c595bf45b3bbb911ab7fd79a3c372e",
+      "bytes": 4025
+    },
+    "fresh-source/dist/sui-grpc-compat.js": {
+      "sha256": "f33113cacbc35ca20b588e3db25571866ae01550b9e7cb92ed6943a6d2685a2b",
+      "bytes": 16141
+    },
+    "fresh-source/dist/sui-grpc-compat.js.map": {
+      "sha256": "6c3da4d600ebe050f0e5aae1e5ade6edb28b57043ab3611b5f2bc5eba97b9e58",
+      "bytes": 14601
+    },
+    "fresh-source/dist/sui-network.d.ts": {
+      "sha256": "d97cbf9c0ce7ca13a0a3b022496963797b121294c3fdc561f052dffcb99de94b",
+      "bytes": 196
+    },
+    "fresh-source/dist/sui-network.d.ts.map": {
+      "sha256": "4c2fd04bab0d605d1e83eaf25f123f4d0b9d70096f65e4d36a81bd7203e2d834",
+      "bytes": 240
+    },
+    "fresh-source/dist/sui-network.js": {
+      "sha256": "8777e2c44059bdc113f6b2d2d69d1cb0926d58c27997b778e789677be2a33f82",
+      "bytes": 140
+    },
+    "fresh-source/dist/sui-network.js.map": {
+      "sha256": "93620ea0067ae25e9d186fb1a79b150026f3013e0bd7ccf5d7768a9b6403859f",
+      "bytes": 228
+    },
+    "fresh-source/dist/tx-result.d.ts": {
+      "sha256": "aa88117980b0b610311ccce78d5dfc89e7f447b4596ff8591cafb3a7caba9c0e",
+      "bytes": 1319
+    },
+    "fresh-source/dist/tx-result.d.ts.map": {
+      "sha256": "5b256708c02c0ed6944c43fe85235e3ff32a20190d3597e2001c7b56e4ca5acd",
+      "bytes": 1310
+    },
+    "fresh-source/dist/tx-result.js": {
+      "sha256": "adede118ce44a77cd3ea95c76259bddd79b9924a45d9369b9659e34af596bafe",
+      "bytes": 2580
+    },
+    "fresh-source/dist/tx-result.js.map": {
+      "sha256": "ba97017319e1c32320197328ce57b76dbd788fd6a5621ccc854063d124c184cd",
+      "bytes": 2493
+    },
+    "fresh-source/npm-shrinkwrap.json": {
+      "sha256": "73f0e0074765332ff9518786ecf0af91ba7bb92e52cdd7a746786e0bacd623e7",
+      "bytes": 60279
+    },
+    "fresh-source/package.json": {
+      "sha256": "ed8a4dc3f4ccc95fd9eae6a8d3feb1228a8ffb06595f998a97d549733f2c9557",
+      "bytes": 2423
+    },
+    "fresh-source/src/chain-event-discovery.ts": {
+      "sha256": "ce7c1459a0d41fa131922b61f1981119bc959f0281aa30a1a65a007adcc6d4fc",
+      "bytes": 17352
+    },
+    "fresh-source/src/chain-object-discovery.ts": {
+      "sha256": "ad994bae13816b4fa664de0c90c248162e9f1a3a0acedc3b128dc91b6a3673ac",
+      "bytes": 14969
+    },
+    "fresh-source/src/coin-selection.ts": {
+      "sha256": "e12d46df8ab16ba09cfb463b7296564bc8572b0cec3f30d2aea4e51046ed2205",
+      "bytes": 2932
+    },
+    "fresh-source/src/format.ts": {
+      "sha256": "d893291bf00e9df8002a9c150e912c7c8919eef02eb228f8b7d34afbc0a32178",
+      "bytes": 1355
+    },
+    "fresh-source/src/move-type-tag.ts": {
+      "sha256": "3d272633dcb5892f87381baa07603548f1d5bd1271b99e997a2cf8da0ef66f17",
+      "bytes": 2326
+    },
+    "fresh-source/src/object-inputs.ts": {
+      "sha256": "3e79b4b7f0fe8896ca068ecbebb6b2b6798d15581253a2ffbff7db335c6a211e",
+      "bytes": 2231
+    },
+    "fresh-source/src/profile-read-step.ts": {
+      "sha256": "5cb92ab24d9d9cf2ecfde1fa3054bf4464e52ae364e7852a2fd3c7e91151cacf",
+      "bytes": 822
+    },
+    "fresh-source/src/request.ts": {
+      "sha256": "bd05820378ad1af616b7bdc37e009b1c6368ff638d6b542fab92b272959c1bc6",
+      "bytes": 1560
+    },
+    "fresh-source/src/sui-grpc-compat.ts": {
+      "sha256": "872ea5e92d3c5931e7cf7abad2b55ccec245c7e9160c7482e33542b0611b62f2",
+      "bytes": 18637
+    },
+    "fresh-source/src/sui-network.ts": {
+      "sha256": "a1340afe9fc97b180826d730878222015b6a05ecdbb226c96aad9f8ac8906aa8",
+      "bytes": 203
+    },
+    "fresh-source/src/tx-result.ts": {
+      "sha256": "4e407919fc199aac953d36cf000b1a328b722139c95c76ab58a5313359b0f48b",
+      "bytes": 3249
+    },
+    "fresh-source/tests/ascii-whitespace.test.ts": {
+      "sha256": "dda2361af88fa5f1ed652a0b154e90bd17757944fb52ff518e16b8c1dbc696f6",
+      "bytes": 815
+    },
+    "fresh-source/tests/move-type-tag.test.ts": {
+      "sha256": "c328d3971c510024145aa95df5d20a3c3fb7136e7bddfd8028a7f00bbb509862",
+      "bytes": 2255
+    },
+    "fresh-source/tests/new-web/chain-event-discovery.test.ts": {
+      "sha256": "45da293eda191fc86e13c7fcaa4749bd23c75a06a897da44f6dd1a7ccdac65dc",
+      "bytes": 29971
+    },
+    "fresh-source/tests/new-web/chain-object-discovery.test.ts": {
+      "sha256": "00b6d8403a23d3b4107dedd948f6a0b5bc453fd601561fa1284676f89c395557",
+      "bytes": 22691
+    },
+    "fresh-source/tests/new-web/object-inputs.test.ts": {
+      "sha256": "532170fbeb24ec44ff8efce3bc8f89cc8ac77b0aeb86b603aa12047193d314d8",
+      "bytes": 1989
+    },
+    "fresh-source/tests/new-web/sui-grpc-compat.test.ts": {
+      "sha256": "5622f4193933b79cef980d5711a7e08bb08f7026b07b213d661fc5834875e442",
+      "bytes": 5392
+    },
+    "fresh-source/tests/new-web/wallet-sign-result.test.ts": {
+      "sha256": "fcf847864b74669a8a48e821fc196decfb0a901690828144faa909dc66a04a2a",
+      "bytes": 4564
+    },
+    "fresh-source/tests/no-network.ts": {
+      "sha256": "5c438c4374e628d1093d96ae15c122493567215bc96f60f9200841c6ca47aca1",
+      "bytes": 129
+    },
+    "fresh-source/tests/utility-boundaries.test.ts": {
+      "sha256": "70f5eacb29db11af4f5eea1a71e39ae2fcc9d9b6fd9bdde3047f32907464def7",
+      "bytes": 4374
+    },
+    "fresh-source/tests/web/sui-network.test.ts": {
+      "sha256": "550459de10e459b777771f301d867e20ea42c8f31af3e9236156e52cc6fcf16d",
+      "bytes": 557
+    },
+    "fresh-source/tsconfig.json": {
+      "sha256": "ab7fe22f57a6f145b2545a9384989ed63ab9963b762901196c254337b12f1540",
+      "bytes": 529
+    },
+    "fresh-source/vitest.config.ts": {
+      "sha256": "bbbcaf0fc254a5fb65ac29ed41d1cbc0c425c3fc5fae9d6ce759c1e64bfeb6b8",
+      "bytes": 195
+    },
+    "fresh-source/web/lib/hooks/use-wallet-sign.ts": {
+      "sha256": "30268585a52ac163cc17fecacf06268b5f4cb32da9a50241677edcd90c12dc1f",
+      "bytes": 4999
+    },
+    "fresh-source-run2/README.md": {
+      "sha256": "a96c9771a11b3c64e50976ddd2a1e19d2a1b438c97ffbc9c49590f60551583b6",
+      "bytes": 748
+    },
+    "fresh-source-run2/dist/chain-event-discovery.d.ts": {
+      "sha256": "711b9f629366ce35f6c78ce5c3d26f2271821e0b496a4261b3cc75b59cfee21e",
+      "bytes": 3006
+    },
+    "fresh-source-run2/dist/chain-event-discovery.d.ts.map": {
+      "sha256": "64431851dba4c385cd550bf87bbef20c8bb4ce310ae1340c2b464d634c1de2f4",
+      "bytes": 1771
+    },
+    "fresh-source-run2/dist/chain-event-discovery.js": {
+      "sha256": "85ec4f6f5be1356c7f0a9d3d29a2682bdc3e303521b4716b86e059d5eb2d9cd4",
+      "bytes": 16453
+    },
+    "fresh-source-run2/dist/chain-event-discovery.js.map": {
+      "sha256": "5f9616dba79328f37861cafa0b92a511fdbd5c86dc852fc4e5bcea77bb108088",
+      "bytes": 13893
+    },
+    "fresh-source-run2/dist/chain-object-discovery.d.ts": {
+      "sha256": "48b7b8e2e7160f92ae58dfc55258f9df5c71392e1468dd619cf2043c5c5aa4ab",
+      "bytes": 2552
+    },
+    "fresh-source-run2/dist/chain-object-discovery.d.ts.map": {
+      "sha256": "4d85d315a2eac0ce3d9c755906f94631a4e6a8bcb66ebf0d046c8177dbaee971",
+      "bytes": 1736
+    },
+    "fresh-source-run2/dist/chain-object-discovery.js": {
+      "sha256": "5928bd94e1ba71d74a9127fc32d5138b6476fe171c6d46d31c6e1d37047dacc2",
+      "bytes": 14303
+    },
+    "fresh-source-run2/dist/chain-object-discovery.js.map": {
+      "sha256": "44fb8a4a85e655895ff00367817204c960eeaf93926eaa623b243d997bee39e7",
+      "bytes": 12762
+    },
+    "fresh-source-run2/dist/coin-selection.d.ts": {
+      "sha256": "b01485bebf9079eba6599c9ac0a1877dd1b72313d4605ef4530fc0126f195970",
+      "bytes": 801
+    },
+    "fresh-source-run2/dist/coin-selection.d.ts.map": {
+      "sha256": "52d75779104616b13df109f65b59e96d24270f21a239de3c0b8ece9963f0449f",
+      "bytes": 834
+    },
+    "fresh-source-run2/dist/coin-selection.js": {
+      "sha256": "9c0ec3a78a34be1bc0905c1b1062f556e8c249ebdc8326d4e48a1dc65eb728d0",
+      "bytes": 2719
+    },
+    "fresh-source-run2/dist/coin-selection.js.map": {
+      "sha256": "013daaf86af0dc7f0f340dd1a0c6b879410258d2da9ada25d225df9852808330",
+      "bytes": 2619
+    },
+    "fresh-source-run2/dist/format.d.ts": {
+      "sha256": "95eefec2c92bd8a39ff5ccd72a02ad7410d329598b88c4333c24494e7bcf47e5",
+      "bytes": 322
+    },
+    "fresh-source-run2/dist/format.d.ts.map": {
+      "sha256": "3925bca5c37215706eb1ae0bc3018815a9a6efa20c497c11fcc571182f94b922",
+      "bytes": 368
+    },
+    "fresh-source-run2/dist/format.js": {
+      "sha256": "279d80565b1d89b2a4cc71b33fa3a29a255e7aaa65f3d77f211a8d010a96f8cc",
+      "bytes": 1318
+    },
+    "fresh-source-run2/dist/format.js.map": {
+      "sha256": "1ae1b9a4920e16ba10c8363285087495d9160915a653616465d254c78a604ba8",
+      "bytes": 1443
+    },
+    "fresh-source-run2/dist/move-type-tag.d.ts": {
+      "sha256": "2235eb2a804a610a79782290fa9eb428f16d280aaff60535cfd54e19aa4e35b3",
+      "bytes": 416
+    },
+    "fresh-source-run2/dist/move-type-tag.d.ts.map": {
+      "sha256": "288751f61d18adff4da5956cc264d445ddc104cb6ed303cc305149632e1b7eb1",
+      "bytes": 257
+    },
+    "fresh-source-run2/dist/move-type-tag.js": {
+      "sha256": "0b5547e20a9ca9bc61407f306033378f86b121fcaa02a9966b55229ce81346a2",
+      "bytes": 2706
+    },
+    "fresh-source-run2/dist/move-type-tag.js.map": {
+      "sha256": "f4d6382f1974a0edb01ffb36ef112c6571c8f340582c3e5b238b496e21ea55a4",
+      "bytes": 2666
+    },
+    "fresh-source-run2/dist/object-inputs.d.ts": {
+      "sha256": "4e029427e283fc29b8f2324fbc53e5e9854b2589786464a6dff8205cfb593a1f",
+      "bytes": 682
+    },
+    "fresh-source-run2/dist/object-inputs.d.ts.map": {
+      "sha256": "6c41887cb4cf2c85bbc3b5a5ce000ccfe482fe7bc8003b02c0fd7c437382546d",
+      "bytes": 709
+    },
+    "fresh-source-run2/dist/object-inputs.js": {
+      "sha256": "487d9766cd061d511ff5c64169723f00ddf9cd844a41d45161354e18a835f96b",
+      "bytes": 1891
+    },
+    "fresh-source-run2/dist/object-inputs.js.map": {
+      "sha256": "0dad38b41f895a17521cd3210ffc3a55110ed3ed432a750fc584bdec76ac8dc9",
+      "bytes": 2265
+    },
+    "fresh-source-run2/dist/profile-read-step.d.ts": {
+      "sha256": "56687c0ae206676e3cbed220ed58d9ba7b13cc10b25b7c3e7f375215ea53f8db",
+      "bytes": 339
+    },
+    "fresh-source-run2/dist/profile-read-step.d.ts.map": {
+      "sha256": "ab334de05c04bf8ca7394b84fb535d404f544319816472a35536af872116d0a8",
+      "bytes": 308
+    },
+    "fresh-source-run2/dist/profile-read-step.js": {
+      "sha256": "17fef4311e47e41f46c89b039bf3bba0decaf6546b71bac7bd941694d5448042",
+      "bytes": 946
+    },
+    "fresh-source-run2/dist/profile-read-step.js.map": {
+      "sha256": "2a86a8e5f74639cd832f46da73bbae993377e1ddb4649ad09f956426f5dc6868",
+      "bytes": 987
+    },
+    "fresh-source-run2/dist/request.d.ts": {
+      "sha256": "e87f7670dec53d0a8d6b4cc9f9b231b9d989f95dbc23f47463db563b42434467",
+      "bytes": 424
+    },
+    "fresh-source-run2/dist/request.d.ts.map": {
+      "sha256": "2b953f0a49c923122ff0daf823aa84a492c8e3b70001d85345233d9c5fd8f49e",
+      "bytes": 433
+    },
+    "fresh-source-run2/dist/request.js": {
+      "sha256": "696216c9605567e525f60c745fc600e397738e24903525a8d9437e2b3f5e626d",
+      "bytes": 1537
+    },
+    "fresh-source-run2/dist/request.js.map": {
+      "sha256": "1baf18a5f9805faa13a5c28bf6a63628c0a2c7e2d44cd2034d26a65391ecc6b5",
+      "bytes": 1623
+    },
+    "fresh-source-run2/dist/sui-grpc-compat.d.ts": {
+      "sha256": "de7aa3bd37012c21ab96b80f0f17a4e799a76da06266dea76d4bfa367c6f4c7a",
+      "bytes": 16386
+    },
+    "fresh-source-run2/dist/sui-grpc-compat.d.ts.map": {
+      "sha256": "99882ba7b505be526cbebc37d485044670c595bf45b3bbb911ab7fd79a3c372e",
+      "bytes": 4025
+    },
+    "fresh-source-run2/dist/sui-grpc-compat.js": {
+      "sha256": "f33113cacbc35ca20b588e3db25571866ae01550b9e7cb92ed6943a6d2685a2b",
+      "bytes": 16141
+    },
+    "fresh-source-run2/dist/sui-grpc-compat.js.map": {
+      "sha256": "6c3da4d600ebe050f0e5aae1e5ade6edb28b57043ab3611b5f2bc5eba97b9e58",
+      "bytes": 14601
+    },
+    "fresh-source-run2/dist/sui-network.d.ts": {
+      "sha256": "d97cbf9c0ce7ca13a0a3b022496963797b121294c3fdc561f052dffcb99de94b",
+      "bytes": 196
+    },
+    "fresh-source-run2/dist/sui-network.d.ts.map": {
+      "sha256": "4c2fd04bab0d605d1e83eaf25f123f4d0b9d70096f65e4d36a81bd7203e2d834",
+      "bytes": 240
+    },
+    "fresh-source-run2/dist/sui-network.js": {
+      "sha256": "8777e2c44059bdc113f6b2d2d69d1cb0926d58c27997b778e789677be2a33f82",
+      "bytes": 140
+    },
+    "fresh-source-run2/dist/sui-network.js.map": {
+      "sha256": "93620ea0067ae25e9d186fb1a79b150026f3013e0bd7ccf5d7768a9b6403859f",
+      "bytes": 228
+    },
+    "fresh-source-run2/dist/tx-result.d.ts": {
+      "sha256": "aa88117980b0b610311ccce78d5dfc89e7f447b4596ff8591cafb3a7caba9c0e",
+      "bytes": 1319
+    },
+    "fresh-source-run2/dist/tx-result.d.ts.map": {
+      "sha256": "5b256708c02c0ed6944c43fe85235e3ff32a20190d3597e2001c7b56e4ca5acd",
+      "bytes": 1310
+    },
+    "fresh-source-run2/dist/tx-result.js": {
+      "sha256": "adede118ce44a77cd3ea95c76259bddd79b9924a45d9369b9659e34af596bafe",
+      "bytes": 2580
+    },
+    "fresh-source-run2/dist/tx-result.js.map": {
+      "sha256": "ba97017319e1c32320197328ce57b76dbd788fd6a5621ccc854063d124c184cd",
+      "bytes": 2493
+    },
+    "fresh-source-run2/npm-shrinkwrap.json": {
+      "sha256": "73f0e0074765332ff9518786ecf0af91ba7bb92e52cdd7a746786e0bacd623e7",
+      "bytes": 60279
+    },
+    "fresh-source-run2/package.json": {
+      "sha256": "ed8a4dc3f4ccc95fd9eae6a8d3feb1228a8ffb06595f998a97d549733f2c9557",
+      "bytes": 2423
+    },
+    "fresh-source-run2/src/chain-event-discovery.ts": {
+      "sha256": "ce7c1459a0d41fa131922b61f1981119bc959f0281aa30a1a65a007adcc6d4fc",
+      "bytes": 17352
+    },
+    "fresh-source-run2/src/chain-object-discovery.ts": {
+      "sha256": "ad994bae13816b4fa664de0c90c248162e9f1a3a0acedc3b128dc91b6a3673ac",
+      "bytes": 14969
+    },
+    "fresh-source-run2/src/coin-selection.ts": {
+      "sha256": "e12d46df8ab16ba09cfb463b7296564bc8572b0cec3f30d2aea4e51046ed2205",
+      "bytes": 2932
+    },
+    "fresh-source-run2/src/format.ts": {
+      "sha256": "d893291bf00e9df8002a9c150e912c7c8919eef02eb228f8b7d34afbc0a32178",
+      "bytes": 1355
+    },
+    "fresh-source-run2/src/move-type-tag.ts": {
+      "sha256": "3d272633dcb5892f87381baa07603548f1d5bd1271b99e997a2cf8da0ef66f17",
+      "bytes": 2326
+    },
+    "fresh-source-run2/src/object-inputs.ts": {
+      "sha256": "3e79b4b7f0fe8896ca068ecbebb6b2b6798d15581253a2ffbff7db335c6a211e",
+      "bytes": 2231
+    },
+    "fresh-source-run2/src/profile-read-step.ts": {
+      "sha256": "5cb92ab24d9d9cf2ecfde1fa3054bf4464e52ae364e7852a2fd3c7e91151cacf",
+      "bytes": 822
+    },
+    "fresh-source-run2/src/request.ts": {
+      "sha256": "bd05820378ad1af616b7bdc37e009b1c6368ff638d6b542fab92b272959c1bc6",
+      "bytes": 1560
+    },
+    "fresh-source-run2/src/sui-grpc-compat.ts": {
+      "sha256": "872ea5e92d3c5931e7cf7abad2b55ccec245c7e9160c7482e33542b0611b62f2",
+      "bytes": 18637
+    },
+    "fresh-source-run2/src/sui-network.ts": {
+      "sha256": "a1340afe9fc97b180826d730878222015b6a05ecdbb226c96aad9f8ac8906aa8",
+      "bytes": 203
+    },
+    "fresh-source-run2/src/tx-result.ts": {
+      "sha256": "4e407919fc199aac953d36cf000b1a328b722139c95c76ab58a5313359b0f48b",
+      "bytes": 3249
+    },
+    "fresh-source-run2/tests/ascii-whitespace.test.ts": {
+      "sha256": "dda2361af88fa5f1ed652a0b154e90bd17757944fb52ff518e16b8c1dbc696f6",
+      "bytes": 815
+    },
+    "fresh-source-run2/tests/move-type-tag.test.ts": {
+      "sha256": "c328d3971c510024145aa95df5d20a3c3fb7136e7bddfd8028a7f00bbb509862",
+      "bytes": 2255
+    },
+    "fresh-source-run2/tests/new-web/chain-event-discovery.test.ts": {
+      "sha256": "45da293eda191fc86e13c7fcaa4749bd23c75a06a897da44f6dd1a7ccdac65dc",
+      "bytes": 29971
+    },
+    "fresh-source-run2/tests/new-web/chain-object-discovery.test.ts": {
+      "sha256": "00b6d8403a23d3b4107dedd948f6a0b5bc453fd601561fa1284676f89c395557",
+      "bytes": 22691
+    },
+    "fresh-source-run2/tests/new-web/object-inputs.test.ts": {
+      "sha256": "532170fbeb24ec44ff8efce3bc8f89cc8ac77b0aeb86b603aa12047193d314d8",
+      "bytes": 1989
+    },
+    "fresh-source-run2/tests/new-web/sui-grpc-compat.test.ts": {
+      "sha256": "5622f4193933b79cef980d5711a7e08bb08f7026b07b213d661fc5834875e442",
+      "bytes": 5392
+    },
+    "fresh-source-run2/tests/new-web/wallet-sign-result.test.ts": {
+      "sha256": "fcf847864b74669a8a48e821fc196decfb0a901690828144faa909dc66a04a2a",
+      "bytes": 4564
+    },
+    "fresh-source-run2/tests/no-network.ts": {
+      "sha256": "5c438c4374e628d1093d96ae15c122493567215bc96f60f9200841c6ca47aca1",
+      "bytes": 129
+    },
+    "fresh-source-run2/tests/utility-boundaries.test.ts": {
+      "sha256": "70f5eacb29db11af4f5eea1a71e39ae2fcc9d9b6fd9bdde3047f32907464def7",
+      "bytes": 4374
+    },
+    "fresh-source-run2/tests/web/sui-network.test.ts": {
+      "sha256": "550459de10e459b777771f301d867e20ea42c8f31af3e9236156e52cc6fcf16d",
+      "bytes": 557
+    },
+    "fresh-source-run2/tsconfig.json": {
+      "sha256": "ab7fe22f57a6f145b2545a9384989ed63ab9963b762901196c254337b12f1540",
+      "bytes": 529
+    },
+    "fresh-source-run2/vitest.config.ts": {
+      "sha256": "bbbcaf0fc254a5fb65ac29ed41d1cbc0c425c3fc5fae9d6ce759c1e64bfeb6b8",
+      "bytes": 195
+    },
+    "fresh-source-run2/web/lib/hooks/use-wallet-sign.ts": {
+      "sha256": "30268585a52ac163cc17fecacf06268b5f4cb32da9a50241677edcd90c12dc1f",
+      "bytes": 4999
+    },
+    "global.npmrc": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "input-pins.json": {
+      "sha256": "22bc88986203341e3606c241bfe2be26de24c43b7bc80fc2bcc57923087c3939",
+      "bytes": 1185294
+    },
+    "npm-cache/_cacache/content-v2/sha512/20/d7/8431b55e4328b5cf69c7affa729560e04d7044218de563ea1276b292f55ae2c6b67fd61356a2a2f7ae54d6c342ae572d7a972ad87cc420e5022c9860426f": {
+      "sha256": "1a9da021fb77946241cf08062cc36b521041e158c55071b6907d57b02f5436fe",
+      "bytes": 56756
+    },
+    "npm-cache/_cacache/index-v5/5a/75/c2eed38b85629e77893949df451a11a4545d2c740b9c00f770b79d16848c": {
+      "sha256": "72887ba9e1100a1767280393091aa8c2ad1f06260ceaf245422090690c80396a",
+      "bytes": 425
+    },
+    "npm-cache/_cacache/index-v5/e9/af/5928d6f667cd412c6cbbf52827a249b8fe6a49fa404fa1c24504e597891e": {
+      "sha256": "d7812a9d653b26f212ae218d331ad477515d8a9237c38b5d0b0f3639585c8773",
+      "bytes": 430
+    },
+    "npm-cache/_logs/2026-10-11T07_59_01_035Z-debug-0.log": {
+      "sha256": "ba68cc6819c553e2b42bbabc772f3cf0fcff4ce5f883fe6c3d239fb39e7c7518",
+      "bytes": 2372
+    },
+    "npm-cache/_logs/2026-10-11T07_59_18_526Z-debug-0.log": {
+      "sha256": "c89e5cddb7ce19144bc90bb62bb28ac82bee0d49d12b2bd2731c77c2797d5a48",
+      "bytes": 2382
+    },
+    "public-probe.stderr": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "public-probe.stdout": {
+      "sha256": "0892720e94272643fed4c9868f7baa53107a65498b60ff2a540da472c20844d5",
+      "bytes": 79
+    },
+    "recovery/coordinator/activation-plan.json": {
+      "sha256": "e14511f7f229df81518e7a10d01260958876709b979515e00bc0c36419cb57a2",
+      "bytes": 16009
+    },
+    "recovery/coordinator/actual-apply-intent.json": {
+      "sha256": "988a26368ea82c6ed53c1e46edafec80bb4c66f346d6ad4d354681074a329029",
+      "bytes": 2764
+    },
+    "recovery/coordinator/actual-apply-receipt.json": {
+      "sha256": "9c72262af450f3efc26bee3de28b0361a6bdc32e385c1642fd890cce623591a5",
+      "bytes": 2988
+    },
+    "recovery/coordinator/actual-restore-intent.json": {
+      "sha256": "27b32f298aa79d3a87f3e3e97d347708bfb2828c52a38d4b404f48b9a2f7beb7",
+      "bytes": 2766
+    },
+    "recovery/coordinator/actual-restore-receipt.json": {
+      "sha256": "b5d36b409b1ee6f11202a7db3e0d805776e26075d6bba2277cf9e5f5384dafd6",
+      "bytes": 2992
+    },
+    "recovery/coordinator/before/README.md": {
+      "sha256": "b4136b130eed2a2127fc815c6e8b3026f6db5958d60a064820619f381f138623",
+      "bytes": 2721
+    },
+    "recovery/coordinator/before/module.json": {
+      "sha256": "547d392c3a658412cfdf3f506dc19166aa5689da06020c84e84729f2fd25e626",
+      "bytes": 44278
+    },
+    "recovery/coordinator/before/packages/sui-core/README.md": {
+      "sha256": "8584060fb356c7d78685afba2963cf09fa78a1e414754b0643f7247de13d9571",
+      "bytes": 405
+    },
+    "recovery/coordinator/before/packages/sui-core/package.json": {
+      "sha256": "2c0922b5363615732d8615543b523d4ac4c010402b2a3ae20e2801371c0fa261",
+      "bytes": 2261
+    },
+    "recovery/coordinator/before/scripts/verify_sui_core.py": {
+      "sha256": "490c521741dc4c47dd112eb19dddecafede7941140556fa141ee4e5834fa403e",
+      "bytes": 854
+    },
+    "recovery/coordinator/coordinator-source-approval.json": {
+      "sha256": "f060389f70d5894671c9f431b475107d57fb63bb6cc9a2a56979c7e16a7086a3",
+      "bytes": 1569
+    },
+    "recovery/coordinator/guards-before.json": {
+      "sha256": "1b078685ecdedc5ebac39872d6eec3c52a3d80b67a2ed9b29bbdfa5a32d5c8d1",
+      "bytes": 12794
+    },
+    "recovery/coordinator/stage/.github/workflows/ci.yml": {
+      "sha256": "0c8d128d5f4a7b616716a7bb8f4e52d33dfe083eea0dcf206c59d472a512b659",
+      "bytes": 302
+    },
+    "recovery/coordinator/stage/AGENTS.md": {
+      "sha256": "6496e8d77a023b74b3d29834f82ab5d50a65979cca6d611a00b9dd3be48bb52b",
+      "bytes": 2039
+    },
+    "recovery/coordinator/stage/COMPATIBILITY.md": {
+      "sha256": "3d08b54e23ed7e03a1013b80d3ab64a5a7ae7028f14b81020fb4a32c9c0c5d67",
+      "bytes": 1491
+    },
+    "recovery/coordinator/stage/MODULE.md": {
+      "sha256": "6239e7cec7fc73bfe39fca707b4ae3062e844f4b8b021f83afb943aa895a5468",
+      "bytes": 1897
+    },
+    "recovery/coordinator/stage/README.md": {
+      "sha256": "15275efaff413415584e416a8f27735dd08ec0ab8bc3ea3ca657dcbd73c16f8e",
+      "bytes": 3329
+    },
+    "recovery/coordinator/stage/RUNBOOK.md": {
+      "sha256": "a7d04fffa16ee692f4f76d415cef9f3d0243827bb8482b752a8adb15902e7602",
+      "bytes": 1841
+    },
+    "recovery/coordinator/stage/module.json": {
+      "sha256": "ef86a3a58e81df89175bed988f84e81667c779f180313e65053a5f5b6126ec34",
+      "bytes": 45390
+    },
+    "recovery/coordinator/stage/packages/sui-core/README.md": {
+      "sha256": "a96c9771a11b3c64e50976ddd2a1e19d2a1b438c97ffbc9c49590f60551583b6",
+      "bytes": 748
+    },
+    "recovery/coordinator/stage/packages/sui-core/npm-shrinkwrap.json": {
+      "sha256": "73f0e0074765332ff9518786ecf0af91ba7bb92e52cdd7a746786e0bacd623e7",
+      "bytes": 60279
+    },
+    "recovery/coordinator/stage/packages/sui-core/package.json": {
+      "sha256": "ed8a4dc3f4ccc95fd9eae6a8d3feb1228a8ffb06595f998a97d549733f2c9557",
+      "bytes": 2423
+    },
+    "recovery/coordinator/stage/packages/sui-core/src/chain-event-discovery.ts": {
+      "sha256": "ce7c1459a0d41fa131922b61f1981119bc959f0281aa30a1a65a007adcc6d4fc",
+      "bytes": 17352
+    },
+    "recovery/coordinator/stage/packages/sui-core/src/chain-object-discovery.ts": {
+      "sha256": "ad994bae13816b4fa664de0c90c248162e9f1a3a0acedc3b128dc91b6a3673ac",
+      "bytes": 14969
+    },
+    "recovery/coordinator/stage/packages/sui-core/src/coin-selection.ts": {
+      "sha256": "e12d46df8ab16ba09cfb463b7296564bc8572b0cec3f30d2aea4e51046ed2205",
+      "bytes": 2932
+    },
+    "recovery/coordinator/stage/packages/sui-core/src/format.ts": {
+      "sha256": "d893291bf00e9df8002a9c150e912c7c8919eef02eb228f8b7d34afbc0a32178",
+      "bytes": 1355
+    },
+    "recovery/coordinator/stage/packages/sui-core/src/move-type-tag.ts": {
+      "sha256": "3d272633dcb5892f87381baa07603548f1d5bd1271b99e997a2cf8da0ef66f17",
+      "bytes": 2326
+    },
+    "recovery/coordinator/stage/packages/sui-core/src/object-inputs.ts": {
+      "sha256": "3e79b4b7f0fe8896ca068ecbebb6b2b6798d15581253a2ffbff7db335c6a211e",
+      "bytes": 2231
+    },
+    "recovery/coordinator/stage/packages/sui-core/src/profile-read-step.ts": {
+      "sha256": "5cb92ab24d9d9cf2ecfde1fa3054bf4464e52ae364e7852a2fd3c7e91151cacf",
+      "bytes": 822
+    },
+    "recovery/coordinator/stage/packages/sui-core/src/request.ts": {
+      "sha256": "bd05820378ad1af616b7bdc37e009b1c6368ff638d6b542fab92b272959c1bc6",
+      "bytes": 1560
+    },
+    "recovery/coordinator/stage/packages/sui-core/src/sui-grpc-compat.ts": {
+      "sha256": "872ea5e92d3c5931e7cf7abad2b55ccec245c7e9160c7482e33542b0611b62f2",
+      "bytes": 18637
+    },
+    "recovery/coordinator/stage/packages/sui-core/src/sui-network.ts": {
+      "sha256": "a1340afe9fc97b180826d730878222015b6a05ecdbb226c96aad9f8ac8906aa8",
+      "bytes": 203
+    },
+    "recovery/coordinator/stage/packages/sui-core/src/tx-result.ts": {
+      "sha256": "4e407919fc199aac953d36cf000b1a328b722139c95c76ab58a5313359b0f48b",
+      "bytes": 3249
+    },
+    "recovery/coordinator/stage/packages/sui-core/tests/ascii-whitespace.test.ts": {
+      "sha256": "dda2361af88fa5f1ed652a0b154e90bd17757944fb52ff518e16b8c1dbc696f6",
+      "bytes": 815
+    },
+    "recovery/coordinator/stage/packages/sui-core/tests/move-type-tag.test.ts": {
+      "sha256": "c328d3971c510024145aa95df5d20a3c3fb7136e7bddfd8028a7f00bbb509862",
+      "bytes": 2255
+    },
+    "recovery/coordinator/stage/packages/sui-core/tests/new-web/chain-event-discovery.test.ts": {
+      "sha256": "45da293eda191fc86e13c7fcaa4749bd23c75a06a897da44f6dd1a7ccdac65dc",
+      "bytes": 29971
+    },
+    "recovery/coordinator/stage/packages/sui-core/tests/new-web/chain-object-discovery.test.ts": {
+      "sha256": "00b6d8403a23d3b4107dedd948f6a0b5bc453fd601561fa1284676f89c395557",
+      "bytes": 22691
+    },
+    "recovery/coordinator/stage/packages/sui-core/tests/new-web/object-inputs.test.ts": {
+      "sha256": "532170fbeb24ec44ff8efce3bc8f89cc8ac77b0aeb86b603aa12047193d314d8",
+      "bytes": 1989
+    },
+    "recovery/coordinator/stage/packages/sui-core/tests/new-web/sui-grpc-compat.test.ts": {
+      "sha256": "5622f4193933b79cef980d5711a7e08bb08f7026b07b213d661fc5834875e442",
+      "bytes": 5392
+    },
+    "recovery/coordinator/stage/packages/sui-core/tests/new-web/wallet-sign-result.test.ts": {
+      "sha256": "fcf847864b74669a8a48e821fc196decfb0a901690828144faa909dc66a04a2a",
+      "bytes": 4564
+    },
+    "recovery/coordinator/stage/packages/sui-core/tests/no-network.ts": {
+      "sha256": "5c438c4374e628d1093d96ae15c122493567215bc96f60f9200841c6ca47aca1",
+      "bytes": 129
+    },
+    "recovery/coordinator/stage/packages/sui-core/tests/utility-boundaries.test.ts": {
+      "sha256": "70f5eacb29db11af4f5eea1a71e39ae2fcc9d9b6fd9bdde3047f32907464def7",
+      "bytes": 4374
+    },
+    "recovery/coordinator/stage/packages/sui-core/tests/web/sui-network.test.ts": {
+      "sha256": "550459de10e459b777771f301d867e20ea42c8f31af3e9236156e52cc6fcf16d",
+      "bytes": 557
+    },
+    "recovery/coordinator/stage/packages/sui-core/tsconfig.json": {
+      "sha256": "ab7fe22f57a6f145b2545a9384989ed63ab9963b762901196c254337b12f1540",
+      "bytes": 529
+    },
+    "recovery/coordinator/stage/packages/sui-core/vitest.config.ts": {
+      "sha256": "bbbcaf0fc254a5fb65ac29ed41d1cbc0c425c3fc5fae9d6ce759c1e64bfeb6b8",
+      "bytes": 195
+    },
+    "recovery/coordinator/stage/packages/sui-core/web/lib/hooks/use-wallet-sign.ts": {
+      "sha256": "30268585a52ac163cc17fecacf06268b5f4cb32da9a50241677edcd90c12dc1f",
+      "bytes": 4999
+    },
+    "recovery/coordinator/stage/scripts/ci.py": {
+      "sha256": "ed37e5d333b0666879b43f7dde19494f80f117d5f9abb6865b78ffa9857accc3",
+      "bytes": 17342
+    },
+    "recovery/coordinator/stage/scripts/verify_sui_core.py": {
+      "sha256": "17f675af84d44cd988522edc73cce7ff5fa5dbdc6ec2a7aaf0495799073d090f",
+      "bytes": 857
+    },
+    "recovery/coordinator/stage/tools/sui-core-extraction/source-profile-v2.json": {
+      "sha256": "b35fe5ef1a227eea90b114b4bdac670210db2ffeef5a1171463b8b8495d913f4",
+      "bytes": 5782
+    },
+    "recovery/coordinator/stage/tools/sui-core-extraction/verify-package-v2.py": {
+      "sha256": "3538613a20f774bf05cdbe16e3759c69a8e8829094c7cd4044f5d20fabe2a693",
+      "bytes": 6568
+    },
+    "recovery/coordinator/stage/tools/sui-core-extraction/verify-package.py": {
+      "sha256": "6232f4323b49fbe87514d0e18c2f90d640d125d48d8f5c69f1b0fd2f573d8861",
+      "bytes": 3304
+    },
+    "recovery/coordinator/stage-product02-receipt.json": {
+      "sha256": "fdd3cef1485328a7c402b3f98c915d4fc8826f2270a1d0b2d856e660c61a41e1",
+      "bytes": 508
+    },
+    "recovery/repo/.github/workflows/ci.yml": {
+      "sha256": "0c8d128d5f4a7b616716a7bb8f4e52d33dfe083eea0dcf206c59d472a512b659",
+      "bytes": 302
+    },
+    "recovery/repo/AGENTS.md": {
+      "sha256": "6496e8d77a023b74b3d29834f82ab5d50a65979cca6d611a00b9dd3be48bb52b",
+      "bytes": 2039
+    },
+    "recovery/repo/COMPATIBILITY.md": {
+      "sha256": "3d08b54e23ed7e03a1013b80d3ab64a5a7ae7028f14b81020fb4a32c9c0c5d67",
+      "bytes": 1491
+    },
+    "recovery/repo/MODULE.md": {
+      "sha256": "6239e7cec7fc73bfe39fca707b4ae3062e844f4b8b021f83afb943aa895a5468",
+      "bytes": 1897
+    },
+    "recovery/repo/README.md": {
+      "sha256": "15275efaff413415584e416a8f27735dd08ec0ab8bc3ea3ca657dcbd73c16f8e",
+      "bytes": 3329
+    },
+    "recovery/repo/RUNBOOK.md": {
+      "sha256": "a7d04fffa16ee692f4f76d415cef9f3d0243827bb8482b752a8adb15902e7602",
+      "bytes": 1841
+    },
+    "recovery/repo/module.json": {
+      "sha256": "ef86a3a58e81df89175bed988f84e81667c779f180313e65053a5f5b6126ec34",
+      "bytes": 45390
+    },
+    "recovery/repo/packages/sui-core/README.md": {
+      "sha256": "a96c9771a11b3c64e50976ddd2a1e19d2a1b438c97ffbc9c49590f60551583b6",
+      "bytes": 748
+    },
+    "recovery/repo/packages/sui-core/dist/chain-event-discovery.d.ts": {
+      "sha256": "711b9f629366ce35f6c78ce5c3d26f2271821e0b496a4261b3cc75b59cfee21e",
+      "bytes": 3006
+    },
+    "recovery/repo/packages/sui-core/dist/chain-event-discovery.d.ts.map": {
+      "sha256": "64431851dba4c385cd550bf87bbef20c8bb4ce310ae1340c2b464d634c1de2f4",
+      "bytes": 1771
+    },
+    "recovery/repo/packages/sui-core/dist/chain-event-discovery.js": {
+      "sha256": "85ec4f6f5be1356c7f0a9d3d29a2682bdc3e303521b4716b86e059d5eb2d9cd4",
+      "bytes": 16453
+    },
+    "recovery/repo/packages/sui-core/dist/chain-event-discovery.js.map": {
+      "sha256": "5f9616dba79328f37861cafa0b92a511fdbd5c86dc852fc4e5bcea77bb108088",
+      "bytes": 13893
+    },
+    "recovery/repo/packages/sui-core/dist/chain-object-discovery.d.ts": {
+      "sha256": "48b7b8e2e7160f92ae58dfc55258f9df5c71392e1468dd619cf2043c5c5aa4ab",
+      "bytes": 2552
+    },
+    "recovery/repo/packages/sui-core/dist/chain-object-discovery.d.ts.map": {
+      "sha256": "4d85d315a2eac0ce3d9c755906f94631a4e6a8bcb66ebf0d046c8177dbaee971",
+      "bytes": 1736
+    },
+    "recovery/repo/packages/sui-core/dist/chain-object-discovery.js": {
+      "sha256": "5928bd94e1ba71d74a9127fc32d5138b6476fe171c6d46d31c6e1d37047dacc2",
+      "bytes": 14303
+    },
+    "recovery/repo/packages/sui-core/dist/chain-object-discovery.js.map": {
+      "sha256": "44fb8a4a85e655895ff00367817204c960eeaf93926eaa623b243d997bee39e7",
+      "bytes": 12762
+    },
+    "recovery/repo/packages/sui-core/dist/coin-selection.d.ts": {
+      "sha256": "b01485bebf9079eba6599c9ac0a1877dd1b72313d4605ef4530fc0126f195970",
+      "bytes": 801
+    },
+    "recovery/repo/packages/sui-core/dist/coin-selection.d.ts.map": {
+      "sha256": "52d75779104616b13df109f65b59e96d24270f21a239de3c0b8ece9963f0449f",
+      "bytes": 834
+    },
+    "recovery/repo/packages/sui-core/dist/coin-selection.js": {
+      "sha256": "9c0ec3a78a34be1bc0905c1b1062f556e8c249ebdc8326d4e48a1dc65eb728d0",
+      "bytes": 2719
+    },
+    "recovery/repo/packages/sui-core/dist/coin-selection.js.map": {
+      "sha256": "013daaf86af0dc7f0f340dd1a0c6b879410258d2da9ada25d225df9852808330",
+      "bytes": 2619
+    },
+    "recovery/repo/packages/sui-core/dist/format.d.ts": {
+      "sha256": "95eefec2c92bd8a39ff5ccd72a02ad7410d329598b88c4333c24494e7bcf47e5",
+      "bytes": 322
+    },
+    "recovery/repo/packages/sui-core/dist/format.d.ts.map": {
+      "sha256": "3925bca5c37215706eb1ae0bc3018815a9a6efa20c497c11fcc571182f94b922",
+      "bytes": 368
+    },
+    "recovery/repo/packages/sui-core/dist/format.js": {
+      "sha256": "279d80565b1d89b2a4cc71b33fa3a29a255e7aaa65f3d77f211a8d010a96f8cc",
+      "bytes": 1318
+    },
+    "recovery/repo/packages/sui-core/dist/format.js.map": {
+      "sha256": "1ae1b9a4920e16ba10c8363285087495d9160915a653616465d254c78a604ba8",
+      "bytes": 1443
+    },
+    "recovery/repo/packages/sui-core/dist/object-inputs.d.ts": {
+      "sha256": "4e029427e283fc29b8f2324fbc53e5e9854b2589786464a6dff8205cfb593a1f",
+      "bytes": 682
+    },
+    "recovery/repo/packages/sui-core/dist/object-inputs.d.ts.map": {
+      "sha256": "6c41887cb4cf2c85bbc3b5a5ce000ccfe482fe7bc8003b02c0fd7c437382546d",
+      "bytes": 709
+    },
+    "recovery/repo/packages/sui-core/dist/object-inputs.js": {
+      "sha256": "487d9766cd061d511ff5c64169723f00ddf9cd844a41d45161354e18a835f96b",
+      "bytes": 1891
+    },
+    "recovery/repo/packages/sui-core/dist/object-inputs.js.map": {
+      "sha256": "0dad38b41f895a17521cd3210ffc3a55110ed3ed432a750fc584bdec76ac8dc9",
+      "bytes": 2265
+    },
+    "recovery/repo/packages/sui-core/dist/profile-read-step.d.ts": {
+      "sha256": "56687c0ae206676e3cbed220ed58d9ba7b13cc10b25b7c3e7f375215ea53f8db",
+      "bytes": 339
+    },
+    "recovery/repo/packages/sui-core/dist/profile-read-step.d.ts.map": {
+      "sha256": "ab334de05c04bf8ca7394b84fb535d404f544319816472a35536af872116d0a8",
+      "bytes": 308
+    },
+    "recovery/repo/packages/sui-core/dist/profile-read-step.js": {
+      "sha256": "17fef4311e47e41f46c89b039bf3bba0decaf6546b71bac7bd941694d5448042",
+      "bytes": 946
+    },
+    "recovery/repo/packages/sui-core/dist/profile-read-step.js.map": {
+      "sha256": "2a86a8e5f74639cd832f46da73bbae993377e1ddb4649ad09f956426f5dc6868",
+      "bytes": 987
+    },
+    "recovery/repo/packages/sui-core/dist/request.d.ts": {
+      "sha256": "e87f7670dec53d0a8d6b4cc9f9b231b9d989f95dbc23f47463db563b42434467",
+      "bytes": 424
+    },
+    "recovery/repo/packages/sui-core/dist/request.d.ts.map": {
+      "sha256": "2b953f0a49c923122ff0daf823aa84a492c8e3b70001d85345233d9c5fd8f49e",
+      "bytes": 433
+    },
+    "recovery/repo/packages/sui-core/dist/request.js": {
+      "sha256": "696216c9605567e525f60c745fc600e397738e24903525a8d9437e2b3f5e626d",
+      "bytes": 1537
+    },
+    "recovery/repo/packages/sui-core/dist/request.js.map": {
+      "sha256": "1baf18a5f9805faa13a5c28bf6a63628c0a2c7e2d44cd2034d26a65391ecc6b5",
+      "bytes": 1623
+    },
+    "recovery/repo/packages/sui-core/dist/sui-grpc-compat.d.ts": {
+      "sha256": "de7aa3bd37012c21ab96b80f0f17a4e799a76da06266dea76d4bfa367c6f4c7a",
+      "bytes": 16386
+    },
+    "recovery/repo/packages/sui-core/dist/sui-grpc-compat.d.ts.map": {
+      "sha256": "99882ba7b505be526cbebc37d485044670c595bf45b3bbb911ab7fd79a3c372e",
+      "bytes": 4025
+    },
+    "recovery/repo/packages/sui-core/dist/sui-grpc-compat.js": {
+      "sha256": "f33113cacbc35ca20b588e3db25571866ae01550b9e7cb92ed6943a6d2685a2b",
+      "bytes": 16141
+    },
+    "recovery/repo/packages/sui-core/dist/sui-grpc-compat.js.map": {
+      "sha256": "6c3da4d600ebe050f0e5aae1e5ade6edb28b57043ab3611b5f2bc5eba97b9e58",
+      "bytes": 14601
+    },
+    "recovery/repo/packages/sui-core/dist/sui-network.d.ts": {
+      "sha256": "d97cbf9c0ce7ca13a0a3b022496963797b121294c3fdc561f052dffcb99de94b",
+      "bytes": 196
+    },
+    "recovery/repo/packages/sui-core/dist/sui-network.d.ts.map": {
+      "sha256": "4c2fd04bab0d605d1e83eaf25f123f4d0b9d70096f65e4d36a81bd7203e2d834",
+      "bytes": 240
+    },
+    "recovery/repo/packages/sui-core/dist/sui-network.js": {
+      "sha256": "8777e2c44059bdc113f6b2d2d69d1cb0926d58c27997b778e789677be2a33f82",
+      "bytes": 140
+    },
+    "recovery/repo/packages/sui-core/dist/sui-network.js.map": {
+      "sha256": "93620ea0067ae25e9d186fb1a79b150026f3013e0bd7ccf5d7768a9b6403859f",
+      "bytes": 228
+    },
+    "recovery/repo/packages/sui-core/dist/tx-result.d.ts": {
+      "sha256": "aa88117980b0b610311ccce78d5dfc89e7f447b4596ff8591cafb3a7caba9c0e",
+      "bytes": 1319
+    },
+    "recovery/repo/packages/sui-core/dist/tx-result.d.ts.map": {
+      "sha256": "5b256708c02c0ed6944c43fe85235e3ff32a20190d3597e2001c7b56e4ca5acd",
+      "bytes": 1310
+    },
+    "recovery/repo/packages/sui-core/dist/tx-result.js": {
+      "sha256": "adede118ce44a77cd3ea95c76259bddd79b9924a45d9369b9659e34af596bafe",
+      "bytes": 2580
+    },
+    "recovery/repo/packages/sui-core/dist/tx-result.js.map": {
+      "sha256": "ba97017319e1c32320197328ce57b76dbd788fd6a5621ccc854063d124c184cd",
+      "bytes": 2493
+    },
+    "recovery/repo/packages/sui-core/npm-shrinkwrap.json": {
+      "sha256": "73f0e0074765332ff9518786ecf0af91ba7bb92e52cdd7a746786e0bacd623e7",
+      "bytes": 60279
+    },
+    "recovery/repo/packages/sui-core/package.json": {
+      "sha256": "ed8a4dc3f4ccc95fd9eae6a8d3feb1228a8ffb06595f998a97d549733f2c9557",
+      "bytes": 2423
+    },
+    "recovery/repo/packages/sui-core/src/chain-event-discovery.ts": {
+      "sha256": "ce7c1459a0d41fa131922b61f1981119bc959f0281aa30a1a65a007adcc6d4fc",
+      "bytes": 17352
+    },
+    "recovery/repo/packages/sui-core/src/chain-object-discovery.ts": {
+      "sha256": "ad994bae13816b4fa664de0c90c248162e9f1a3a0acedc3b128dc91b6a3673ac",
+      "bytes": 14969
+    },
+    "recovery/repo/packages/sui-core/src/coin-selection.ts": {
+      "sha256": "e12d46df8ab16ba09cfb463b7296564bc8572b0cec3f30d2aea4e51046ed2205",
+      "bytes": 2932
+    },
+    "recovery/repo/packages/sui-core/src/format.ts": {
+      "sha256": "d893291bf00e9df8002a9c150e912c7c8919eef02eb228f8b7d34afbc0a32178",
+      "bytes": 1355
+    },
+    "recovery/repo/packages/sui-core/src/move-type-tag.ts": {
+      "sha256": "081de4f7b01482b8fe3f035ca4e80a5a2301bd0048d20e06439acd97e49d2fba",
+      "bytes": 2327
+    },
+    "recovery/repo/packages/sui-core/src/object-inputs.ts": {
+      "sha256": "3e79b4b7f0fe8896ca068ecbebb6b2b6798d15581253a2ffbff7db335c6a211e",
+      "bytes": 2231
+    },
+    "recovery/repo/packages/sui-core/src/profile-read-step.ts": {
+      "sha256": "5cb92ab24d9d9cf2ecfde1fa3054bf4464e52ae364e7852a2fd3c7e91151cacf",
+      "bytes": 822
+    },
+    "recovery/repo/packages/sui-core/src/request.ts": {
+      "sha256": "bd05820378ad1af616b7bdc37e009b1c6368ff638d6b542fab92b272959c1bc6",
+      "bytes": 1560
+    },
+    "recovery/repo/packages/sui-core/src/sui-grpc-compat.ts": {
+      "sha256": "872ea5e92d3c5931e7cf7abad2b55ccec245c7e9160c7482e33542b0611b62f2",
+      "bytes": 18637
+    },
+    "recovery/repo/packages/sui-core/src/sui-network.ts": {
+      "sha256": "a1340afe9fc97b180826d730878222015b6a05ecdbb226c96aad9f8ac8906aa8",
+      "bytes": 203
+    },
+    "recovery/repo/packages/sui-core/src/tx-result.ts": {
+      "sha256": "4e407919fc199aac953d36cf000b1a328b722139c95c76ab58a5313359b0f48b",
+      "bytes": 3249
+    },
+    "recovery/repo/packages/sui-core/tests/ascii-whitespace.test.ts": {
+      "sha256": "dda2361af88fa5f1ed652a0b154e90bd17757944fb52ff518e16b8c1dbc696f6",
+      "bytes": 815
+    },
+    "recovery/repo/packages/sui-core/tests/move-type-tag.test.ts": {
+      "sha256": "c328d3971c510024145aa95df5d20a3c3fb7136e7bddfd8028a7f00bbb509862",
+      "bytes": 2255
+    },
+    "recovery/repo/packages/sui-core/tests/new-web/chain-event-discovery.test.ts": {
+      "sha256": "45da293eda191fc86e13c7fcaa4749bd23c75a06a897da44f6dd1a7ccdac65dc",
+      "bytes": 29971
+    },
+    "recovery/repo/packages/sui-core/tests/new-web/chain-object-discovery.test.ts": {
+      "sha256": "00b6d8403a23d3b4107dedd948f6a0b5bc453fd601561fa1284676f89c395557",
+      "bytes": 22691
+    },
+    "recovery/repo/packages/sui-core/tests/new-web/object-inputs.test.ts": {
+      "sha256": "532170fbeb24ec44ff8efce3bc8f89cc8ac77b0aeb86b603aa12047193d314d8",
+      "bytes": 1989
+    },
+    "recovery/repo/packages/sui-core/tests/new-web/sui-grpc-compat.test.ts": {
+      "sha256": "5622f4193933b79cef980d5711a7e08bb08f7026b07b213d661fc5834875e442",
+      "bytes": 5392
+    },
+    "recovery/repo/packages/sui-core/tests/new-web/wallet-sign-result.test.ts": {
+      "sha256": "fcf847864b74669a8a48e821fc196decfb0a901690828144faa909dc66a04a2a",
+      "bytes": 4564
+    },
+    "recovery/repo/packages/sui-core/tests/no-network.ts": {
+      "sha256": "5c438c4374e628d1093d96ae15c122493567215bc96f60f9200841c6ca47aca1",
+      "bytes": 129
+    },
+    "recovery/repo/packages/sui-core/tests/utility-boundaries.test.ts": {
+      "sha256": "70f5eacb29db11af4f5eea1a71e39ae2fcc9d9b6fd9bdde3047f32907464def7",
+      "bytes": 4374
+    },
+    "recovery/repo/packages/sui-core/tests/web/sui-network.test.ts": {
+      "sha256": "550459de10e459b777771f301d867e20ea42c8f31af3e9236156e52cc6fcf16d",
+      "bytes": 557
+    },
+    "recovery/repo/packages/sui-core/tsconfig.json": {
+      "sha256": "ab7fe22f57a6f145b2545a9384989ed63ab9963b762901196c254337b12f1540",
+      "bytes": 529
+    },
+    "recovery/repo/packages/sui-core/vitest.config.ts": {
+      "sha256": "bbbcaf0fc254a5fb65ac29ed41d1cbc0c425c3fc5fae9d6ce759c1e64bfeb6b8",
+      "bytes": 195
+    },
+    "recovery/repo/packages/sui-core/web/lib/hooks/use-wallet-sign.ts": {
+      "sha256": "30268585a52ac163cc17fecacf06268b5f4cb32da9a50241677edcd90c12dc1f",
+      "bytes": 4999
+    },
+    "recovery/repo/scripts/ci.py": {
+      "sha256": "ed37e5d333b0666879b43f7dde19494f80f117d5f9abb6865b78ffa9857accc3",
+      "bytes": 17342
+    },
+    "recovery/repo/scripts/verify_sui_core.py": {
+      "sha256": "17f675af84d44cd988522edc73cce7ff5fa5dbdc6ec2a7aaf0495799073d090f",
+      "bytes": 857
+    },
+    "recovery/repo/tools/sui-core-extraction/source-profile-v2.json": {
+      "sha256": "b35fe5ef1a227eea90b114b4bdac670210db2ffeef5a1171463b8b8495d913f4",
+      "bytes": 5782
+    },
+    "recovery/repo/tools/sui-core-extraction/verify-package-v2.py": {
+      "sha256": "3538613a20f774bf05cdbe16e3759c69a8e8829094c7cd4044f5d20fabe2a693",
+      "bytes": 6568
+    },
+    "recovery/repo/tools/sui-core-extraction/verify-package.py": {
+      "sha256": "6232f4323b49fbe87514d0e18c2f90d640d125d48d8f5c69f1b0fd2f573d8861",
+      "bytes": 3304
+    },
+    "recovery-run2/coordinator/activation-plan.json": {
+      "sha256": "e14511f7f229df81518e7a10d01260958876709b979515e00bc0c36419cb57a2",
+      "bytes": 16009
+    },
+    "recovery-run2/coordinator/actual-apply-intent.json": {
+      "sha256": "7fa77d5a72a780088edd3b53c3fda258121fa45678f2fdd41e290b48c2333e0e",
+      "bytes": 2769
+    },
+    "recovery-run2/coordinator/actual-apply-receipt.json": {
+      "sha256": "42951055c3d8400d23296ca1955dfb53f85843bd90f3a4a781eb271eb8e19f56",
+      "bytes": 2993
+    },
+    "recovery-run2/coordinator/actual-restore-intent.json": {
+      "sha256": "712088814849e8219c3431a92710b6a1b763435ed8997346d9cbdc2f50a669d5",
+      "bytes": 2771
+    },
+    "recovery-run2/coordinator/actual-restore-receipt.json": {
+      "sha256": "1d0a8ec3c0b008c044c0c8f306172f5181323ef37c4c4c87d75351da7a168b9b",
+      "bytes": 2997
+    },
+    "recovery-run2/coordinator/before/README.md": {
+      "sha256": "b4136b130eed2a2127fc815c6e8b3026f6db5958d60a064820619f381f138623",
+      "bytes": 2721
+    },
+    "recovery-run2/coordinator/before/module.json": {
+      "sha256": "547d392c3a658412cfdf3f506dc19166aa5689da06020c84e84729f2fd25e626",
+      "bytes": 44278
+    },
+    "recovery-run2/coordinator/before/packages/sui-core/README.md": {
+      "sha256": "8584060fb356c7d78685afba2963cf09fa78a1e414754b0643f7247de13d9571",
+      "bytes": 405
+    },
+    "recovery-run2/coordinator/before/packages/sui-core/package.json": {
+      "sha256": "2c0922b5363615732d8615543b523d4ac4c010402b2a3ae20e2801371c0fa261",
+      "bytes": 2261
+    },
+    "recovery-run2/coordinator/before/scripts/verify_sui_core.py": {
+      "sha256": "490c521741dc4c47dd112eb19dddecafede7941140556fa141ee4e5834fa403e",
+      "bytes": 854
+    },
+    "recovery-run2/coordinator/coordinator-source-approval.json": {
+      "sha256": "f060389f70d5894671c9f431b475107d57fb63bb6cc9a2a56979c7e16a7086a3",
+      "bytes": 1569
+    },
+    "recovery-run2/coordinator/guards-before.json": {
+      "sha256": "1b078685ecdedc5ebac39872d6eec3c52a3d80b67a2ed9b29bbdfa5a32d5c8d1",
+      "bytes": 12794
+    },
+    "recovery-run2/coordinator/stage/.github/workflows/ci.yml": {
+      "sha256": "0c8d128d5f4a7b616716a7bb8f4e52d33dfe083eea0dcf206c59d472a512b659",
+      "bytes": 302
+    },
+    "recovery-run2/coordinator/stage/AGENTS.md": {
+      "sha256": "6496e8d77a023b74b3d29834f82ab5d50a65979cca6d611a00b9dd3be48bb52b",
+      "bytes": 2039
+    },
+    "recovery-run2/coordinator/stage/COMPATIBILITY.md": {
+      "sha256": "3d08b54e23ed7e03a1013b80d3ab64a5a7ae7028f14b81020fb4a32c9c0c5d67",
+      "bytes": 1491
+    },
+    "recovery-run2/coordinator/stage/MODULE.md": {
+      "sha256": "6239e7cec7fc73bfe39fca707b4ae3062e844f4b8b021f83afb943aa895a5468",
+      "bytes": 1897
+    },
+    "recovery-run2/coordinator/stage/README.md": {
+      "sha256": "15275efaff413415584e416a8f27735dd08ec0ab8bc3ea3ca657dcbd73c16f8e",
+      "bytes": 3329
+    },
+    "recovery-run2/coordinator/stage/RUNBOOK.md": {
+      "sha256": "a7d04fffa16ee692f4f76d415cef9f3d0243827bb8482b752a8adb15902e7602",
+      "bytes": 1841
+    },
+    "recovery-run2/coordinator/stage/module.json": {
+      "sha256": "ef86a3a58e81df89175bed988f84e81667c779f180313e65053a5f5b6126ec34",
+      "bytes": 45390
+    },
+    "recovery-run2/coordinator/stage/packages/sui-core/README.md": {
+      "sha256": "a96c9771a11b3c64e50976ddd2a1e19d2a1b438c97ffbc9c49590f60551583b6",
+      "bytes": 748
+    },
+    "recovery-run2/coordinator/stage/packages/sui-core/npm-shrinkwrap.json": {
+      "sha256": "73f0e0074765332ff9518786ecf0af91ba7bb92e52cdd7a746786e0bacd623e7",
+      "bytes": 60279
+    },
+    "recovery-run2/coordinator/stage/packages/sui-core/package.json": {
+      "sha256": "ed8a4dc3f4ccc95fd9eae6a8d3feb1228a8ffb06595f998a97d549733f2c9557",
+      "bytes": 2423
+    },
+    "recovery-run2/coordinator/stage/packages/sui-core/src/chain-event-discovery.ts": {
+      "sha256": "ce7c1459a0d41fa131922b61f1981119bc959f0281aa30a1a65a007adcc6d4fc",
+      "bytes": 17352
+    },
+    "recovery-run2/coordinator/stage/packages/sui-core/src/chain-object-discovery.ts": {
+      "sha256": "ad994bae13816b4fa664de0c90c248162e9f1a3a0acedc3b128dc91b6a3673ac",
+      "bytes": 14969
+    },
+    "recovery-run2/coordinator/stage/packages/sui-core/src/coin-selection.ts": {
+      "sha256": "e12d46df8ab16ba09cfb463b7296564bc8572b0cec3f30d2aea4e51046ed2205",
+      "bytes": 2932
+    },
+    "recovery-run2/coordinator/stage/packages/sui-core/src/format.ts": {
+      "sha256": "d893291bf00e9df8002a9c150e912c7c8919eef02eb228f8b7d34afbc0a32178",
+      "bytes": 1355
+    },
+    "recovery-run2/coordinator/stage/packages/sui-core/src/move-type-tag.ts": {
+      "sha256": "3d272633dcb5892f87381baa07603548f1d5bd1271b99e997a2cf8da0ef66f17",
+      "bytes": 2326
+    },
+    "recovery-run2/coordinator/stage/packages/sui-core/src/object-inputs.ts": {
+      "sha256": "3e79b4b7f0fe8896ca068ecbebb6b2b6798d15581253a2ffbff7db335c6a211e",
+      "bytes": 2231
+    },
+    "recovery-run2/coordinator/stage/packages/sui-core/src/profile-read-step.ts": {
+      "sha256": "5cb92ab24d9d9cf2ecfde1fa3054bf4464e52ae364e7852a2fd3c7e91151cacf",
+      "bytes": 822
+    },
+    "recovery-run2/coordinator/stage/packages/sui-core/src/request.ts": {
+      "sha256": "bd05820378ad1af616b7bdc37e009b1c6368ff638d6b542fab92b272959c1bc6",
+      "bytes": 1560
+    },
+    "recovery-run2/coordinator/stage/packages/sui-core/src/sui-grpc-compat.ts": {
+      "sha256": "872ea5e92d3c5931e7cf7abad2b55ccec245c7e9160c7482e33542b0611b62f2",
+      "bytes": 18637
+    },
+    "recovery-run2/coordinator/stage/packages/sui-core/src/sui-network.ts": {
+      "sha256": "a1340afe9fc97b180826d730878222015b6a05ecdbb226c96aad9f8ac8906aa8",
+      "bytes": 203
+    },
+    "recovery-run2/coordinator/stage/packages/sui-core/src/tx-result.ts": {
+      "sha256": "4e407919fc199aac953d36cf000b1a328b722139c95c76ab58a5313359b0f48b",
+      "bytes": 3249
+    },
+    "recovery-run2/coordinator/stage/packages/sui-core/tests/ascii-whitespace.test.ts": {
+      "sha256": "dda2361af88fa5f1ed652a0b154e90bd17757944fb52ff518e16b8c1dbc696f6",
+      "bytes": 815
+    },
+    "recovery-run2/coordinator/stage/packages/sui-core/tests/move-type-tag.test.ts": {
+      "sha256": "c328d3971c510024145aa95df5d20a3c3fb7136e7bddfd8028a7f00bbb509862",
+      "bytes": 2255
+    },
+    "recovery-run2/coordinator/stage/packages/sui-core/tests/new-web/chain-event-discovery.test.ts": {
+      "sha256": "45da293eda191fc86e13c7fcaa4749bd23c75a06a897da44f6dd1a7ccdac65dc",
+      "bytes": 29971
+    },
+    "recovery-run2/coordinator/stage/packages/sui-core/tests/new-web/chain-object-discovery.test.ts": {
+      "sha256": "00b6d8403a23d3b4107dedd948f6a0b5bc453fd601561fa1284676f89c395557",
+      "bytes": 22691
+    },
+    "recovery-run2/coordinator/stage/packages/sui-core/tests/new-web/object-inputs.test.ts": {
+      "sha256": "532170fbeb24ec44ff8efce3bc8f89cc8ac77b0aeb86b603aa12047193d314d8",
+      "bytes": 1989
+    },
+    "recovery-run2/coordinator/stage/packages/sui-core/tests/new-web/sui-grpc-compat.test.ts": {
+      "sha256": "5622f4193933b79cef980d5711a7e08bb08f7026b07b213d661fc5834875e442",
+      "bytes": 5392
+    },
+    "recovery-run2/coordinator/stage/packages/sui-core/tests/new-web/wallet-sign-result.test.ts": {
+      "sha256": "fcf847864b74669a8a48e821fc196decfb0a901690828144faa909dc66a04a2a",
+      "bytes": 4564
+    },
+    "recovery-run2/coordinator/stage/packages/sui-core/tests/no-network.ts": {
+      "sha256": "5c438c4374e628d1093d96ae15c122493567215bc96f60f9200841c6ca47aca1",
+      "bytes": 129
+    },
+    "recovery-run2/coordinator/stage/packages/sui-core/tests/utility-boundaries.test.ts": {
+      "sha256": "70f5eacb29db11af4f5eea1a71e39ae2fcc9d9b6fd9bdde3047f32907464def7",
+      "bytes": 4374
+    },
+    "recovery-run2/coordinator/stage/packages/sui-core/tests/web/sui-network.test.ts": {
+      "sha256": "550459de10e459b777771f301d867e20ea42c8f31af3e9236156e52cc6fcf16d",
+      "bytes": 557
+    },
+    "recovery-run2/coordinator/stage/packages/sui-core/tsconfig.json": {
+      "sha256": "ab7fe22f57a6f145b2545a9384989ed63ab9963b762901196c254337b12f1540",
+      "bytes": 529
+    },
+    "recovery-run2/coordinator/stage/packages/sui-core/vitest.config.ts": {
+      "sha256": "bbbcaf0fc254a5fb65ac29ed41d1cbc0c425c3fc5fae9d6ce759c1e64bfeb6b8",
+      "bytes": 195
+    },
+    "recovery-run2/coordinator/stage/packages/sui-core/web/lib/hooks/use-wallet-sign.ts": {
+      "sha256": "30268585a52ac163cc17fecacf06268b5f4cb32da9a50241677edcd90c12dc1f",
+      "bytes": 4999
+    },
+    "recovery-run2/coordinator/stage/scripts/ci.py": {
+      "sha256": "ed37e5d333b0666879b43f7dde19494f80f117d5f9abb6865b78ffa9857accc3",
+      "bytes": 17342
+    },
+    "recovery-run2/coordinator/stage/scripts/verify_sui_core.py": {
+      "sha256": "17f675af84d44cd988522edc73cce7ff5fa5dbdc6ec2a7aaf0495799073d090f",
+      "bytes": 857
+    },
+    "recovery-run2/coordinator/stage/tools/sui-core-extraction/source-profile-v2.json": {
+      "sha256": "b35fe5ef1a227eea90b114b4bdac670210db2ffeef5a1171463b8b8495d913f4",
+      "bytes": 5782
+    },
+    "recovery-run2/coordinator/stage/tools/sui-core-extraction/verify-package-v2.py": {
+      "sha256": "3538613a20f774bf05cdbe16e3759c69a8e8829094c7cd4044f5d20fabe2a693",
+      "bytes": 6568
+    },
+    "recovery-run2/coordinator/stage/tools/sui-core-extraction/verify-package.py": {
+      "sha256": "6232f4323b49fbe87514d0e18c2f90d640d125d48d8f5c69f1b0fd2f573d8861",
+      "bytes": 3304
+    },
+    "recovery-run2/coordinator/stage-product02-receipt.json": {
+      "sha256": "fdd3cef1485328a7c402b3f98c915d4fc8826f2270a1d0b2d856e660c61a41e1",
+      "bytes": 508
+    },
+    "recovery-run2/repo/.github/workflows/ci.yml": {
+      "sha256": "0c8d128d5f4a7b616716a7bb8f4e52d33dfe083eea0dcf206c59d472a512b659",
+      "bytes": 302
+    },
+    "recovery-run2/repo/AGENTS.md": {
+      "sha256": "6496e8d77a023b74b3d29834f82ab5d50a65979cca6d611a00b9dd3be48bb52b",
+      "bytes": 2039
+    },
+    "recovery-run2/repo/COMPATIBILITY.md": {
+      "sha256": "3d08b54e23ed7e03a1013b80d3ab64a5a7ae7028f14b81020fb4a32c9c0c5d67",
+      "bytes": 1491
+    },
+    "recovery-run2/repo/MODULE.md": {
+      "sha256": "6239e7cec7fc73bfe39fca707b4ae3062e844f4b8b021f83afb943aa895a5468",
+      "bytes": 1897
+    },
+    "recovery-run2/repo/README.md": {
+      "sha256": "15275efaff413415584e416a8f27735dd08ec0ab8bc3ea3ca657dcbd73c16f8e",
+      "bytes": 3329
+    },
+    "recovery-run2/repo/RUNBOOK.md": {
+      "sha256": "a7d04fffa16ee692f4f76d415cef9f3d0243827bb8482b752a8adb15902e7602",
+      "bytes": 1841
+    },
+    "recovery-run2/repo/module.json": {
+      "sha256": "ef86a3a58e81df89175bed988f84e81667c779f180313e65053a5f5b6126ec34",
+      "bytes": 45390
+    },
+    "recovery-run2/repo/packages/sui-core/README.md": {
+      "sha256": "a96c9771a11b3c64e50976ddd2a1e19d2a1b438c97ffbc9c49590f60551583b6",
+      "bytes": 748
+    },
+    "recovery-run2/repo/packages/sui-core/dist/chain-event-discovery.d.ts": {
+      "sha256": "711b9f629366ce35f6c78ce5c3d26f2271821e0b496a4261b3cc75b59cfee21e",
+      "bytes": 3006
+    },
+    "recovery-run2/repo/packages/sui-core/dist/chain-event-discovery.d.ts.map": {
+      "sha256": "64431851dba4c385cd550bf87bbef20c8bb4ce310ae1340c2b464d634c1de2f4",
+      "bytes": 1771
+    },
+    "recovery-run2/repo/packages/sui-core/dist/chain-event-discovery.js": {
+      "sha256": "85ec4f6f5be1356c7f0a9d3d29a2682bdc3e303521b4716b86e059d5eb2d9cd4",
+      "bytes": 16453
+    },
+    "recovery-run2/repo/packages/sui-core/dist/chain-event-discovery.js.map": {
+      "sha256": "5f9616dba79328f37861cafa0b92a511fdbd5c86dc852fc4e5bcea77bb108088",
+      "bytes": 13893
+    },
+    "recovery-run2/repo/packages/sui-core/dist/chain-object-discovery.d.ts": {
+      "sha256": "48b7b8e2e7160f92ae58dfc55258f9df5c71392e1468dd619cf2043c5c5aa4ab",
+      "bytes": 2552
+    },
+    "recovery-run2/repo/packages/sui-core/dist/chain-object-discovery.d.ts.map": {
+      "sha256": "4d85d315a2eac0ce3d9c755906f94631a4e6a8bcb66ebf0d046c8177dbaee971",
+      "bytes": 1736
+    },
+    "recovery-run2/repo/packages/sui-core/dist/chain-object-discovery.js": {
+      "sha256": "5928bd94e1ba71d74a9127fc32d5138b6476fe171c6d46d31c6e1d37047dacc2",
+      "bytes": 14303
+    },
+    "recovery-run2/repo/packages/sui-core/dist/chain-object-discovery.js.map": {
+      "sha256": "44fb8a4a85e655895ff00367817204c960eeaf93926eaa623b243d997bee39e7",
+      "bytes": 12762
+    },
+    "recovery-run2/repo/packages/sui-core/dist/coin-selection.d.ts": {
+      "sha256": "b01485bebf9079eba6599c9ac0a1877dd1b72313d4605ef4530fc0126f195970",
+      "bytes": 801
+    },
+    "recovery-run2/repo/packages/sui-core/dist/coin-selection.d.ts.map": {
+      "sha256": "52d75779104616b13df109f65b59e96d24270f21a239de3c0b8ece9963f0449f",
+      "bytes": 834
+    },
+    "recovery-run2/repo/packages/sui-core/dist/coin-selection.js": {
+      "sha256": "9c0ec3a78a34be1bc0905c1b1062f556e8c249ebdc8326d4e48a1dc65eb728d0",
+      "bytes": 2719
+    },
+    "recovery-run2/repo/packages/sui-core/dist/coin-selection.js.map": {
+      "sha256": "013daaf86af0dc7f0f340dd1a0c6b879410258d2da9ada25d225df9852808330",
+      "bytes": 2619
+    },
+    "recovery-run2/repo/packages/sui-core/dist/format.d.ts": {
+      "sha256": "95eefec2c92bd8a39ff5ccd72a02ad7410d329598b88c4333c24494e7bcf47e5",
+      "bytes": 322
+    },
+    "recovery-run2/repo/packages/sui-core/dist/format.d.ts.map": {
+      "sha256": "3925bca5c37215706eb1ae0bc3018815a9a6efa20c497c11fcc571182f94b922",
+      "bytes": 368
+    },
+    "recovery-run2/repo/packages/sui-core/dist/format.js": {
+      "sha256": "279d80565b1d89b2a4cc71b33fa3a29a255e7aaa65f3d77f211a8d010a96f8cc",
+      "bytes": 1318
+    },
+    "recovery-run2/repo/packages/sui-core/dist/format.js.map": {
+      "sha256": "1ae1b9a4920e16ba10c8363285087495d9160915a653616465d254c78a604ba8",
+      "bytes": 1443
+    },
+    "recovery-run2/repo/packages/sui-core/dist/object-inputs.d.ts": {
+      "sha256": "4e029427e283fc29b8f2324fbc53e5e9854b2589786464a6dff8205cfb593a1f",
+      "bytes": 682
+    },
+    "recovery-run2/repo/packages/sui-core/dist/object-inputs.d.ts.map": {
+      "sha256": "6c41887cb4cf2c85bbc3b5a5ce000ccfe482fe7bc8003b02c0fd7c437382546d",
+      "bytes": 709
+    },
+    "recovery-run2/repo/packages/sui-core/dist/object-inputs.js": {
+      "sha256": "487d9766cd061d511ff5c64169723f00ddf9cd844a41d45161354e18a835f96b",
+      "bytes": 1891
+    },
+    "recovery-run2/repo/packages/sui-core/dist/object-inputs.js.map": {
+      "sha256": "0dad38b41f895a17521cd3210ffc3a55110ed3ed432a750fc584bdec76ac8dc9",
+      "bytes": 2265
+    },
+    "recovery-run2/repo/packages/sui-core/dist/profile-read-step.d.ts": {
+      "sha256": "56687c0ae206676e3cbed220ed58d9ba7b13cc10b25b7c3e7f375215ea53f8db",
+      "bytes": 339
+    },
+    "recovery-run2/repo/packages/sui-core/dist/profile-read-step.d.ts.map": {
+      "sha256": "ab334de05c04bf8ca7394b84fb535d404f544319816472a35536af872116d0a8",
+      "bytes": 308
+    },
+    "recovery-run2/repo/packages/sui-core/dist/profile-read-step.js": {
+      "sha256": "17fef4311e47e41f46c89b039bf3bba0decaf6546b71bac7bd941694d5448042",
+      "bytes": 946
+    },
+    "recovery-run2/repo/packages/sui-core/dist/profile-read-step.js.map": {
+      "sha256": "2a86a8e5f74639cd832f46da73bbae993377e1ddb4649ad09f956426f5dc6868",
+      "bytes": 987
+    },
+    "recovery-run2/repo/packages/sui-core/dist/request.d.ts": {
+      "sha256": "e87f7670dec53d0a8d6b4cc9f9b231b9d989f95dbc23f47463db563b42434467",
+      "bytes": 424
+    },
+    "recovery-run2/repo/packages/sui-core/dist/request.d.ts.map": {
+      "sha256": "2b953f0a49c923122ff0daf823aa84a492c8e3b70001d85345233d9c5fd8f49e",
+      "bytes": 433
+    },
+    "recovery-run2/repo/packages/sui-core/dist/request.js": {
+      "sha256": "696216c9605567e525f60c745fc600e397738e24903525a8d9437e2b3f5e626d",
+      "bytes": 1537
+    },
+    "recovery-run2/repo/packages/sui-core/dist/request.js.map": {
+      "sha256": "1baf18a5f9805faa13a5c28bf6a63628c0a2c7e2d44cd2034d26a65391ecc6b5",
+      "bytes": 1623
+    },
+    "recovery-run2/repo/packages/sui-core/dist/sui-grpc-compat.d.ts": {
+      "sha256": "de7aa3bd37012c21ab96b80f0f17a4e799a76da06266dea76d4bfa367c6f4c7a",
+      "bytes": 16386
+    },
+    "recovery-run2/repo/packages/sui-core/dist/sui-grpc-compat.d.ts.map": {
+      "sha256": "99882ba7b505be526cbebc37d485044670c595bf45b3bbb911ab7fd79a3c372e",
+      "bytes": 4025
+    },
+    "recovery-run2/repo/packages/sui-core/dist/sui-grpc-compat.js": {
+      "sha256": "f33113cacbc35ca20b588e3db25571866ae01550b9e7cb92ed6943a6d2685a2b",
+      "bytes": 16141
+    },
+    "recovery-run2/repo/packages/sui-core/dist/sui-grpc-compat.js.map": {
+      "sha256": "6c3da4d600ebe050f0e5aae1e5ade6edb28b57043ab3611b5f2bc5eba97b9e58",
+      "bytes": 14601
+    },
+    "recovery-run2/repo/packages/sui-core/dist/sui-network.d.ts": {
+      "sha256": "d97cbf9c0ce7ca13a0a3b022496963797b121294c3fdc561f052dffcb99de94b",
+      "bytes": 196
+    },
+    "recovery-run2/repo/packages/sui-core/dist/sui-network.d.ts.map": {
+      "sha256": "4c2fd04bab0d605d1e83eaf25f123f4d0b9d70096f65e4d36a81bd7203e2d834",
+      "bytes": 240
+    },
+    "recovery-run2/repo/packages/sui-core/dist/sui-network.js": {
+      "sha256": "8777e2c44059bdc113f6b2d2d69d1cb0926d58c27997b778e789677be2a33f82",
+      "bytes": 140
+    },
+    "recovery-run2/repo/packages/sui-core/dist/sui-network.js.map": {
+      "sha256": "93620ea0067ae25e9d186fb1a79b150026f3013e0bd7ccf5d7768a9b6403859f",
+      "bytes": 228
+    },
+    "recovery-run2/repo/packages/sui-core/dist/tx-result.d.ts": {
+      "sha256": "aa88117980b0b610311ccce78d5dfc89e7f447b4596ff8591cafb3a7caba9c0e",
+      "bytes": 1319
+    },
+    "recovery-run2/repo/packages/sui-core/dist/tx-result.d.ts.map": {
+      "sha256": "5b256708c02c0ed6944c43fe85235e3ff32a20190d3597e2001c7b56e4ca5acd",
+      "bytes": 1310
+    },
+    "recovery-run2/repo/packages/sui-core/dist/tx-result.js": {
+      "sha256": "adede118ce44a77cd3ea95c76259bddd79b9924a45d9369b9659e34af596bafe",
+      "bytes": 2580
+    },
+    "recovery-run2/repo/packages/sui-core/dist/tx-result.js.map": {
+      "sha256": "ba97017319e1c32320197328ce57b76dbd788fd6a5621ccc854063d124c184cd",
+      "bytes": 2493
+    },
+    "recovery-run2/repo/packages/sui-core/npm-shrinkwrap.json": {
+      "sha256": "73f0e0074765332ff9518786ecf0af91ba7bb92e52cdd7a746786e0bacd623e7",
+      "bytes": 60279
+    },
+    "recovery-run2/repo/packages/sui-core/package.json": {
+      "sha256": "ed8a4dc3f4ccc95fd9eae6a8d3feb1228a8ffb06595f998a97d549733f2c9557",
+      "bytes": 2423
+    },
+    "recovery-run2/repo/packages/sui-core/src/chain-event-discovery.ts": {
+      "sha256": "ce7c1459a0d41fa131922b61f1981119bc959f0281aa30a1a65a007adcc6d4fc",
+      "bytes": 17352
+    },
+    "recovery-run2/repo/packages/sui-core/src/chain-object-discovery.ts": {
+      "sha256": "ad994bae13816b4fa664de0c90c248162e9f1a3a0acedc3b128dc91b6a3673ac",
+      "bytes": 14969
+    },
+    "recovery-run2/repo/packages/sui-core/src/coin-selection.ts": {
+      "sha256": "e12d46df8ab16ba09cfb463b7296564bc8572b0cec3f30d2aea4e51046ed2205",
+      "bytes": 2932
+    },
+    "recovery-run2/repo/packages/sui-core/src/format.ts": {
+      "sha256": "d893291bf00e9df8002a9c150e912c7c8919eef02eb228f8b7d34afbc0a32178",
+      "bytes": 1355
+    },
+    "recovery-run2/repo/packages/sui-core/src/move-type-tag.ts": {
+      "sha256": "081de4f7b01482b8fe3f035ca4e80a5a2301bd0048d20e06439acd97e49d2fba",
+      "bytes": 2327
+    },
+    "recovery-run2/repo/packages/sui-core/src/object-inputs.ts": {
+      "sha256": "3e79b4b7f0fe8896ca068ecbebb6b2b6798d15581253a2ffbff7db335c6a211e",
+      "bytes": 2231
+    },
+    "recovery-run2/repo/packages/sui-core/src/profile-read-step.ts": {
+      "sha256": "5cb92ab24d9d9cf2ecfde1fa3054bf4464e52ae364e7852a2fd3c7e91151cacf",
+      "bytes": 822
+    },
+    "recovery-run2/repo/packages/sui-core/src/request.ts": {
+      "sha256": "bd05820378ad1af616b7bdc37e009b1c6368ff638d6b542fab92b272959c1bc6",
+      "bytes": 1560
+    },
+    "recovery-run2/repo/packages/sui-core/src/sui-grpc-compat.ts": {
+      "sha256": "872ea5e92d3c5931e7cf7abad2b55ccec245c7e9160c7482e33542b0611b62f2",
+      "bytes": 18637
+    },
+    "recovery-run2/repo/packages/sui-core/src/sui-network.ts": {
+      "sha256": "a1340afe9fc97b180826d730878222015b6a05ecdbb226c96aad9f8ac8906aa8",
+      "bytes": 203
+    },
+    "recovery-run2/repo/packages/sui-core/src/tx-result.ts": {
+      "sha256": "4e407919fc199aac953d36cf000b1a328b722139c95c76ab58a5313359b0f48b",
+      "bytes": 3249
+    },
+    "recovery-run2/repo/packages/sui-core/tests/ascii-whitespace.test.ts": {
+      "sha256": "dda2361af88fa5f1ed652a0b154e90bd17757944fb52ff518e16b8c1dbc696f6",
+      "bytes": 815
+    },
+    "recovery-run2/repo/packages/sui-core/tests/move-type-tag.test.ts": {
+      "sha256": "c328d3971c510024145aa95df5d20a3c3fb7136e7bddfd8028a7f00bbb509862",
+      "bytes": 2255
+    },
+    "recovery-run2/repo/packages/sui-core/tests/new-web/chain-event-discovery.test.ts": {
+      "sha256": "45da293eda191fc86e13c7fcaa4749bd23c75a06a897da44f6dd1a7ccdac65dc",
+      "bytes": 29971
+    },
+    "recovery-run2/repo/packages/sui-core/tests/new-web/chain-object-discovery.test.ts": {
+      "sha256": "00b6d8403a23d3b4107dedd948f6a0b5bc453fd601561fa1284676f89c395557",
+      "bytes": 22691
+    },
+    "recovery-run2/repo/packages/sui-core/tests/new-web/object-inputs.test.ts": {
+      "sha256": "532170fbeb24ec44ff8efce3bc8f89cc8ac77b0aeb86b603aa12047193d314d8",
+      "bytes": 1989
+    },
+    "recovery-run2/repo/packages/sui-core/tests/new-web/sui-grpc-compat.test.ts": {
+      "sha256": "5622f4193933b79cef980d5711a7e08bb08f7026b07b213d661fc5834875e442",
+      "bytes": 5392
+    },
+    "recovery-run2/repo/packages/sui-core/tests/new-web/wallet-sign-result.test.ts": {
+      "sha256": "fcf847864b74669a8a48e821fc196decfb0a901690828144faa909dc66a04a2a",
+      "bytes": 4564
+    },
+    "recovery-run2/repo/packages/sui-core/tests/no-network.ts": {
+      "sha256": "5c438c4374e628d1093d96ae15c122493567215bc96f60f9200841c6ca47aca1",
+      "bytes": 129
+    },
+    "recovery-run2/repo/packages/sui-core/tests/utility-boundaries.test.ts": {
+      "sha256": "70f5eacb29db11af4f5eea1a71e39ae2fcc9d9b6fd9bdde3047f32907464def7",
+      "bytes": 4374
+    },
+    "recovery-run2/repo/packages/sui-core/tests/web/sui-network.test.ts": {
+      "sha256": "550459de10e459b777771f301d867e20ea42c8f31af3e9236156e52cc6fcf16d",
+      "bytes": 557
+    },
+    "recovery-run2/repo/packages/sui-core/tsconfig.json": {
+      "sha256": "ab7fe22f57a6f145b2545a9384989ed63ab9963b762901196c254337b12f1540",
+      "bytes": 529
+    },
+    "recovery-run2/repo/packages/sui-core/vitest.config.ts": {
+      "sha256": "bbbcaf0fc254a5fb65ac29ed41d1cbc0c425c3fc5fae9d6ce759c1e64bfeb6b8",
+      "bytes": 195
+    },
+    "recovery-run2/repo/packages/sui-core/web/lib/hooks/use-wallet-sign.ts": {
+      "sha256": "30268585a52ac163cc17fecacf06268b5f4cb32da9a50241677edcd90c12dc1f",
+      "bytes": 4999
+    },
+    "recovery-run2/repo/scripts/ci.py": {
+      "sha256": "ed37e5d333b0666879b43f7dde19494f80f117d5f9abb6865b78ffa9857accc3",
+      "bytes": 17342
+    },
+    "recovery-run2/repo/scripts/verify_sui_core.py": {
+      "sha256": "17f675af84d44cd988522edc73cce7ff5fa5dbdc6ec2a7aaf0495799073d090f",
+      "bytes": 857
+    },
+    "recovery-run2/repo/tools/sui-core-extraction/source-profile-v2.json": {
+      "sha256": "b35fe5ef1a227eea90b114b4bdac670210db2ffeef5a1171463b8b8495d913f4",
+      "bytes": 5782
+    },
+    "recovery-run2/repo/tools/sui-core-extraction/verify-package-v2.py": {
+      "sha256": "3538613a20f774bf05cdbe16e3759c69a8e8829094c7cd4044f5d20fabe2a693",
+      "bytes": 6568
+    },
+    "recovery-run2/repo/tools/sui-core-extraction/verify-package.py": {
+      "sha256": "6232f4323b49fbe87514d0e18c2f90d640d125d48d8f5c69f1b0fd2f573d8861",
+      "bytes": 3304
+    },
+    "recovery.stdout": {
+      "sha256": "90b8af0aaa69489552d0f3da68cb04e114548eb5956fad9611e142fa425c7c9f",
+      "bytes": 440
+    },
+    "result.json": {
+      "sha256": "57c7b7ae6f0ef18a88fcc9c741cb5d32fe55055f9f62764278e52d9f9e0811a6",
+      "bytes": 4719
+    },
+    "review.py": {
+      "sha256": "932a9c3c24904f9741a10f0f39dbb55ee524717aee699dc0ae462c920bb174b1",
+      "bytes": 19895
+    },
+    "sandbox.sb": {
+      "sha256": "96ac2c8d40a98a102aeeffb7de2c0b15da84fc9beb1257be051ecb093d6c54aa",
+      "bytes": 292
+    },
+    "soulidity-sui-core-0.0.1.tgz": {
+      "sha256": "1a9da021fb77946241cf08062cc36b521041e158c55071b6907d57b02f5436fe",
+      "bytes": 56756
+    },
+    "user.npmrc": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  },
+  "symlinks": {
+    "consumer/node_modules/@soulidity/sui-core": {
+      "target": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/shared-sui-actual-activation-readonly-review-v1/fresh-source",
+      "mode": "read-only probe dependency or own package alias"
+    },
+    "consumer-run2/node_modules/@soulidity/sui-core": {
+      "target": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/shared-sui-actual-activation-readonly-review-v1/fresh-source-run2",
+      "mode": "read-only probe dependency or own package alias"
+    },
+    "fresh-source/node_modules": {
+      "target": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/node_modules",
+      "mode": "read-only probe dependency or own package alias"
+    },
+    "fresh-source-run2/node_modules": {
+      "target": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/node_modules",
+      "mode": "read-only probe dependency or own package alias"
+    }
+  },
+  "manifest_excludes": "this terminal manifest; symlink target trees are read-only external dependencies separately pinned by input-pins.json",
+  "actual_source_activation": "SCOPED_PASS",
+  "business_activation_readiness": "NOT_ESTABLISHED",
+  "qualified_financial_security_audit": false,
+  "release": false,
+  "deploy": false,
+  "full_goal": "ACTIVE"
+}

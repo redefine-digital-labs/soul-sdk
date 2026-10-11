@@ -1,0 +1,238 @@
+{
+  "scope": "final guarded isolated /tmp roundtrip only",
+  "guard_count": 127,
+  "plan": {
+    "operation": "cutover",
+    "applied": false,
+    "files": [
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/sui-grpc-compat.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/sui-grpc-compat.ts",
+        "sha256": "872ea5e92d3c5931e7cf7abad2b55ccec245c7e9160c7482e33542b0611b62f2",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/sui-grpc-compat.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/sui-grpc-compat.ts"
+      },
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/sui-network.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/sui-network.ts",
+        "sha256": "a1340afe9fc97b180826d730878222015b6a05ecdbb226c96aad9f8ac8906aa8",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/sui-network.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/sui-network.ts"
+      },
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/tx-result.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/tx-result.ts",
+        "sha256": "4e407919fc199aac953d36cf000b1a328b722139c95c76ab58a5313359b0f48b",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/tx-result.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/tx-result.ts"
+      },
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/coin-selection.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/coin-selection.ts",
+        "sha256": "e12d46df8ab16ba09cfb463b7296564bc8572b0cec3f30d2aea4e51046ed2205",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/coin-selection.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/coin-selection.ts"
+      },
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/object-inputs.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/object-inputs.ts",
+        "sha256": "3e79b4b7f0fe8896ca068ecbebb6b2b6798d15581253a2ffbff7db335c6a211e",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/object-inputs.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/object-inputs.ts"
+      },
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/request.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/request.ts",
+        "sha256": "bd05820378ad1af616b7bdc37e009b1c6368ff638d6b542fab92b272959c1bc6",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/request.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/request.ts"
+      },
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/format.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/format.ts",
+        "sha256": "d893291bf00e9df8002a9c150e912c7c8919eef02eb228f8b7d34afbc0a32178",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/format.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/format.ts"
+      },
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/profile-read-step.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/profile-read-step.ts",
+        "sha256": "5cb92ab24d9d9cf2ecfde1fa3054bf4464e52ae364e7852a2fd3c7e91151cacf",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/profile-read-step.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/profile-read-step.ts"
+      },
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/chain-object-discovery.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/chain-object-discovery.ts",
+        "sha256": "ad994bae13816b4fa664de0c90c248162e9f1a3a0acedc3b128dc91b6a3673ac",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/chain-object-discovery.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/chain-object-discovery.ts"
+      },
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/chain-event-discovery.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/chain-event-discovery.ts",
+        "sha256": "ce7c1459a0d41fa131922b61f1981119bc959f0281aa30a1a65a007adcc6d4fc",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/chain-event-discovery.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/chain-event-discovery.ts"
+      }
+    ],
+    "limit": "Local source ownership only; never chain rollback"
+  },
+  "cutover": {
+    "operation": "cutover",
+    "applied": true,
+    "files": [
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/sui-grpc-compat.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/sui-grpc-compat.ts",
+        "sha256": "872ea5e92d3c5931e7cf7abad2b55ccec245c7e9160c7482e33542b0611b62f2",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/sui-grpc-compat.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/sui-grpc-compat.ts"
+      },
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/sui-network.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/sui-network.ts",
+        "sha256": "a1340afe9fc97b180826d730878222015b6a05ecdbb226c96aad9f8ac8906aa8",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/sui-network.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/sui-network.ts"
+      },
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/tx-result.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/tx-result.ts",
+        "sha256": "4e407919fc199aac953d36cf000b1a328b722139c95c76ab58a5313359b0f48b",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/tx-result.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/tx-result.ts"
+      },
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/coin-selection.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/coin-selection.ts",
+        "sha256": "e12d46df8ab16ba09cfb463b7296564bc8572b0cec3f30d2aea4e51046ed2205",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/coin-selection.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/coin-selection.ts"
+      },
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/object-inputs.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/object-inputs.ts",
+        "sha256": "3e79b4b7f0fe8896ca068ecbebb6b2b6798d15581253a2ffbff7db335c6a211e",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/object-inputs.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/object-inputs.ts"
+      },
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/request.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/request.ts",
+        "sha256": "bd05820378ad1af616b7bdc37e009b1c6368ff638d6b542fab92b272959c1bc6",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/request.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/request.ts"
+      },
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/format.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/format.ts",
+        "sha256": "d893291bf00e9df8002a9c150e912c7c8919eef02eb228f8b7d34afbc0a32178",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/format.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/format.ts"
+      },
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/profile-read-step.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/profile-read-step.ts",
+        "sha256": "5cb92ab24d9d9cf2ecfde1fa3054bf4464e52ae364e7852a2fd3c7e91151cacf",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/profile-read-step.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/profile-read-step.ts"
+      },
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/chain-object-discovery.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/chain-object-discovery.ts",
+        "sha256": "ad994bae13816b4fa664de0c90c248162e9f1a3a0acedc3b128dc91b6a3673ac",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/chain-object-discovery.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/chain-object-discovery.ts"
+      },
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/chain-event-discovery.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/chain-event-discovery.ts",
+        "sha256": "ce7c1459a0d41fa131922b61f1981119bc959f0281aa30a1a65a007adcc6d4fc",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/chain-event-discovery.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/chain-event-discovery.ts"
+      }
+    ],
+    "limit": "Local source ownership only; never chain rollback"
+  },
+  "restore": {
+    "operation": "restore",
+    "applied": true,
+    "files": [
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/sui-grpc-compat.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/sui-grpc-compat.ts",
+        "sha256": "872ea5e92d3c5931e7cf7abad2b55ccec245c7e9160c7482e33542b0611b62f2",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/sui-grpc-compat.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/sui-grpc-compat.ts"
+      },
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/sui-network.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/sui-network.ts",
+        "sha256": "a1340afe9fc97b180826d730878222015b6a05ecdbb226c96aad9f8ac8906aa8",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/sui-network.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/sui-network.ts"
+      },
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/tx-result.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/tx-result.ts",
+        "sha256": "4e407919fc199aac953d36cf000b1a328b722139c95c76ab58a5313359b0f48b",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/tx-result.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/tx-result.ts"
+      },
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/coin-selection.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/coin-selection.ts",
+        "sha256": "e12d46df8ab16ba09cfb463b7296564bc8572b0cec3f30d2aea4e51046ed2205",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/coin-selection.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/coin-selection.ts"
+      },
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/object-inputs.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/object-inputs.ts",
+        "sha256": "3e79b4b7f0fe8896ca068ecbebb6b2b6798d15581253a2ffbff7db335c6a211e",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/object-inputs.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/object-inputs.ts"
+      },
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/request.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/request.ts",
+        "sha256": "bd05820378ad1af616b7bdc37e009b1c6368ff638d6b542fab92b272959c1bc6",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/request.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/request.ts"
+      },
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/format.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/format.ts",
+        "sha256": "d893291bf00e9df8002a9c150e912c7c8919eef02eb228f8b7d34afbc0a32178",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/format.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/format.ts"
+      },
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/profile-read-step.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/profile-read-step.ts",
+        "sha256": "5cb92ab24d9d9cf2ecfde1fa3054bf4464e52ae364e7852a2fd3c7e91151cacf",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/profile-read-step.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/profile-read-step.ts"
+      },
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/chain-object-discovery.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/chain-object-discovery.ts",
+        "sha256": "ad994bae13816b4fa664de0c90c248162e9f1a3a0acedc3b128dc91b6a3673ac",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/chain-object-discovery.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/chain-object-discovery.ts"
+      },
+      {
+        "consumer": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/actual/packages/soulidity-sdk/src/chain-event-discovery.ts",
+        "authority": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/target/packages/sui-core/src/chain-event-discovery.ts",
+        "sha256": "ce7c1459a0d41fa131922b61f1981119bc959f0281aa30a1a65a007adcc6d4fc",
+        "restore": "/private/tmp/sdk-sui-core-extraction-20261010/authority-roundtrip-final/backup/chain-event-discovery.ts",
+        "relative_link": "../../../../target/packages/sui-core/src/chain-event-discovery.ts"
+      }
+    ],
+    "limit": "Local source ownership only; never chain rollback"
+  },
+  "changed_source_restore_rejected": true,
+  "after_all_original_sha_match": true,
+  "source_authority_script_sha256": "ab6974f23e7f96c82789a3a6e057a408bbc773bd3b5607252c8a024e162c9069"
+}

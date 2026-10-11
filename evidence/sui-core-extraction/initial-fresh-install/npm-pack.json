@@ -1,0 +1,281 @@
+[
+  {
+    "id": "@soulidity/sui-core@0.0.1",
+    "name": "@soulidity/sui-core",
+    "version": "0.0.1",
+    "size": 52333,
+    "unpackedSize": 265561,
+    "shasum": "d7205bfb21dc8f67e035a14795da730e3e278849",
+    "integrity": "sha512-m+bsdFpwWnptynDlsCfMA3JsP6wVXT5CPWn+AdYzaY1fUoM6jygcvBqv/pJbzIBI1jJA4ZoLVLTjUy5tfhGg0A==",
+    "filename": "soulidity-sui-core-0.0.1.tgz",
+    "files": [
+      {
+        "path": "README.md",
+        "size": 405,
+        "mode": 420
+      },
+      {
+        "path": "dist/chain-event-discovery.d.ts",
+        "size": 3006,
+        "mode": 420
+      },
+      {
+        "path": "dist/chain-event-discovery.d.ts.map",
+        "size": 1771,
+        "mode": 420
+      },
+      {
+        "path": "dist/chain-event-discovery.js",
+        "size": 16453,
+        "mode": 420
+      },
+      {
+        "path": "dist/chain-event-discovery.js.map",
+        "size": 13893,
+        "mode": 420
+      },
+      {
+        "path": "dist/chain-object-discovery.d.ts",
+        "size": 2552,
+        "mode": 420
+      },
+      {
+        "path": "dist/chain-object-discovery.d.ts.map",
+        "size": 1736,
+        "mode": 420
+      },
+      {
+        "path": "dist/chain-object-discovery.js",
+        "size": 14303,
+        "mode": 420
+      },
+      {
+        "path": "dist/chain-object-discovery.js.map",
+        "size": 12762,
+        "mode": 420
+      },
+      {
+        "path": "dist/coin-selection.d.ts",
+        "size": 801,
+        "mode": 420
+      },
+      {
+        "path": "dist/coin-selection.d.ts.map",
+        "size": 834,
+        "mode": 420
+      },
+      {
+        "path": "dist/coin-selection.js",
+        "size": 2719,
+        "mode": 420
+      },
+      {
+        "path": "dist/coin-selection.js.map",
+        "size": 2619,
+        "mode": 420
+      },
+      {
+        "path": "dist/format.d.ts",
+        "size": 322,
+        "mode": 420
+      },
+      {
+        "path": "dist/format.d.ts.map",
+        "size": 368,
+        "mode": 420
+      },
+      {
+        "path": "dist/format.js",
+        "size": 1318,
+        "mode": 420
+      },
+      {
+        "path": "dist/format.js.map",
+        "size": 1443,
+        "mode": 420
+      },
+      {
+        "path": "dist/object-inputs.d.ts",
+        "size": 682,
+        "mode": 420
+      },
+      {
+        "path": "dist/object-inputs.d.ts.map",
+        "size": 709,
+        "mode": 420
+      },
+      {
+        "path": "dist/object-inputs.js",
+        "size": 1891,
+        "mode": 420
+      },
+      {
+        "path": "dist/object-inputs.js.map",
+        "size": 2265,
+        "mode": 420
+      },
+      {
+        "path": "dist/profile-read-step.d.ts",
+        "size": 339,
+        "mode": 420
+      },
+      {
+        "path": "dist/profile-read-step.d.ts.map",
+        "size": 308,
+        "mode": 420
+      },
+      {
+        "path": "dist/profile-read-step.js",
+        "size": 946,
+        "mode": 420
+      },
+      {
+        "path": "dist/profile-read-step.js.map",
+        "size": 987,
+        "mode": 420
+      },
+      {
+        "path": "dist/request.d.ts",
+        "size": 424,
+        "mode": 420
+      },
+      {
+        "path": "dist/request.d.ts.map",
+        "size": 433,
+        "mode": 420
+      },
+      {
+        "path": "dist/request.js",
+        "size": 1537,
+        "mode": 420
+      },
+      {
+        "path": "dist/request.js.map",
+        "size": 1623,
+        "mode": 420
+      },
+      {
+        "path": "dist/sui-grpc-compat.d.ts",
+        "size": 16386,
+        "mode": 420
+      },
+      {
+        "path": "dist/sui-grpc-compat.d.ts.map",
+        "size": 4025,
+        "mode": 420
+      },
+      {
+        "path": "dist/sui-grpc-compat.js",
+        "size": 16141,
+        "mode": 420
+      },
+      {
+        "path": "dist/sui-grpc-compat.js.map",
+        "size": 14601,
+        "mode": 420
+      },
+      {
+        "path": "dist/sui-network.d.ts",
+        "size": 196,
+        "mode": 420
+      },
+      {
+        "path": "dist/sui-network.d.ts.map",
+        "size": 240,
+        "mode": 420
+      },
+      {
+        "path": "dist/sui-network.js",
+        "size": 140,
+        "mode": 420
+      },
+      {
+        "path": "dist/sui-network.js.map",
+        "size": 228,
+        "mode": 420
+      },
+      {
+        "path": "dist/tx-result.d.ts",
+        "size": 1319,
+        "mode": 420
+      },
+      {
+        "path": "dist/tx-result.d.ts.map",
+        "size": 1310,
+        "mode": 420
+      },
+      {
+        "path": "dist/tx-result.js",
+        "size": 2580,
+        "mode": 420
+      },
+      {
+        "path": "dist/tx-result.js.map",
+        "size": 2493,
+        "mode": 420
+      },
+      {
+        "path": "npm-shrinkwrap.json",
+        "size": 50882,
+        "mode": 420
+      },
+      {
+        "path": "package.json",
+        "size": 2261,
+        "mode": 420
+      },
+      {
+        "path": "src/chain-event-discovery.ts",
+        "size": 17352,
+        "mode": 420
+      },
+      {
+        "path": "src/chain-object-discovery.ts",
+        "size": 14969,
+        "mode": 420
+      },
+      {
+        "path": "src/coin-selection.ts",
+        "size": 2932,
+        "mode": 420
+      },
+      {
+        "path": "src/format.ts",
+        "size": 1355,
+        "mode": 420
+      },
+      {
+        "path": "src/object-inputs.ts",
+        "size": 2231,
+        "mode": 420
+      },
+      {
+        "path": "src/profile-read-step.ts",
+        "size": 822,
+        "mode": 420
+      },
+      {
+        "path": "src/request.ts",
+        "size": 1560,
+        "mode": 420
+      },
+      {
+        "path": "src/sui-grpc-compat.ts",
+        "size": 18637,
+        "mode": 420
+      },
+      {
+        "path": "src/sui-network.ts",
+        "size": 203,
+        "mode": 420
+      },
+      {
+        "path": "src/tx-result.ts",
+        "size": 3249,
+        "mode": 420
+      }
+    ],
+    "entryCount": 53,
+    "bundled": []
+  }
+]

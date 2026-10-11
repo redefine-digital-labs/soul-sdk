@@ -1,0 +1,91 @@
+[
+  {
+    "path": "/Users/naoer/.move",
+    "write_denied": true,
+    "errno": 1
+  },
+  {
+    "path": "/Users/naoer/.npm",
+    "write_denied": true,
+    "errno": 1
+  },
+  {
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src",
+    "write_denied": true,
+    "errno": 1
+  },
+  {
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/web",
+    "write_denied": true,
+    "errno": 1
+  },
+  {
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/move",
+    "write_denied": true,
+    "errno": 1
+  },
+  {
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/docs/codex",
+    "write_denied": true,
+    "errno": 1
+  },
+  {
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity/docs/codex",
+    "write_denied": true,
+    "errno": 1
+  },
+  {
+    "path": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem",
+    "write_denied": true,
+    "errno": 1
+  },
+  {
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/independent-market-current-candidate-v1/frozen/production-graph/market/sources",
+    "write_denied": true,
+    "errno": 1
+  },
+  {
+    "path": "/Users/naoer/.codex/worktrees/owned-creation-construction/soulidity/output/application-manifest-read-candidate/frozen",
+    "write_denied": true,
+    "errno": 1
+  },
+  {
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/independent-market-sdk-candidate-v1",
+    "write_denied": true,
+    "errno": 1
+  },
+  {
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/independent-market-sdk-candidate-v1/baseline",
+    "write_denied": true,
+    "errno": 1
+  },
+  {
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/independent-market-sdk-candidate-v1/node_modules",
+    "write_denied": true,
+    "errno": 1
+  },
+  {
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/independent-market-sdk-composition-candidate-v1/baseline",
+    "write_denied": true,
+    "errno": 1
+  },
+  {
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/independent-market-sdk-composition-candidate-v1/node_modules",
+    "write_denied": true,
+    "errno": 1
+  },
+  {
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/independent-market-sdk-composition-candidate-v1/package.json",
+    "write_denied": true,
+    "errno": 1
+  },
+  {
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/output/ecosystem-construction/repository-split-2026-10-10/maker-manufacturing-extraction/independent-market-sdk-composition-candidate-v1/package-lock.json",
+    "write_denied": true,
+    "errno": 1
+  },
+  {
+    "network_denied": true,
+    "errno": 1
+  }
+]

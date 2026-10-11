@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "positive_exact_profile": true,
+  "cases": [
+    {
+      "name": "changed-helper",
+      "status": "PASS_EXPECTED_REJECTION",
+      "diagnostic": "Frozen source/test/config mismatch: src/move-type-tag.ts"
+    },
+    {
+      "name": "extra-business-source",
+      "status": "PASS_EXPECTED_REJECTION",
+      "diagnostic": "Exact eleven-source ownership mismatch"
+    },
+    {
+      "name": "root-export",
+      "status": "PASS_EXPECTED_REJECTION",
+      "diagnostic": "Public export profile mismatch"
+    },
+    {
+      "name": "changed-original-test",
+      "status": "PASS_EXPECTED_REJECTION",
+      "diagnostic": "Frozen source/test/config mismatch: tests/utility-boundaries.test.ts"
+    },
+    {
+      "name": "same-bytes-foreign-link",
+      "status": "PASS_EXPECTED_REJECTION",
+      "diagnostic": "Missing regular profile file: src/move-type-tag.ts"
+    }
+  ]
+}

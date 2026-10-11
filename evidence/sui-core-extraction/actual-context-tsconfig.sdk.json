@@ -1,0 +1,161 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "types": [
+      "node",
+      "react"
+    ],
+    "jsx": "react-jsx",
+    "noEmit": true,
+    "paths": {
+      "@mysten/sui/bcs": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/node_modules/@mysten/sui/dist/bcs/index.d.mts"
+      ],
+      "@mysten/sui/client": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/node_modules/@mysten/sui/dist/client/index.d.mts"
+      ],
+      "@mysten/sui/cryptography": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/node_modules/@mysten/sui/dist/cryptography/index.d.mts"
+      ],
+      "@mysten/sui/faucet": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/node_modules/@mysten/sui/dist/faucet/index.d.mts"
+      ],
+      "@mysten/sui/graphql": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/node_modules/@mysten/sui/dist/graphql/index.d.mts"
+      ],
+      "@mysten/sui/grpc": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/node_modules/@mysten/sui/dist/grpc/index.d.mts"
+      ],
+      "@mysten/sui/jsonRpc": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/node_modules/@mysten/sui/dist/jsonRpc/index.d.mts"
+      ],
+      "@mysten/sui/keypairs/ed25519": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/node_modules/@mysten/sui/dist/keypairs/ed25519/index.d.mts"
+      ],
+      "@mysten/sui/keypairs/secp256k1": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/node_modules/@mysten/sui/dist/keypairs/secp256k1/index.d.mts"
+      ],
+      "@mysten/sui/keypairs/secp256r1": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/node_modules/@mysten/sui/dist/keypairs/secp256r1/index.d.mts"
+      ],
+      "@mysten/sui/keypairs/passkey": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/node_modules/@mysten/sui/dist/keypairs/passkey/index.d.mts"
+      ],
+      "@mysten/sui/multisig": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/node_modules/@mysten/sui/dist/multisig/index.d.mts"
+      ],
+      "@mysten/sui/transactions": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/node_modules/@mysten/sui/dist/transactions/index.d.mts"
+      ],
+      "@mysten/sui/utils": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/node_modules/@mysten/sui/dist/utils/index.d.mts"
+      ],
+      "@mysten/sui/verify": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/node_modules/@mysten/sui/dist/verify/index.d.mts"
+      ],
+      "@mysten/sui/zklogin": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/node_modules/@mysten/sui/dist/zklogin/index.d.mts"
+      ],
+      "@mysten/sui/graphql/schema": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/node_modules/@mysten/sui/dist/graphql/schema/index.d.mts"
+      ],
+      "fflate": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/fflate/esm/browser.d.ts"
+      ],
+      "fflate/node": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/fflate/esm/index.d.mts"
+      ],
+      "fflate/browser": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/fflate/esm/browser.d.ts"
+      ],
+      "@mysten/dapp-kit": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/@mysten/dapp-kit/dist/index.d.ts"
+      ],
+      "@noble/hashes": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/@noble/hashes/index.d.ts"
+      ],
+      "@noble/hashes/_md.js": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/@noble/hashes/_md.d.ts"
+      ],
+      "@noble/hashes/argon2.js": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/@noble/hashes/argon2.d.ts"
+      ],
+      "@noble/hashes/blake1.js": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/@noble/hashes/blake1.d.ts"
+      ],
+      "@noble/hashes/blake2.js": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/@noble/hashes/blake2.d.ts"
+      ],
+      "@noble/hashes/blake3.js": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/@noble/hashes/blake3.d.ts"
+      ],
+      "@noble/hashes/eskdf.js": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/@noble/hashes/eskdf.d.ts"
+      ],
+      "@noble/hashes/hkdf.js": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/@noble/hashes/hkdf.d.ts"
+      ],
+      "@noble/hashes/hmac.js": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/@noble/hashes/hmac.d.ts"
+      ],
+      "@noble/hashes/legacy.js": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/@noble/hashes/legacy.d.ts"
+      ],
+      "@noble/hashes/pbkdf2.js": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/@noble/hashes/pbkdf2.d.ts"
+      ],
+      "@noble/hashes/scrypt.js": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/@noble/hashes/scrypt.d.ts"
+      ],
+      "@noble/hashes/sha2.js": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/@noble/hashes/sha2.d.ts"
+      ],
+      "@noble/hashes/sha3-addons.js": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/@noble/hashes/sha3-addons.d.ts"
+      ],
+      "@noble/hashes/sha3.js": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/@noble/hashes/sha3.d.ts"
+      ],
+      "@noble/hashes/webcrypto.js": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/@noble/hashes/webcrypto.d.ts"
+      ],
+      "@noble/hashes/utils.js": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/@noble/hashes/utils.d.ts"
+      ],
+      "@protobuf-ts/runtime-rpc": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/@protobuf-ts/runtime-rpc/build/types/index.d.ts"
+      ],
+      "react": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/@types/react/index.d.ts"
+      ],
+      "react/*": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/@types/react/*"
+      ],
+      "react-dom": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/@types/react-dom/index.d.ts"
+      ],
+      "react-dom/*": [
+        "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/evidence/sui-core-extraction/consumer-environment/node_modules/@types/react-dom/*"
+      ],
+      "@soulidity/sdk": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/index.ts"
+      ],
+      "@soulidity/sdk/*": [
+        "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/*"
+      ]
+    }
+  },
+  "include": [
+    "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/**/*.ts"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "status": "FAIL_SCOPED_SDK_INPUT_VALIDATION",
+  "scopes": {
+    "A": {
+      "status": "PASS",
+      "checks": {
+        "pass": 23,
+        "fail": 0
+      },
+      "findings": 0
+    },
+    "B": {
+      "status": "FAIL_NOT_INSTALL_READY",
+      "checks": {
+        "pass": 23,
+        "fail": 1
+      },
+      "findings": [
+        "SDK-REPRICE-V2-01"
+      ],
+      "saved_tests": "121/121 PASS; full107-source originaltsconfig exit0",
+      "independent_probes": "17/20 expected outcomes; three malformed nested identifiers accepted+PTB mutated"
+    },
+    "C": {
+      "status": "PASS",
+      "checks": {
+        "pass": 12,
+        "fail": 0
+      },
+      "findings": 0
+    }
+  },
+  "checks_total": 59,
+  "checks_pass": 58,
+  "checks_fail": 1,
+  "handbook_version": "1.0",
+  "handbook_sections": [
+    "1\u20134",
+    "5",
+    "7",
+    "8.3",
+    "8.4",
+    "9",
+    "12"
+  ],
+  "operating_model_section": "8",
+  "existing_records": [
+    "DOF-001",
+    "P01",
+    "P09"
+  ],
+  "stage": "Test / independent review; Release blocked for SDK validation",
+  "source_modified": false,
+  "signed_or_chain_execution": false,
+  "ui_activated": false,
+  "released": false,
+  "full_b0_accepted": false,
+  "external_audit_claimed": false,
+  "parent_goal_complete": false,
+  "recovery": "Ignore isolated candidates/review; protected installed inputs unchanged",
+  "next_step": "Parent checkpoint then separate pure Sui recursive TypeTag grammar correction phase",
+  "created_utc": "2026-10-11T06:35:36.902560+00:00"
+}

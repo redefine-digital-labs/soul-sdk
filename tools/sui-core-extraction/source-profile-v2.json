@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "profile_id": "pure-sui-11-v2",
+  "original_ten_verifier_sha256": "6232f4323b49fbe87514d0e18c2f90d640d125d48d8f5c69f1b0fd2f573d8861",
+  "sources": [
+    "src/chain-event-discovery.ts",
+    "src/chain-object-discovery.ts",
+    "src/coin-selection.ts",
+    "src/format.ts",
+    "src/move-type-tag.ts",
+    "src/object-inputs.ts",
+    "src/profile-read-step.ts",
+    "src/request.ts",
+    "src/sui-grpc-compat.ts",
+    "src/sui-network.ts",
+    "src/tx-result.ts"
+  ],
+  "exports": {
+    "./sui-grpc-compat": {
+      "types": "./dist/sui-grpc-compat.d.ts",
+      "import": "./dist/sui-grpc-compat.js",
+      "default": "./dist/sui-grpc-compat.js"
+    },
+    "./sui-network": {
+      "types": "./dist/sui-network.d.ts",
+      "import": "./dist/sui-network.js",
+      "default": "./dist/sui-network.js"
+    },
+    "./tx-result": {
+      "types": "./dist/tx-result.d.ts",
+      "import": "./dist/tx-result.js",
+      "default": "./dist/tx-result.js"
+    },
+    "./coin-selection": {
+      "types": "./dist/coin-selection.d.ts",
+      "import": "./dist/coin-selection.js",
+      "default": "./dist/coin-selection.js"
+    },
+    "./object-inputs": {
+      "types": "./dist/object-inputs.d.ts",
+      "import": "./dist/object-inputs.js",
+      "default": "./dist/object-inputs.js"
+    },
+    "./request": {
+      "types": "./dist/request.d.ts",
+      "import": "./dist/request.js",
+      "default": "./dist/request.js"
+    },
+    "./format": {
+      "types": "./dist/format.d.ts",
+      "import": "./dist/format.js",
+      "default": "./dist/format.js"
+    },
+    "./profile-read-step": {
+      "types": "./dist/profile-read-step.d.ts",
+      "import": "./dist/profile-read-step.js",
+      "default": "./dist/profile-read-step.js"
+    },
+    "./chain-object-discovery": {
+      "types": "./dist/chain-object-discovery.d.ts",
+      "import": "./dist/chain-object-discovery.js",
+      "default": "./dist/chain-object-discovery.js"
+    },
+    "./chain-event-discovery": {
+      "types": "./dist/chain-event-discovery.d.ts",
+      "import": "./dist/chain-event-discovery.js",
+      "default": "./dist/chain-event-discovery.js"
+    },
+    "./move-type-tag": {
+      "types": "./dist/move-type-tag.d.ts",
+      "import": "./dist/move-type-tag.js",
+      "default": "./dist/move-type-tag.js"
+    }
+  },
+  "required_file_shas": {
+    "npm-shrinkwrap.json": "73f0e0074765332ff9518786ecf0af91ba7bb92e52cdd7a746786e0bacd623e7",
+    "package.json": "ed8a4dc3f4ccc95fd9eae6a8d3feb1228a8ffb06595f998a97d549733f2c9557",
+    "src/chain-event-discovery.ts": "ce7c1459a0d41fa131922b61f1981119bc959f0281aa30a1a65a007adcc6d4fc",
+    "src/chain-object-discovery.ts": "ad994bae13816b4fa664de0c90c248162e9f1a3a0acedc3b128dc91b6a3673ac",
+    "src/coin-selection.ts": "e12d46df8ab16ba09cfb463b7296564bc8572b0cec3f30d2aea4e51046ed2205",
+    "src/format.ts": "d893291bf00e9df8002a9c150e912c7c8919eef02eb228f8b7d34afbc0a32178",
+    "src/move-type-tag.ts": "3d272633dcb5892f87381baa07603548f1d5bd1271b99e997a2cf8da0ef66f17",
+    "src/object-inputs.ts": "3e79b4b7f0fe8896ca068ecbebb6b2b6798d15581253a2ffbff7db335c6a211e",
+    "src/profile-read-step.ts": "5cb92ab24d9d9cf2ecfde1fa3054bf4464e52ae364e7852a2fd3c7e91151cacf",
+    "src/request.ts": "bd05820378ad1af616b7bdc37e009b1c6368ff638d6b542fab92b272959c1bc6",
+    "src/sui-grpc-compat.ts": "872ea5e92d3c5931e7cf7abad2b55ccec245c7e9160c7482e33542b0611b62f2",
+    "src/sui-network.ts": "a1340afe9fc97b180826d730878222015b6a05ecdbb226c96aad9f8ac8906aa8",
+    "src/tx-result.ts": "4e407919fc199aac953d36cf000b1a328b722139c95c76ab58a5313359b0f48b",
+    "tests/ascii-whitespace.test.ts": "dda2361af88fa5f1ed652a0b154e90bd17757944fb52ff518e16b8c1dbc696f6",
+    "tests/move-type-tag.test.ts": "c328d3971c510024145aa95df5d20a3c3fb7136e7bddfd8028a7f00bbb509862",
+    "tests/new-web/chain-event-discovery.test.ts": "45da293eda191fc86e13c7fcaa4749bd23c75a06a897da44f6dd1a7ccdac65dc",
+    "tests/new-web/chain-object-discovery.test.ts": "00b6d8403a23d3b4107dedd948f6a0b5bc453fd601561fa1284676f89c395557",
+    "tests/new-web/object-inputs.test.ts": "532170fbeb24ec44ff8efce3bc8f89cc8ac77b0aeb86b603aa12047193d314d8",
+    "tests/new-web/sui-grpc-compat.test.ts": "5622f4193933b79cef980d5711a7e08bb08f7026b07b213d661fc5834875e442",
+    "tests/new-web/wallet-sign-result.test.ts": "fcf847864b74669a8a48e821fc196decfb0a901690828144faa909dc66a04a2a",
+    "tests/no-network.ts": "5c438c4374e628d1093d96ae15c122493567215bc96f60f9200841c6ca47aca1",
+    "tests/utility-boundaries.test.ts": "70f5eacb29db11af4f5eea1a71e39ae2fcc9d9b6fd9bdde3047f32907464def7",
+    "tests/web/sui-network.test.ts": "550459de10e459b777771f301d867e20ea42c8f31af3e9236156e52cc6fcf16d",
+    "tsconfig.json": "ab7fe22f57a6f145b2545a9384989ed63ab9963b762901196c254337b12f1540",
+    "vitest.config.ts": "bbbcaf0fc254a5fb65ac29ed41d1cbc0c425c3fc5fae9d6ce759c1e64bfeb6b8",
+    "web/lib/hooks/use-wallet-sign.ts": "30268585a52ac163cc17fecacf06268b5f4cb32da9a50241677edcd90c12dc1f",
+    "README.md": "a96c9771a11b3c64e50976ddd2a1e19d2a1b438c97ffbc9c49590f60551583b6"
+  },
+  "pack_sha256": "1a9da021fb77946241cf08062cc36b521041e158c55071b6907d57b02f5436fe",
+  "tests": {
+    "original": 277,
+    "direct": 10
+  },
+  "review_scope": "Accepted pure helper/source ownership; all business identities and journeys remain pending",
+  "upstream_pack_sha256": "2784bde336661c37ddac7bdf90789f012e01fad1deab244e32d5883d534f094f",
+  "permitted_artifact_delta": {
+    "package/README.md": {
+      "before": {
+        "sha256": "8584060fb356c7d78685afba2963cf09fa78a1e414754b0643f7247de13d9571",
+        "mode": 420,
+        "size": 405
+      },
+      "after": {
+        "sha256": "a96c9771a11b3c64e50976ddd2a1e19d2a1b438c97ffbc9c49590f60551583b6",
+        "mode": 420,
+        "size": 748
+      }
+    }
+  }
+}

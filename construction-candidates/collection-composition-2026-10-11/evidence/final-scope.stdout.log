@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "candidate_source_exact": true,
+    "original_actual105_exact": true,
+    "original_recovery105_exact": true,
+    "upstream106_exact": true,
+    "upstream_recovery106_exact": true,
+    "prior35_test_exact": true,
+    "guard181_exact": true,
+    "four_abi_exact": true,
+    "current_and_governance_exact": true,
+    "package_pins_exact": true,
+    "runtime_packages_exact": true,
+    "source_has_no_symlink": true,
+    "baseline_has_no_symlink": true,
+    "runtime_is_only_symlink": true
+  },
+  "all_pass": true,
+  "source_count": 107,
+  "guard_count": 181
+}

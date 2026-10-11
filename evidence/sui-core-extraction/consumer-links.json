@@ -1,0 +1,82 @@
+[
+  {
+    "consumer_fixture": "/tmp/sdk-sui-core-extraction-20261010/consumer-proof/packages/soulidity-sdk/src/sui-grpc-compat.ts",
+    "candidate_target": "/tmp/sdk-sui-core-extraction-20261010/packages/sui-core/src/sui-grpc-compat.ts",
+    "actual_consumer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/sui-grpc-compat.ts",
+    "target_authority": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/sui-grpc-compat.ts",
+    "sha256": "872ea5e92d3c5931e7cf7abad2b55ccec245c7e9160c7482e33542b0611b62f2",
+    "frozen_original": "/tmp/sdk-sui-core-extraction-20261010/evidence/consumer-ten-source-before/sui-grpc-compat.ts"
+  },
+  {
+    "consumer_fixture": "/tmp/sdk-sui-core-extraction-20261010/consumer-proof/packages/soulidity-sdk/src/sui-network.ts",
+    "candidate_target": "/tmp/sdk-sui-core-extraction-20261010/packages/sui-core/src/sui-network.ts",
+    "actual_consumer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/sui-network.ts",
+    "target_authority": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/sui-network.ts",
+    "sha256": "a1340afe9fc97b180826d730878222015b6a05ecdbb226c96aad9f8ac8906aa8",
+    "frozen_original": "/tmp/sdk-sui-core-extraction-20261010/evidence/consumer-ten-source-before/sui-network.ts"
+  },
+  {
+    "consumer_fixture": "/tmp/sdk-sui-core-extraction-20261010/consumer-proof/packages/soulidity-sdk/src/tx-result.ts",
+    "candidate_target": "/tmp/sdk-sui-core-extraction-20261010/packages/sui-core/src/tx-result.ts",
+    "actual_consumer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/tx-result.ts",
+    "target_authority": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/tx-result.ts",
+    "sha256": "4e407919fc199aac953d36cf000b1a328b722139c95c76ab58a5313359b0f48b",
+    "frozen_original": "/tmp/sdk-sui-core-extraction-20261010/evidence/consumer-ten-source-before/tx-result.ts"
+  },
+  {
+    "consumer_fixture": "/tmp/sdk-sui-core-extraction-20261010/consumer-proof/packages/soulidity-sdk/src/coin-selection.ts",
+    "candidate_target": "/tmp/sdk-sui-core-extraction-20261010/packages/sui-core/src/coin-selection.ts",
+    "actual_consumer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/coin-selection.ts",
+    "target_authority": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/coin-selection.ts",
+    "sha256": "e12d46df8ab16ba09cfb463b7296564bc8572b0cec3f30d2aea4e51046ed2205",
+    "frozen_original": "/tmp/sdk-sui-core-extraction-20261010/evidence/consumer-ten-source-before/coin-selection.ts"
+  },
+  {
+    "consumer_fixture": "/tmp/sdk-sui-core-extraction-20261010/consumer-proof/packages/soulidity-sdk/src/object-inputs.ts",
+    "candidate_target": "/tmp/sdk-sui-core-extraction-20261010/packages/sui-core/src/object-inputs.ts",
+    "actual_consumer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/object-inputs.ts",
+    "target_authority": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/object-inputs.ts",
+    "sha256": "3e79b4b7f0fe8896ca068ecbebb6b2b6798d15581253a2ffbff7db335c6a211e",
+    "frozen_original": "/tmp/sdk-sui-core-extraction-20261010/evidence/consumer-ten-source-before/object-inputs.ts"
+  },
+  {
+    "consumer_fixture": "/tmp/sdk-sui-core-extraction-20261010/consumer-proof/packages/soulidity-sdk/src/request.ts",
+    "candidate_target": "/tmp/sdk-sui-core-extraction-20261010/packages/sui-core/src/request.ts",
+    "actual_consumer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/request.ts",
+    "target_authority": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/request.ts",
+    "sha256": "bd05820378ad1af616b7bdc37e009b1c6368ff638d6b542fab92b272959c1bc6",
+    "frozen_original": "/tmp/sdk-sui-core-extraction-20261010/evidence/consumer-ten-source-before/request.ts"
+  },
+  {
+    "consumer_fixture": "/tmp/sdk-sui-core-extraction-20261010/consumer-proof/packages/soulidity-sdk/src/format.ts",
+    "candidate_target": "/tmp/sdk-sui-core-extraction-20261010/packages/sui-core/src/format.ts",
+    "actual_consumer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/format.ts",
+    "target_authority": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/format.ts",
+    "sha256": "d893291bf00e9df8002a9c150e912c7c8919eef02eb228f8b7d34afbc0a32178",
+    "frozen_original": "/tmp/sdk-sui-core-extraction-20261010/evidence/consumer-ten-source-before/format.ts"
+  },
+  {
+    "consumer_fixture": "/tmp/sdk-sui-core-extraction-20261010/consumer-proof/packages/soulidity-sdk/src/profile-read-step.ts",
+    "candidate_target": "/tmp/sdk-sui-core-extraction-20261010/packages/sui-core/src/profile-read-step.ts",
+    "actual_consumer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/profile-read-step.ts",
+    "target_authority": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/profile-read-step.ts",
+    "sha256": "5cb92ab24d9d9cf2ecfde1fa3054bf4464e52ae364e7852a2fd3c7e91151cacf",
+    "frozen_original": "/tmp/sdk-sui-core-extraction-20261010/evidence/consumer-ten-source-before/profile-read-step.ts"
+  },
+  {
+    "consumer_fixture": "/tmp/sdk-sui-core-extraction-20261010/consumer-proof/packages/soulidity-sdk/src/chain-object-discovery.ts",
+    "candidate_target": "/tmp/sdk-sui-core-extraction-20261010/packages/sui-core/src/chain-object-discovery.ts",
+    "actual_consumer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/chain-object-discovery.ts",
+    "target_authority": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/chain-object-discovery.ts",
+    "sha256": "ad994bae13816b4fa664de0c90c248162e9f1a3a0acedc3b128dc91b6a3673ac",
+    "frozen_original": "/tmp/sdk-sui-core-extraction-20261010/evidence/consumer-ten-source-before/chain-object-discovery.ts"
+  },
+  {
+    "consumer_fixture": "/tmp/sdk-sui-core-extraction-20261010/consumer-proof/packages/soulidity-sdk/src/chain-event-discovery.ts",
+    "candidate_target": "/tmp/sdk-sui-core-extraction-20261010/packages/sui-core/src/chain-event-discovery.ts",
+    "actual_consumer": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/chain-event-discovery.ts",
+    "target_authority": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/chain-event-discovery.ts",
+    "sha256": "ce7c1459a0d41fa131922b61f1981119bc959f0281aa30a1a65a007adcc6d4fc",
+    "frozen_original": "/tmp/sdk-sui-core-extraction-20261010/evidence/consumer-ten-source-before/chain-event-discovery.ts"
+  }
+]

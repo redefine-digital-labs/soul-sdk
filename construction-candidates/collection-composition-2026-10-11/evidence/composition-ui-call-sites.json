@@ -1,0 +1,540 @@
+[
+  {
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/web/lib/collections/collection-command-operation.ts",
+    "sha256": "24f1bd0f1f511ab6f9ec25f7ea506c6a1a15bbcb03957abedde06f9b09eacdb1",
+    "matches": [
+      {
+        "line": 6,
+        "text": "import { profileReadStep, buildListCollectionTx, buildDelistCollectionTx, buildUpdateCollectionListingPriceTx } from '@soulidity/sdk'"
+      },
+      {
+        "line": 15,
+        "text": "  const cap = p.objects.find(row => row.objectId === p.kioskCapId)!"
+      },
+      {
+        "line": 19,
+        "text": "  guard('assert_collection_command_snapshot', p.request.collectionId, p.expected.collectionBcs)"
+      },
+      {
+        "line": 20,
+        "text": "  if (p.oldListingId) guard('assert_collection_listing_snapshot', p.oldListingId, p.expected.listingBcs!)"
+      },
+      {
+        "line": 21,
+        "text": "  if (p.request.action !== 'delist') guard('assert_collection_market_snapshot_v2', p.target.marketConfigId, p.expected.marketBcs!)"
+      },
+      {
+        "line": 23,
+        "text": "  const roots = { currentKioskId: p.kioskId, currentKioskCapOnChainId: p.kioskCapId, collectionObjectId: p.request.collectionId }"
+      },
+      {
+        "line": 25,
+        "text": "  else if (p.request.action === 'reprice') buildUpdateCollectionListingPriceTx({ ...roots, listingObjectId: p.oldListingId!, newPriceAtomic: BigInt(p.request.priceAtomic!) }, target, tx)"
+      }
+    ]
+  },
+  {
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/web/lib/collections/collection-buy-operation.ts",
+    "sha256": "815555c272a529731797d99a395ebabd7ea6e48104ab3041b4dffbb593ec9324",
+    "matches": [
+      {
+        "line": 6,
+        "text": "import { profileReadStep, buildBuyCollectionTx } from '@soulidity/sdk'"
+      },
+      {
+        "line": 24,
+        "text": "  for (const objectId of [...p.paymentCoinIds, ...(p.buyerKiosk.capId ? [p.buyerKiosk.capId] : [])]) {"
+      },
+      {
+        "line": 30,
+        "text": "  guard('assert_collection_command_snapshot', p.request.collectionId, p.expected.collectionBcs)"
+      },
+      {
+        "line": 31,
+        "text": "  guard('assert_collection_listing_snapshot', p.request.listingId, p.expected.listingBcs)"
+      },
+      {
+        "line": 32,
+        "text": "  guard('assert_collection_market_snapshot_v2', p.target.marketConfigId, p.expected.marketBcs)"
+      },
+      {
+        "line": 33,
+        "text": "  buildBuyCollectionTx({ sellerKioskId: p.sellerKioskId, collectionObjectId: p.request.collectionId, listingObjectId: p.request.listingId,"
+      },
+      {
+        "line": 34,
+        "text": "    totalAtomic: BigInt(p.quote.buyerTotalAtomic), paymentCoinObjectIds: p.paymentCoinIds,"
+      },
+      {
+        "line": 35,
+        "text": "    buyerKioskId: p.buyerKiosk.kioskId, buyerKioskCapOnChainId: p.buyerKiosk.capId },"
+      }
+    ]
+  },
+  {
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/web/components/souls/listing-modals.tsx",
+    "sha256": "20f40a9634bfa0b2c8ae9a04125106cdc3fce3d9918a74666a94180c9f67b435",
+    "matches": [
+      {
+        "line": 17,
+        "text": "import { buildUpdateListingPriceTx } from '@soulidity/sdk'"
+      },
+      {
+        "line": 94,
+        "text": "      const soulKioskCapId = soul.currentKioskCapOnChainId"
+      },
+      {
+        "line": 106,
+        "text": "      const tx = buildUpdateListingPriceTx({"
+      },
+      {
+        "line": 108,
+        "text": "        currentKioskCapOnChainId: soulKioskCapId,"
+      },
+      {
+        "line": 229,
+        "text": "      const soulKioskCapId = soul.currentKioskCapOnChainId"
+      },
+      {
+        "line": 241,
+        "text": "            currentKioskCapOnChainId: soulKioskCapId,"
+      }
+    ]
+  },
+  {
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/tx/update-price.ts",
+    "sha256": "f63c7a4ff2a6c39f8ff38f274613a5f0caa80b7f1d6ae9200f55274b909e1fce",
+    "matches": [
+      {
+        "line": 5,
+        "text": "export function buildUpdateListingPriceTx(params: {"
+      },
+      {
+        "line": 7,
+        "text": "  currentKioskCapOnChainId: string"
+      },
+      {
+        "line": 32,
+        "text": "      tx.object(params.currentKioskCapOnChainId),"
+      },
+      {
+        "line": 44,
+        "text": "      tx.object(params.currentKioskCapOnChainId),"
+      },
+      {
+        "line": 57,
+        "text": "          tx.object(params.currentKioskCapOnChainId),"
+      },
+      {
+        "line": 68,
+        "text": "          tx.object(params.currentKioskCapOnChainId),"
+      }
+    ]
+  },
+  {
+    "path": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity/packages/soulidity-sdk/src/index.ts",
+    "sha256": "2f1962ead1112a0753c90d4dbc6a1dcef7d1ca18be092bb41ab33c161ed1aa8c",
+    "matches": [
+      {
+        "line": 15,
+        "text": "export * from './kinds'"
+      },
+      {
+        "line": 16,
+        "text": "export * from './grant-scopes'"
+      },
+      {
+        "line": 19,
+        "text": "export * from './types'"
+      },
+      {
+        "line": 22,
+        "text": "export * from './content-document-id'"
+      },
+      {
+        "line": 23,
+        "text": "export * from './content-upload-recovery-id'"
+      },
+      {
+        "line": 26,
+        "text": "export * from './deployment'"
+      },
+      {
+        "line": 27,
+        "text": "export * from './env'"
+      },
+      {
+        "line": 28,
+        "text": "export * from './kiosk'"
+      },
+      {
+        "line": 29,
+        "text": "export * from './kiosk-item-custody'"
+      },
+      {
+        "line": 30,
+        "text": "export * from './wallet-kiosk-inventory'"
+      },
+      {
+        "line": 31,
+        "text": "export * from './collection-public-read'"
+      },
+      {
+        "line": 32,
+        "text": "export * from './collection-portfolio-discovery'"
+      },
+      {
+        "line": 33,
+        "text": "export * from './collection-market-discovery'"
+      },
+      {
+        "line": 34,
+        "text": "export * from './collection-detail-discovery'"
+      },
+      {
+        "line": 35,
+        "text": "export * from './chain-event-discovery'"
+      },
+      {
+        "line": 36,
+        "text": "export * from './personal-kiosk'"
+      },
+      {
+        "line": 39,
+        "text": "export * from './sui-client'"
+      },
+      {
+        "line": 40,
+        "text": "export * from './sui-grpc-compat'"
+      },
+      {
+        "line": 41,
+        "text": "export * from './sui-network'"
+      },
+      {
+        "line": 42,
+        "text": "export * from './tx-result'"
+      },
+      {
+        "line": 43,
+        "text": "export * from './walrus'"
+      },
+      {
+        "line": 44,
+        "text": "export * from './walrus-blob'"
+      },
+      {
+        "line": 45,
+        "text": "export * from './walrus-asset-id'"
+      },
+      {
+        "line": 46,
+        "text": "export * from './walrus-quote'"
+      },
+      {
+        "line": 49,
+        "text": "export * from './queries'"
+      },
+      {
+        "line": 50,
+        "text": "export * from './events'"
+      },
+      {
+        "line": 53,
+        "text": "export * from './listing-price'"
+      },
+      {
+        "line": 54,
+        "text": "export * from './market-config-cache'"
+      },
+      {
+        "line": 55,
+        "text": "export * from './market-errors'"
+      },
+      {
+        "line": 58,
+        "text": "export * from './content-schema'"
+      },
+      {
+        "line": 59,
+        "text": "export * from './content-templates'"
+      },
+      {
+        "line": 60,
+        "text": "export * from './content-version-pagination'"
+      },
+      {
+        "line": 61,
+        "text": "export * from './metadata'"
+      },
+      {
+        "line": 62,
+        "text": "export * from './persona'"
+      },
+      {
+        "line": 63,
+        "text": "export * from './persona-sprite'"
+      },
+      {
+        "line": 66,
+        "text": "export * from './client-session'"
+      },
+      {
+        "line": 67,
+        "text": "export * from './coin-selection'"
+      },
+      {
+        "line": 68,
+        "text": "export * from './collection-bind-preflight'"
+      },
+      {
+        "line": 69,
+        "text": "export * from './format'"
+      },
+      {
+        "line": 70,
+        "text": "export * from './legacy-mint-bridge'"
+      },
+      {
+        "line": 71,
+        "text": "export * from './object-inputs'"
+      },
+      {
+        "line": 72,
+        "text": "export * from './projection-scalars'"
+      },
+      {
+        "line": 73,
+        "text": "export * from './request'"
+      },
+      {
+        "line": 74,
+        "text": "export * from './serialization'"
+      },
+      {
+        "line": 75,
+        "text": "export * from './tags'"
+      },
+      {
+        "line": 76,
+        "text": "export * from './upload-validation'"
+      },
+      {
+        "line": 79,
+        "text": "export * from './tx/buy'"
+      },
+      {
+        "line": 80,
+        "text": "export * from './tx/animacraft-v8'"
+      },
+      {
+        "line": 81,
+        "text": "export * from './tx/animacraft-market-v8'"
+      },
+      {
+        "line": 82,
+        "text": "export * from './tx/animacraft-equipment-market-v8'"
+      },
+      {
+        "line": 83,
+        "text": "export * from './tx/animacraft-native-read-v8'"
+      },
+      {
+        "line": 84,
+        "text": "export * from './tx/animacraft-equipment-read-v8'"
+      },
+      {
+        "line": 85,
+        "text": "export * from './tx/animacraft-equipment-v8'"
+      },
+      {
+        "line": 86,
+        "text": "export * from './tx/animacraft-selected-soul-sale-v8'"
+      },
+      {
+        "line": 87,
+        "text": "export * from './tx/animacraft-selected-sale-v8'"
+      },
+      {
+        "line": 88,
+        "text": "export * from './tx/animacraft-equipment-removal-v8'"
+      },
+      {
+        "line": 89,
+        "text": "export * from './tx/collection'"
+      },
+      {
+        "line": 90,
+        "text": "export * from './tx/content'"
+      },
+      {
+        "line": 91,
+        "text": "export * from './tx/delist'"
+      },
+      {
+        "line": 92,
+        "text": "export * from './tx/grant'"
+      },
+      {
+        "line": 93,
+        "text": "export * from './tx/access-snapshot'"
+      },
+      {
+        "line": 94,
+        "text": "export * from './tx/import'"
+      },
+      {
+        "line": 95,
+        "text": "export * from './tx/kiosk-management'"
+      },
+      {
+        "line": 96,
+        "text": "export * from './tx/list'"
+      },
+      {
+        "line": 97,
+        "text": "export * from './tx/mint-helpers'"
+      },
+      {
+        "line": 98,
+        "text": "export * from './tx/paid-access'"
+      },
+      {
+        "line": 99,
+        "text": "export * from './tx/personal-join'"
+      },
+      {
+        "line": 100,
+        "text": "export * from './tx/publish'"
+      },
+      {
+        "line": 101,
+        "text": "export * from './tx/shared'"
+      },
+      {
+        "line": 102,
+        "text": "export * from './tx/update-collection-price'"
+      },
+      {
+        "line": 103,
+        "text": "export * from './tx/update-price'"
+      },
+      {
+        "line": 104,
+        "text": "export * from './native-market-quote'"
+      },
+      {
+        "line": 105,
+        "text": "export * from './wallet-profile'"
+      },
+      {
+        "line": 106,
+        "text": "export * from './wallet-social'"
+      },
+      {
+        "line": 107,
+        "text": "export * from './wallet-follow-operation'"
+      },
+      {
+        "line": 108,
+        "text": "export * from './chain-object-discovery'"
+      },
+      {
+        "line": 109,
+        "text": "export * from './soul-public-preview'"
+      },
+      {
+        "line": 110,
+        "text": "export * from './soul-public-read'"
+      },
+      {
+        "line": 111,
+        "text": "export * from './soul-detail-state'"
+      },
+      {
+        "line": 112,
+        "text": "export * from './soul-authored-discovery'"
+      },
+      {
+        "line": 113,
+        "text": "export * from './soul-public-listing'"
+      },
+      {
+        "line": 114,
+        "text": "export * from './collection-floor-policy'"
+      },
+      {
+        "line": 115,
+        "text": "export * from './collection-floor-read'"
+      },
+      {
+        "line": 116,
+        "text": "export * from './public-profile-metadata'"
+      },
+      {
+        "line": 117,
+        "text": "export * from './community-document'"
+      },
+      {
+        "line": 118,
+        "text": "export * from './community-document-read'"
+      },
+      {
+        "line": 119,
+        "text": "export * from './community-posts-read'"
+      },
+      {
+        "line": 120,
+        "text": "export * from './community-posts-write'"
+      },
+      {
+        "line": 121,
+        "text": "export * from './community-publish-intent'"
+      },
+      {
+        "line": 122,
+        "text": "export * from './community-publish-operation'"
+      },
+      {
+        "line": 123,
+        "text": "export * from './community-accept-operation'"
+      },
+      {
+        "line": 124,
+        "text": "export * from './community-votes'"
+      },
+      {
+        "line": 125,
+        "text": "export * from './community-vote-operation'"
+      },
+      {
+        "line": 126,
+        "text": "export * from './public-profile-save'"
+      },
+      {
+        "line": 127,
+        "text": "export * from './public-profile-operation'"
+      },
+      {
+        "line": 129,
+        "text": "export * from './private-named-loadout'"
+      },
+      {
+        "line": 130,
+        "text": "export * from './private-named-loadout-read'"
+      },
+      {
+        "line": 131,
+        "text": "export * from './private-wallet-bookmarks'"
+      },
+      {
+        "line": 132,
+        "text": "export * from './private-wallet-bookmarks-read'"
+      },
+      {
+        "line": 133,
+        "text": "export * from './mint-content-identity'"
+      }
+    ]
+  }
+]

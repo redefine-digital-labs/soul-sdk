@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "src/tx/market-target.ts",
+    "src/tx/list.ts",
+    "src/tx/buy.ts",
+    "src/tx/delist.ts",
+    "tests/market.test.ts",
+    "src/tx/collection-buyer-pair.ts",
+    "src/tx/update-collection-price.ts",
+    "tests/collection-composition.test.ts"
+  ]
+}

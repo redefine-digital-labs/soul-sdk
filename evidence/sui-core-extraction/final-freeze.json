@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "frozen_at": "2026-10-10T13:32:01.561540+00:00",
+  "status": "final isolated candidate passed; actual integration pending",
+  "payload": {
+    "archive": "/private/tmp/sdk-sui-core-extraction-20261010/evidence/sui-core-import-payload.tar.gz",
+    "sha256": "14c5a0af86a3e0afff49f8c3a04e6b4ea5902c61050ac6c7113b0843ecfc1c56",
+    "files": 139,
+    "bytes": 441295
+  },
+  "key_files": {
+    "packages/sui-core/npm-shrinkwrap.json": "73f0e0074765332ff9518786ecf0af91ba7bb92e52cdd7a746786e0bacd623e7",
+    "evidence/dependency-integrity.json": "295fc85a748487317a777ae106de644051a6967212cfcf7f74ac04639d5caa5b",
+    "evidence/validation-summary.json": "3fb76690ef32049e76621416c347b663479455e87a84e53d74f1937b83212540",
+    "evidence/integration-guard.json": "09d69f3078ee963bffd0fda4b0dc550a2b18e6c1ad54028e1e2220ce22e6d18e",
+    "evidence/original-test-imports.diff": "9ee3fb41a49e60a46e079f9644a73bd3bb2eb198849a6ee476083797b1bc6a06",
+    "evidence/source-authority-roundtrip.json": "c7a1d4c89b6ece0319ef430befc967e066913be5f2c43b3b100551ed19a6be3c",
+    "evidence/source-authority-negative-cases.json": "d0f3df9b4dcf3f069bf708589d5ca9dee9351dab7eb15d429ee427c03a115302",
+    "evidence/baseline-original-tests.json": "83d11e69f1043995b477057905e68ecc1d8fcad9180ffc2134e8b4ecc0ea01e6",
+    "evidence/candidate-original-tests.json": "9ef468f1587c3da0ded22b41d7b0e85a325f1a6203e0f239ce917329251dea23",
+    "evidence/public-package-tests.json": "7843ffbd183e76b3b3fb70530dc9d7dc6130808a9b08a69be78f2149f819eb5e",
+    "evidence/actual-source-original-tests.json": "9218d59d590b313cea120b86f7d76a6e2a094dafd6bc556afbcff7a34edcafc2",
+    "evidence/production-consumer-resolution.json": "98e24eb13caf841aa1216d7ebfca86db74fa2dee2832a9176570365dff2898de",
+    "evidence/packed-runtime-exports.json": "72f82129a8e8c403d40a1a576f6648ac6481769163796b95b0e5cb506037ca7f",
+    "tools/source-authority.py": "ab6974f23e7f96c82789a3a6e057a408bbc773bd3b5607252c8a024e162c9069",
+    "tools/create-actual-source-context.py": "b33e49353fc9dff9486ca3388748f7d1c8251ed5de2ec71a5b6fe0888008febc",
+    "tools/verify-package.py": "6232f4323b49fbe87514d0e18c2f90d640d125d48d8f5c69f1b0fd2f573d8861"
+  },
+  "limits": [
+    "No shared writes, RPC/signing/real keys/production/commits/npm publication",
+    "No full UI production build or deployment acceptance",
+    "No Standard/Content/Maker/Market business adapters claim",
+    "Verifier-only UI extras recorded separately; baseline/linked share one environment",
+    "Independent review records provided separately by read-only reviewer"
+  ]
+}

@@ -1,0 +1,11 @@
+# Read-only original caller implications
+
+No UI/source/test callers changed. Existing journey is seller edit-price → signing → POST digest to /api/souls/[id]/list → projection/listing refresh.
+
+- web/components/souls/listing-modals.tsx:86–114 requires currentKioskId/cap/state and calls the old parameter shape at106. A future coherent activation must supply explicit Market target, current listing CAS, expiry, Application character revision, manifest hash and Config fee revision from current reads. Use soul.collectionOnChainId only when confirmed as the actual bound Collection; omit the optional ID for a standalone Soul. Kiosk/cap/state gating is obsolete for this owned atomic Soul path.
+- web/app/api/souls/[id]/list/route.ts:61–108 reads original-package SoulListed events. Independent Market emits Cancelled then Listed and returns a new Listing ID; future extraction must bind the exact candidate package/type/asset and use actual new Listed ID, recover digest outcome and mirror committed state. Reusing the old listing ID or reading legacy SoulListed is insufficient. Existing auth/sender/digest protections and successful sync flow remain required.
+- tests/new-web/sdk-fresh-market-v2.test.ts:35–44 asserts the legacy four-command update sequence/env registration; tests/new-web/sdk-animacraft-builders.test.ts:27–35 invokes obsolete metadata fields. These are preserved historical installed-source expectations, not tests of this new candidate. Future activation must update the original caller tests to explicit target/ABI evidence without routing native Animacraft journeys into this Standard Soul builder.
+
+New fields: target:{packageId,soulType,paymentCoinType,configObjectId,clockObjectId}, listingObjectId, expectedListingRevision, newPriceAtomic, expiryMs, expectedSoulRevision, manifestHash, feeRevision, actualCollectionObjectId?. Exactly one C generic. optional supplied tx is returned unchanged on rejected input and appended once on valid input. Caller-supplied snapshots are assertions; no RPC/published ABI/current chain authorization is claimed here.
+
+Collection floor remains existing app policy, not an invented on-chain price minimum. Whole owned Soul inventory/rights follow the frozen relist contract; listing receipt identity changes. Signed end-to-end recovery/UI activation remains required separately.

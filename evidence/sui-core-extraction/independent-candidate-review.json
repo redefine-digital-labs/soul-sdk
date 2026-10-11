@@ -1,0 +1,204 @@
+{
+  "schema_version": "1.0",
+  "reviewed_at": "2026-10-10T13:33:49.992719+00:00",
+  "role": "fresh independent read-only verifier",
+  "status": "PASS — isolated Sui-core extraction; actual canonical source cutover pending",
+  "candidate": "/tmp/sdk-sui-core-extraction-20261010",
+  "actual_root": "/Users/naoer/.codex/worktrees/soul-dof-v1-rebuild/soulidity",
+  "actual_head": "0cfb60a29b2b378dd9fbf31970b324b2ef2e301e",
+  "frozen_candidate": {
+    "frozen_at": "2026-10-10T13:32:01.561540+00:00",
+    "status": "final isolated candidate passed; actual integration pending",
+    "freeze_sha256": "76d5ae27d7864f1fa1b52270fca03ee45b77eaed71964193329c268ba497441e",
+    "all_key_files_sha_match": true,
+    "payload": {
+      "archive": "/private/tmp/sdk-sui-core-extraction-20261010/evidence/sui-core-import-payload.tar.gz",
+      "sha256": "14c5a0af86a3e0afff49f8c3a04e6b4ea5902c61050ac6c7113b0843ecfc1c56",
+      "files": 139,
+      "bytes": 441295
+    },
+    "npm_pack": {
+      "filename": "soulidity-sui-core-0.0.1.tgz",
+      "sha256": "eb49086bc5e105a1c877617b004203ee2944926916171ccdb7cf564523fc1e72",
+      "integrity": "sha512-4SQHye3huaLnfawxs4SbupcINUqFCjwVQxeARAnFGoWBt/WjlbDS4eY/ctUfY/iza+shtzDIWS7dh/qEvK87pQ==",
+      "source_files": 10,
+      "total_files": 53
+    },
+    "lock_sha256": "73f0e0074765332ff9518786ecf0af91ba7bb92e52cdd7a746786e0bacd623e7",
+    "source_authority_script_sha256": "ab6974f23e7f96c82789a3a6e057a408bbc773bd3b5607252c8a024e162c9069"
+  },
+  "checks": [
+    {
+      "id": "exact-ten-sources",
+      "status": "PASS",
+      "evidence": "Independently compared original SHA, extracted regular files and symlink fixture realpaths for all ten; all bytes exact. Imports contain only external @mysten/sui modules or none, with no business-local imports.",
+      "sources": [
+        {
+          "filename": "sui-grpc-compat.ts",
+          "sha256": "872ea5e92d3c5931e7cf7abad2b55ccec245c7e9160c7482e33542b0611b62f2",
+          "imports": [
+            "@mysten/sui/bcs",
+            "@mysten/sui/grpc",
+            "@mysten/sui/jsonRpc",
+            "@mysten/sui/utils"
+          ]
+        },
+        {
+          "filename": "sui-network.ts",
+          "sha256": "a1340afe9fc97b180826d730878222015b6a05ecdbb226c96aad9f8ac8906aa8",
+          "imports": []
+        },
+        {
+          "filename": "tx-result.ts",
+          "sha256": "4e407919fc199aac953d36cf000b1a328b722139c95c76ab58a5313359b0f48b",
+          "imports": []
+        },
+        {
+          "filename": "coin-selection.ts",
+          "sha256": "e12d46df8ab16ba09cfb463b7296564bc8572b0cec3f30d2aea4e51046ed2205",
+          "imports": []
+        },
+        {
+          "filename": "object-inputs.ts",
+          "sha256": "3e79b4b7f0fe8896ca068ecbebb6b2b6798d15581253a2ffbff7db335c6a211e",
+          "imports": []
+        },
+        {
+          "filename": "request.ts",
+          "sha256": "bd05820378ad1af616b7bdc37e009b1c6368ff638d6b542fab92b272959c1bc6",
+          "imports": [
+            "@mysten/sui/utils"
+          ]
+        },
+        {
+          "filename": "format.ts",
+          "sha256": "d893291bf00e9df8002a9c150e912c7c8919eef02eb228f8b7d34afbc0a32178",
+          "imports": []
+        },
+        {
+          "filename": "profile-read-step.ts",
+          "sha256": "5cb92ab24d9d9cf2ecfde1fa3054bf4464e52ae364e7852a2fd3c7e91151cacf",
+          "imports": []
+        },
+        {
+          "filename": "chain-object-discovery.ts",
+          "sha256": "ad994bae13816b4fa664de0c90c248162e9f1a3a0acedc3b128dc91b6a3673ac",
+          "imports": [
+            "@mysten/sui/utils"
+          ]
+        },
+        {
+          "filename": "chain-event-discovery.ts",
+          "sha256": "ce7c1459a0d41fa131922b61f1981119bc959f0281aa30a1a65a007adcc6d4fc",
+          "imports": [
+            "@mysten/sui/utils"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "original-sdk-and-ui",
+      "status": "PASS",
+      "evidence": "127 frozen actual inputs match:102 TypeScript+3 JSON SDK files, original browser/wallet and adjacent app sources, two original locks. All nine original test files remain unchanged. Original barrel SHA verified; independent TypeScript checker yielded888 exact same public symbols and0 diagnostics.",
+      "barrel_sha256": "2f1962ead1112a0753c90d4dbc6a1dcef7d1ca18be092bb41ab33c161ed1aa8c",
+      "ui_entrypoints": {
+        "web/lib/sui/browser-client.ts": "b64498c65d3a617cc28e188112eb40da00eba9eb76e42c6fd8019f95c9b59773",
+        "web/lib/hooks/use-wallet-sign.ts": "30268585a52ac163cc17fecacf06268b5f4cb32da9a50241677edcd90c12dc1f"
+      },
+      "original_locks": {
+        "package-lock.json": "622c2fcd14b3ccf30562edead0aed72ac0495fad1ea4e71026abfd08d5890a19",
+        "web/package-lock.json": "9405cbf03da93eecd416cdd5ae6bd35651d156b9105dcd4dcb79138d3bfa6911"
+      }
+    },
+    {
+      "id": "original-lock-transitive-closure",
+      "status": "PASS",
+      "evidence": "Independent recursive traversal reaches117/117 dependency, optional-platform and required-peer nodes, with0 missing/extra nodes. Every full original record matches after excluding installation-scope dev/devOptional flags; version/resolved/integrity match for all68 actually installed records. Source root Mysten2.16.0, BCS2.0.5, TypeScript6.0.3, Vitest4.1.5 and Vite7.3.6 frozen."
+    },
+    {
+      "id": "typed-build",
+      "status": "PASS",
+      "reviewer_commands": "Read-only tsc --noEmit for core, linked original production2entrypoints, actual source SDK and actual production2entrypoints, final packed public declarations. All exit0. Independent in-memory typed compiler emit produced40 artifacts exact to current dist with0 diagnostics and no file writes.",
+      "executor_evidence": "evidence/standalone-runner-final/evidence.json records exact nodeSHA, npm-ci/build/test/pack exit0 and unchanged source+lock."
+    },
+    {
+      "id": "original-and-public-tests",
+      "status": "PASS",
+      "method": "Reviewed frozen executor JSON results, exact nine original test hashes, and independently applied each six-test import-string substitution; no assertion edits. No reviewer test runner invocation or cache writes.",
+      "counts": {
+        "baseline_original": 300,
+        "linked_original": 300,
+        "actual_source_original": 300,
+        "public_package": 277,
+        "public_original_assertion_instances": 269,
+        "new_boundary_assertion_instances": 8
+      },
+      "original300_multiset_names_equal": true
+    },
+    {
+      "id": "pack-exports",
+      "status": "PASS",
+      "evidence": "Final53-file npm archive contains exact source/dist/shrinkwrap bytes. Independent final packed-consumer-frozen tsc exits0; ten runtime subpaths import at final frozen install. Root, index and business BCS specifiers reject ERR_PACKAGE_PATH_NOT_EXPORTED; no root/wildcard export. Runtime source and dist bytes match candidate; shrinkwrap bytes match corrected lock.",
+      "runtime_specifiers": [
+        "@soulidity/sui-core/sui-grpc-compat",
+        "@soulidity/sui-core/sui-network",
+        "@soulidity/sui-core/tx-result",
+        "@soulidity/sui-core/coin-selection",
+        "@soulidity/sui-core/object-inputs",
+        "@soulidity/sui-core/request",
+        "@soulidity/sui-core/format",
+        "@soulidity/sui-core/profile-read-step",
+        "@soulidity/sui-core/chain-object-discovery",
+        "@soulidity/sui-core/chain-event-discovery"
+      ]
+    },
+    {
+      "id": "source-authority-guards",
+      "status": "PASS",
+      "evidence": "Static current script validates all127 actual inputs and target10 before any write; defaults to plan; explicit apply creates10 relative symlinks to selected target repository canonical src, no second source copy. Restore rejects changed canonical writer/current old bytes/backup and alternate same-byte locator. Exact final scriptSHA binds positive roundtrip and seven refusal controls; rejection inputs remain unchanged.",
+      "negative_cases": [
+        "cutover-old-source-changed",
+        "cutover-non-ten-source-changed",
+        "restore-current-regular-source-changed",
+        "restore-backup-changed",
+        "restore-alternate-same-bytes-locator",
+        "cutover-original-lock-changed",
+        "restore-canonical-target-source-changed"
+      ],
+      "planned_actual_target": "/Users/naoer/Documents/Claude/Projects/soulidity-ecosystem/soul-sdk/packages/sui-core/src/{ten original filenames}.ts",
+      "actual_cutover_applied": false
+    },
+    {
+      "id": "final-freeze-and-payload",
+      "status": "PASS",
+      "evidence": "All17 frozen keyfile SHA values match; archive SHA matches and contains139 regular files:64 package,72 evidence,3 tools. No symlink/hardlink/special, absolute/traversal member or node_modules. Initial-fresh-install is preserved historical evidence and not accepted as final."
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    "Actual canonical repository source-authority cutover and post-cutover direct source/UI checks remain coordinator work; this review does not claim them applied.",
+    "Consumer verification environment has248 lock nodes and UI-only dependency changes; its full UI closure is not represented as identical to the original web lock. Source-dependent core closure is frozen, baseline/linked use the same consumer environment, and actual-source context routes Mysten runtime/type imports to frozen core.",
+    "No published npm or Sui package, real chain identity/linkage, full frontend production build/deployment or new Standard/Content/Maker/Market business adapter acceptance.",
+    "Reviewer wrote only /tmp/sdk-sui-core-candidate-review-20261010.json and .md; no installs, source mutations, RPC, signing, keys, commits, push, PR or remote services."
+  ],
+  "handbook": {
+    "version": "1.0",
+    "sections": [
+      "1-5",
+      "9",
+      "12"
+    ],
+    "stage": "Code/Build/Test isolated extraction",
+    "existing_records": [
+      "DOF.agile.DOF-003",
+      "DOF.contracts.C13",
+      "DOF.mapping.F22",
+      "DOF.artifacts.P08",
+      "DOF.artifacts.P10"
+    ]
+  },
+  "reviewer_artifacts": [
+    "/tmp/sdk-sui-core-candidate-review-20261010.json",
+    "/tmp/sdk-sui-core-candidate-review-20261010.md"
+  ]
+}

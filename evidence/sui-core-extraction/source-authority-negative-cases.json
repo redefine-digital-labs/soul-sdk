@@ -1,0 +1,54 @@
+{
+  "scope": "isolated /tmp only; no shared mutation",
+  "cases": [
+    {
+      "case": "cutover-old-source-changed",
+      "operation": "cutover",
+      "exit_code": 1,
+      "rejected": true,
+      "all_inputs_unchanged_on_rejection": true,
+      "primary_diagnostic": "AssertionError: Frozen original guard mismatch: /private/tmp/sdk-sui-core-extraction-20261010/authority-negative-cases-final/cutover-old-source-changed/actual/packages/soulidity-sdk/src/sui-network.ts"
+    },
+    {
+      "case": "cutover-non-ten-source-changed",
+      "operation": "cutover",
+      "exit_code": 1,
+      "rejected": true,
+      "all_inputs_unchanged_on_rejection": true,
+      "primary_diagnostic": "AssertionError: Frozen original guard mismatch: /private/tmp/sdk-sui-core-extraction-20261010/authority-negative-cases-final/cutover-non-ten-source-changed/actual/packages/soulidity-sdk/src/deployment.ts"
+    },
+    {
+      "case": "restore-current-regular-source-changed",
+      "operation": "restore",
+      "exit_code": 1,
+      "rejected": true,
+      "all_inputs_unchanged_on_rejection": true,
+      "primary_diagnostic": "AssertionError: Frozen original guard mismatch: /private/tmp/sdk-sui-core-extraction-20261010/authority-negative-cases-final/restore-current-regular-source-changed/actual/packages/soulidity-sdk/src/sui-network.ts"
+    },
+    {
+      "case": "restore-backup-changed",
+      "operation": "restore",
+      "exit_code": 1,
+      "rejected": true,
+      "all_inputs_unchanged_on_rejection": true,
+      "primary_diagnostic": "AssertionError: Backup SHA mismatch: /private/tmp/sdk-sui-core-extraction-20261010/authority-negative-cases-final/restore-backup-changed/backup/sui-network.ts"
+    },
+    {
+      "case": "restore-alternate-same-bytes-locator",
+      "operation": "restore",
+      "exit_code": 1,
+      "rejected": true,
+      "all_inputs_unchanged_on_rejection": true,
+      "primary_diagnostic": "AssertionError: Unexpected or changed current source: /private/tmp/sdk-sui-core-extraction-20261010/authority-negative-cases-final/restore-alternate-same-bytes-locator/actual/packages/soulidity-sdk/src/sui-network.ts"
+    },
+    {
+      "case": "cutover-original-lock-changed",
+      "operation": "cutover",
+      "exit_code": 1,
+      "rejected": true,
+      "all_inputs_unchanged_on_rejection": true,
+      "primary_diagnostic": "AssertionError: Frozen original guard mismatch: /private/tmp/sdk-sui-core-extraction-20261010/authority-negative-cases-final/cutover-original-lock-changed/actual/package-lock.json"
+    }
+  ],
+  "source_authority_script_sha256": "ab6974f23e7f96c82789a3a6e057a408bbc773bd3b5607252c8a024e162c9069"
+}

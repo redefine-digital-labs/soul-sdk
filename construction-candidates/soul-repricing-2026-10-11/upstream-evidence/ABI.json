@@ -1,0 +1,15 @@
+{
+  "unchanged_existing_declarations": true,
+  "added_public_declarations": [
+    "public fun relist_soul<C>(l:&mut Listing<Soul,C>,cfg:&Config<C>,expected_listing:u64,price:u64,expiry:u64,expected_soul:u64,manifest_hash:vector<u8>,fee_revision:u64,clock:&Clock,ctx:&mut TxContext):ID {",
+    "public fun relist_soul_with_collection<C>(l:&mut Listing<Soul,C>,c:&Collection,cfg:&Config<C>,expected_listing:u64,price:u64,expiry:u64,expected_soul:u64,manifest_hash:vector<u8>,fee_revision:u64,clock:&Clock,ctx:&mut TxContext):ID {"
+  ],
+  "changed_existing_function_bodies": [
+    "cancel"
+  ],
+  "private_added": [
+    "cancel_value"
+  ],
+  "layout_changes": [],
+  "cap_authority_changes": []
+}

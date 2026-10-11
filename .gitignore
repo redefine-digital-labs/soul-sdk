@@ -1,0 +1,10 @@
+**/build/
+.deps/
+output/
+__pycache__/
+.DS_Store
+.env*
+*.key
+
+**/node_modules/
+**/dist/
